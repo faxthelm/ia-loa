@@ -1,0 +1,4134 @@
+states
+	robot-at-x1y1, robot-at-x2y1, robot-at-x4y1, robot-at-x5y1, robot-at-x7y1, robot-at-x8y1, robot-at-x10y1, robot-at-x11y1, robot-at-x12y1, robot-at-x13y1, robot-at-x14y1, robot-at-x15y1, robot-at-x16y1, robot-at-x17y1, robot-at-x18y1, robot-at-x19y1, robot-at-x20y1, robot-at-x1y2, robot-at-x2y2, robot-at-x3y2, robot-at-x4y2, robot-at-x5y2, robot-at-x6y2, robot-at-x7y2, robot-at-x8y2, robot-at-x9y2, robot-at-x10y2, robot-at-x12y2, robot-at-x14y2, robot-at-x15y2, robot-at-x16y2, robot-at-x18y2, robot-at-x19y2, robot-at-x20y2, robot-at-x1y3, robot-at-x2y3, robot-at-x3y3, robot-at-x5y3, robot-at-x6y3, robot-at-x7y3, robot-at-x8y3, robot-at-x9y3, robot-at-x10y3, robot-at-x11y3, robot-at-x12y3, robot-at-x13y3, robot-at-x14y3, robot-at-x15y3, robot-at-x16y3, robot-at-x17y3, robot-at-x18y3, robot-at-x19y3, robot-at-x20y3, robot-at-x1y4, robot-at-x2y4, robot-at-x3y4, robot-at-x4y4, robot-at-x5y4, robot-at-x6y4, robot-at-x7y4, robot-at-x9y4, robot-at-x10y4, robot-at-x11y4, robot-at-x13y4, robot-at-x14y4, robot-at-x16y4, robot-at-x17y4, robot-at-x18y4, robot-at-x19y4, robot-at-x20y4, robot-at-x1y5, robot-at-x2y5, robot-at-x3y5, robot-at-x4y5, robot-at-x5y5, robot-at-x7y5, robot-at-x8y5, robot-at-x9y5, robot-at-x10y5, robot-at-x11y5, robot-at-x12y5, robot-at-x13y5, robot-at-x14y5, robot-at-x15y5, robot-at-x16y5, robot-at-x17y5, robot-at-x18y5, robot-at-x19y5, robot-at-x20y5, robot-at-x1y6, robot-at-x2y6, robot-at-x3y6, robot-at-x4y6, robot-at-x5y6, robot-at-x6y6, robot-at-x7y6, robot-at-x8y6, robot-at-x10y6, robot-at-x11y6, robot-at-x12y6, robot-at-x13y6, robot-at-x14y6, robot-at-x15y6, robot-at-x16y6, robot-at-x17y6, robot-at-x18y6, robot-at-x19y6, robot-at-x20y6, robot-at-x1y7, robot-at-x2y7, robot-at-x3y7, robot-at-x4y7, robot-at-x5y7, robot-at-x6y7, robot-at-x7y7, robot-at-x8y7, robot-at-x9y7, robot-at-x10y7, robot-at-x11y7, robot-at-x12y7, robot-at-x13y7, robot-at-x14y7, robot-at-x15y7, robot-at-x16y7, robot-at-x17y7, robot-at-x18y7, robot-at-x19y7, robot-at-x20y7, robot-at-x1y8, robot-at-x2y8, robot-at-x3y8, robot-at-x4y8, robot-at-x6y8, robot-at-x7y8, robot-at-x8y8, robot-at-x9y8, robot-at-x10y8, robot-at-x11y8, robot-at-x12y8, robot-at-x14y8, robot-at-x16y8, robot-at-x17y8, robot-at-x18y8, robot-at-x19y8, robot-at-x20y8, robot-at-x1y9, robot-at-x2y9, robot-at-x3y9, robot-at-x4y9, robot-at-x5y9, robot-at-x6y9, robot-at-x7y9, robot-at-x8y9, robot-at-x9y9, robot-at-x10y9, robot-at-x12y9, robot-at-x13y9, robot-at-x14y9, robot-at-x15y9, robot-at-x16y9, robot-at-x17y9, robot-at-x18y9, robot-at-x19y9, robot-at-x20y9, robot-at-x2y10, robot-at-x3y10, robot-at-x4y10, robot-at-x5y10, robot-at-x6y10, robot-at-x7y10, robot-at-x8y10, robot-at-x9y10, robot-at-x10y10, robot-at-x11y10, robot-at-x12y10, robot-at-x13y10, robot-at-x14y10, robot-at-x15y10, robot-at-x17y10, robot-at-x18y10, robot-at-x20y10, robot-at-x1y11, robot-at-x2y11, robot-at-x3y11, robot-at-x4y11, robot-at-x5y11, robot-at-x6y11, robot-at-x7y11, robot-at-x8y11, robot-at-x9y11, robot-at-x10y11, robot-at-x11y11, robot-at-x12y11, robot-at-x14y11, robot-at-x15y11, robot-at-x16y11, robot-at-x17y11, robot-at-x18y11, robot-at-x19y11, robot-at-x20y11, robot-at-x1y12, robot-at-x2y12, robot-at-x3y12, robot-at-x4y12, robot-at-x5y12, robot-at-x6y12, robot-at-x7y12, robot-at-x8y12, robot-at-x9y12, robot-at-x10y12, robot-at-x12y12, robot-at-x13y12, robot-at-x14y12, robot-at-x15y12, robot-at-x17y12, robot-at-x18y12, robot-at-x20y12, robot-at-x1y13, robot-at-x2y13, robot-at-x4y13, robot-at-x6y13, robot-at-x7y13, robot-at-x8y13, robot-at-x10y13, robot-at-x11y13, robot-at-x12y13, robot-at-x13y13, robot-at-x14y13, robot-at-x15y13, robot-at-x16y13, robot-at-x17y13, robot-at-x18y13, robot-at-x19y13, robot-at-x20y13, robot-at-x1y14, robot-at-x2y14, robot-at-x3y14, robot-at-x4y14, robot-at-x5y14, robot-at-x6y14, robot-at-x7y14, robot-at-x8y14, robot-at-x9y14, robot-at-x10y14, robot-at-x11y14, robot-at-x12y14, robot-at-x13y14, robot-at-x14y14, robot-at-x15y14, robot-at-x16y14, robot-at-x17y14, robot-at-x19y14, robot-at-x20y14, robot-at-x1y15, robot-at-x2y15, robot-at-x3y15, robot-at-x5y15, robot-at-x6y15, robot-at-x7y15, robot-at-x8y15, robot-at-x9y15, robot-at-x11y15, robot-at-x12y15, robot-at-x13y15, robot-at-x14y15, robot-at-x15y15, robot-at-x16y15, robot-at-x17y15, robot-at-x18y15, robot-at-x19y15, robot-at-x20y15, robot-at-x1y16, robot-at-x2y16, robot-at-x3y16, robot-at-x4y16, robot-at-x5y16, robot-at-x7y16, robot-at-x8y16, robot-at-x9y16, robot-at-x10y16, robot-at-x11y16, robot-at-x12y16, robot-at-x13y16, robot-at-x15y16, robot-at-x17y16, robot-at-x18y16, robot-at-x19y16, robot-at-x20y16, robot-at-x1y17, robot-at-x3y17, robot-at-x4y17, robot-at-x5y17, robot-at-x6y17, robot-at-x7y17, robot-at-x8y17, robot-at-x9y17, robot-at-x10y17, robot-at-x11y17, robot-at-x12y17, robot-at-x13y17, robot-at-x14y17, robot-at-x15y17, robot-at-x16y17, robot-at-x17y17, robot-at-x18y17, robot-at-x19y17, robot-at-x20y17, robot-at-x1y18, robot-at-x2y18, robot-at-x3y18, robot-at-x4y18, robot-at-x5y18, robot-at-x6y18, robot-at-x7y18, robot-at-x8y18, robot-at-x10y18, robot-at-x11y18, robot-at-x12y18, robot-at-x13y18, robot-at-x15y18, robot-at-x16y18, robot-at-x18y18, robot-at-x19y18, robot-at-x20y18, robot-at-x1y19, robot-at-x3y19, robot-at-x4y19, robot-at-x5y19, robot-at-x7y19, robot-at-x8y19, robot-at-x9y19, robot-at-x10y19, robot-at-x12y19, robot-at-x13y19, robot-at-x14y19, robot-at-x15y19, robot-at-x16y19, robot-at-x17y19, robot-at-x18y19, robot-at-x19y19, robot-at-x20y19, robot-at-x1y20, robot-at-x2y20, robot-at-x3y20, robot-at-x4y20, robot-at-x5y20, robot-at-x6y20, robot-at-x7y20, robot-at-x8y20, robot-at-x9y20, robot-at-x10y20, robot-at-x11y20, robot-at-x12y20, robot-at-x13y20, robot-at-x14y20, robot-at-x15y20, robot-at-x16y20, robot-at-x17y20, robot-at-x18y20, robot-at-x20y20
+endstates
+
+action move-south
+	robot-at-x1y1 robot-at-x1y1 1.000000 1.000000
+	robot-at-x2y1 robot-at-x2y1 1.000000 1.000000
+	robot-at-x4y1 robot-at-x4y1 1.000000 1.000000
+	robot-at-x5y1 robot-at-x5y1 1.000000 1.000000
+	robot-at-x7y1 robot-at-x7y1 1.000000 1.000000
+	robot-at-x8y1 robot-at-x8y1 1.000000 1.000000
+	robot-at-x10y1 robot-at-x10y1 1.000000 1.000000
+	robot-at-x11y1 robot-at-x11y1 1.000000 1.000000
+	robot-at-x12y1 robot-at-x12y1 1.000000 1.000000
+	robot-at-x13y1 robot-at-x13y1 1.000000 1.000000
+	robot-at-x14y1 robot-at-x14y1 1.000000 1.000000
+	robot-at-x15y1 robot-at-x15y1 1.000000 1.000000
+	robot-at-x16y1 robot-at-x16y1 1.000000 1.000000
+	robot-at-x17y1 robot-at-x17y1 1.000000 1.000000
+	robot-at-x18y1 robot-at-x18y1 1.000000 1.000000
+	robot-at-x19y1 robot-at-x19y1 1.000000 1.000000
+	robot-at-x20y1 robot-at-x20y1 1.000000 1.000000
+	robot-at-x1y2 robot-at-x1y1 0.500000 0.500000
+	robot-at-x1y2 robot-at-x1y2 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y1 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x3y2 1.000000 1.000000
+	robot-at-x4y2 robot-at-x4y1 0.500000 0.500000
+	robot-at-x4y2 robot-at-x4y2 0.500000 0.500000
+	robot-at-x5y2 robot-at-x5y1 0.500000 0.500000
+	robot-at-x5y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x6y2 1.000000 1.000000
+	robot-at-x7y2 robot-at-x7y1 0.500000 0.500000
+	robot-at-x7y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y1 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x9y2 1.000000 1.000000
+	robot-at-x10y2 robot-at-x10y1 0.500000 0.500000
+	robot-at-x10y2 robot-at-x10y2 0.500000 0.500000
+	robot-at-x12y2 robot-at-x12y1 0.500000 0.500000
+	robot-at-x12y2 robot-at-x12y2 0.500000 0.500000
+	robot-at-x14y2 robot-at-x14y1 0.500000 0.500000
+	robot-at-x14y2 robot-at-x14y2 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y1 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y1 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y2 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y1 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y2 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y1 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y1 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y2 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y2 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y3 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y2 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y2 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y3 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y2 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y3 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y2 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y2 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x8y2 0.500000 0.500000
+	robot-at-x8y3 robot-at-x8y3 0.500000 0.500000
+	robot-at-x9y3 robot-at-x9y2 0.500000 0.500000
+	robot-at-x9y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y2 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x11y3 1.000000 1.000000
+	robot-at-x12y3 robot-at-x12y2 0.500000 0.500000
+	robot-at-x12y3 robot-at-x12y3 0.500000 0.500000
+	robot-at-x13y3 robot-at-x13y3 1.000000 1.000000
+	robot-at-x14y3 robot-at-x14y2 0.500000 0.500000
+	robot-at-x14y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x15y2 0.500000 0.500000
+	robot-at-x15y3 robot-at-x15y3 0.500000 0.500000
+	robot-at-x16y3 robot-at-x16y2 0.500000 0.500000
+	robot-at-x16y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x17y3 1.000000 1.000000
+	robot-at-x18y3 robot-at-x18y2 0.500000 0.500000
+	robot-at-x18y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y2 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y2 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y3 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y3 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y4 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y3 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y3 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x4y4 1.000000 1.000000
+	robot-at-x5y4 robot-at-x5y3 0.500000 0.500000
+	robot-at-x5y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x6y3 0.500000 0.500000
+	robot-at-x6y4 robot-at-x6y4 0.500000 0.500000
+	robot-at-x7y4 robot-at-x7y3 0.500000 0.500000
+	robot-at-x7y4 robot-at-x7y4 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y3 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y4 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y3 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y3 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y4 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y3 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y4 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y3 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y4 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y3 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y4 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y3 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y3 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y3 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y3 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y4 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y4 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y5 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y4 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y4 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y4 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y4 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y5 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y4 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y5 0.500000 0.500000
+	robot-at-x8y5 robot-at-x8y5 1.000000 1.000000
+	robot-at-x9y5 robot-at-x9y4 0.500000 0.500000
+	robot-at-x9y5 robot-at-x9y5 0.500000 0.500000
+	robot-at-x10y5 robot-at-x10y4 0.500000 0.500000
+	robot-at-x10y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y4 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x12y5 1.000000 1.000000
+	robot-at-x13y5 robot-at-x13y4 0.500000 0.500000
+	robot-at-x13y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y4 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x15y5 1.000000 1.000000
+	robot-at-x16y5 robot-at-x16y4 0.500000 0.500000
+	robot-at-x16y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y4 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y4 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y4 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y4 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y5 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y5 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y6 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y5 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y5 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y5 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y5 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x6y6 1.000000 1.000000
+	robot-at-x7y6 robot-at-x7y5 0.500000 0.500000
+	robot-at-x7y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y5 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y6 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y5 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y6 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y5 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y5 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y5 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y5 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y5 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y5 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y5 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y5 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y5 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y5 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y6 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y6 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y7 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y6 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y6 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y6 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x5y6 0.500000 0.500000
+	robot-at-x5y7 robot-at-x5y7 0.500000 0.500000
+	robot-at-x6y7 robot-at-x6y6 0.500000 0.500000
+	robot-at-x6y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y6 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y6 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x9y7 1.000000 1.000000
+	robot-at-x10y7 robot-at-x10y6 0.500000 0.500000
+	robot-at-x10y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y6 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y6 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x13y6 0.500000 0.500000
+	robot-at-x13y7 robot-at-x13y7 0.500000 0.500000
+	robot-at-x14y7 robot-at-x14y6 0.500000 0.500000
+	robot-at-x14y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x15y6 0.500000 0.500000
+	robot-at-x15y7 robot-at-x15y7 0.500000 0.500000
+	robot-at-x16y7 robot-at-x16y6 0.500000 0.500000
+	robot-at-x16y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y6 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y6 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y6 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y6 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y7 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y7 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y8 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y7 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y7 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y7 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y8 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y7 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y8 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y7 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y7 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y7 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y7 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x11y7 0.500000 0.500000
+	robot-at-x11y8 robot-at-x11y8 0.500000 0.500000
+	robot-at-x12y8 robot-at-x12y7 0.500000 0.500000
+	robot-at-x12y8 robot-at-x12y8 0.500000 0.500000
+	robot-at-x14y8 robot-at-x14y7 0.500000 0.500000
+	robot-at-x14y8 robot-at-x14y8 0.500000 0.500000
+	robot-at-x16y8 robot-at-x16y7 0.500000 0.500000
+	robot-at-x16y8 robot-at-x16y8 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y7 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y7 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y7 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y7 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y8 0.500000 0.500000
+	robot-at-x1y9 robot-at-x1y8 0.500000 0.500000
+	robot-at-x1y9 robot-at-x1y9 0.500000 0.500000
+	robot-at-x2y9 robot-at-x2y8 0.500000 0.500000
+	robot-at-x2y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y8 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y8 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x5y9 1.000000 1.000000
+	robot-at-x6y9 robot-at-x6y8 0.500000 0.500000
+	robot-at-x6y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y8 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y8 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y8 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y8 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y9 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y8 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y9 0.500000 0.500000
+	robot-at-x13y9 robot-at-x13y9 1.000000 1.000000
+	robot-at-x14y9 robot-at-x14y8 0.500000 0.500000
+	robot-at-x14y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x15y9 1.000000 1.000000
+	robot-at-x16y9 robot-at-x16y8 0.500000 0.500000
+	robot-at-x16y9 robot-at-x16y9 0.500000 0.500000
+	robot-at-x17y9 robot-at-x17y8 0.500000 0.500000
+	robot-at-x17y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y8 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x19y8 0.500000 0.500000
+	robot-at-x19y9 robot-at-x19y9 0.500000 0.500000
+	robot-at-x20y9 robot-at-x20y8 0.500000 0.500000
+	robot-at-x20y9 robot-at-x20y9 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y9 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y10 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y9 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y9 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y9 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y9 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y9 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y9 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y9 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y9 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x11y10 1.000000 1.000000
+	robot-at-x12y10 robot-at-x12y9 0.500000 0.500000
+	robot-at-x12y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x13y9 0.500000 0.500000
+	robot-at-x13y10 robot-at-x13y10 0.500000 0.500000
+	robot-at-x14y10 robot-at-x14y9 0.500000 0.500000
+	robot-at-x14y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y9 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y10 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y9 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y10 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y9 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y10 0.500000 0.500000
+	robot-at-x20y10 robot-at-x20y9 0.500000 0.500000
+	robot-at-x20y10 robot-at-x20y10 0.500000 0.500000
+	robot-at-x1y11 robot-at-x1y11 1.000000 1.000000
+	robot-at-x2y11 robot-at-x2y10 0.500000 0.500000
+	robot-at-x2y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y10 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y10 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y10 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y10 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y10 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y10 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y10 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y10 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x11y10 0.500000 0.500000
+	robot-at-x11y11 robot-at-x11y11 0.500000 0.500000
+	robot-at-x12y11 robot-at-x12y10 0.500000 0.500000
+	robot-at-x12y11 robot-at-x12y11 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y10 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y11 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y10 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x16y11 1.000000 1.000000
+	robot-at-x17y11 robot-at-x17y10 0.500000 0.500000
+	robot-at-x17y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y10 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x19y11 1.000000 1.000000
+	robot-at-x20y11 robot-at-x20y10 0.500000 0.500000
+	robot-at-x20y11 robot-at-x20y11 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y11 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y12 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y11 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x3y11 0.500000 0.500000
+	robot-at-x3y12 robot-at-x3y12 0.500000 0.500000
+	robot-at-x4y12 robot-at-x4y11 0.500000 0.500000
+	robot-at-x4y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x5y11 0.500000 0.500000
+	robot-at-x5y12 robot-at-x5y12 0.500000 0.500000
+	robot-at-x6y12 robot-at-x6y11 0.500000 0.500000
+	robot-at-x6y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y11 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y11 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x9y11 0.500000 0.500000
+	robot-at-x9y12 robot-at-x9y12 0.500000 0.500000
+	robot-at-x10y12 robot-at-x10y11 0.500000 0.500000
+	robot-at-x10y12 robot-at-x10y12 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y11 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y12 0.500000 0.500000
+	robot-at-x13y12 robot-at-x13y12 1.000000 1.000000
+	robot-at-x14y12 robot-at-x14y11 0.500000 0.500000
+	robot-at-x14y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y11 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y12 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y11 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y12 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y11 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y12 0.500000 0.500000
+	robot-at-x20y12 robot-at-x20y11 0.500000 0.500000
+	robot-at-x20y12 robot-at-x20y12 0.500000 0.500000
+	robot-at-x1y13 robot-at-x1y12 0.500000 0.500000
+	robot-at-x1y13 robot-at-x1y13 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y12 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y13 0.500000 0.500000
+	robot-at-x4y13 robot-at-x4y12 0.500000 0.500000
+	robot-at-x4y13 robot-at-x4y13 0.500000 0.500000
+	robot-at-x6y13 robot-at-x6y12 0.500000 0.500000
+	robot-at-x6y13 robot-at-x6y13 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y12 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y12 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y13 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y12 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y13 0.500000 0.500000
+	robot-at-x11y13 robot-at-x11y13 1.000000 1.000000
+	robot-at-x12y13 robot-at-x12y12 0.500000 0.500000
+	robot-at-x12y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y12 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y12 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y12 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x16y13 1.000000 1.000000
+	robot-at-x17y13 robot-at-x17y12 0.500000 0.500000
+	robot-at-x17y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x18y12 0.500000 0.500000
+	robot-at-x18y13 robot-at-x18y13 0.500000 0.500000
+	robot-at-x19y13 robot-at-x19y13 1.000000 1.000000
+	robot-at-x20y13 robot-at-x20y12 0.500000 0.500000
+	robot-at-x20y13 robot-at-x20y13 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y13 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y14 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y13 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x3y14 1.000000 1.000000
+	robot-at-x4y14 robot-at-x4y13 0.500000 0.500000
+	robot-at-x4y14 robot-at-x4y14 0.500000 0.500000
+	robot-at-x5y14 robot-at-x5y14 1.000000 1.000000
+	robot-at-x6y14 robot-at-x6y13 0.500000 0.500000
+	robot-at-x6y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y13 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y13 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x9y14 1.000000 1.000000
+	robot-at-x10y14 robot-at-x10y13 0.500000 0.500000
+	robot-at-x10y14 robot-at-x10y14 0.500000 0.500000
+	robot-at-x11y14 robot-at-x11y13 0.500000 0.500000
+	robot-at-x11y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y13 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y13 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y13 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y13 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y13 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y13 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y14 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y13 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y14 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y13 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y14 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y14 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y15 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y14 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y14 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y15 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y14 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y15 0.500000 0.500000
+	robot-at-x6y15 robot-at-x6y14 0.500000 0.500000
+	robot-at-x6y15 robot-at-x6y15 0.500000 0.500000
+	robot-at-x7y15 robot-at-x7y14 0.500000 0.500000
+	robot-at-x7y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y14 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y14 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y15 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y14 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y15 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y14 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y14 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x14y14 0.500000 0.500000
+	robot-at-x14y15 robot-at-x14y15 0.500000 0.500000
+	robot-at-x15y15 robot-at-x15y14 0.500000 0.500000
+	robot-at-x15y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x16y14 0.500000 0.500000
+	robot-at-x16y15 robot-at-x16y15 0.500000 0.500000
+	robot-at-x17y15 robot-at-x17y14 0.500000 0.500000
+	robot-at-x17y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x18y15 1.000000 1.000000
+	robot-at-x19y15 robot-at-x19y14 0.500000 0.500000
+	robot-at-x19y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y14 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y15 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y15 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y16 0.500000 0.500000
+	robot-at-x2y16 robot-at-x2y15 0.500000 0.500000
+	robot-at-x2y16 robot-at-x2y16 0.500000 0.500000
+	robot-at-x3y16 robot-at-x3y15 0.500000 0.500000
+	robot-at-x3y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x4y16 1.000000 1.000000
+	robot-at-x5y16 robot-at-x5y15 0.500000 0.500000
+	robot-at-x5y16 robot-at-x5y16 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y15 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y16 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y15 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y15 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x10y16 1.000000 1.000000
+	robot-at-x11y16 robot-at-x11y15 0.500000 0.500000
+	robot-at-x11y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y15 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y15 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y16 0.500000 0.500000
+	robot-at-x15y16 robot-at-x15y15 0.500000 0.500000
+	robot-at-x15y16 robot-at-x15y16 0.500000 0.500000
+	robot-at-x17y16 robot-at-x17y15 0.500000 0.500000
+	robot-at-x17y16 robot-at-x17y16 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y15 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y15 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y15 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y16 0.500000 0.500000
+	robot-at-x1y17 robot-at-x1y16 0.500000 0.500000
+	robot-at-x1y17 robot-at-x1y17 0.500000 0.500000
+	robot-at-x3y17 robot-at-x3y16 0.500000 0.500000
+	robot-at-x3y17 robot-at-x3y17 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y16 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y16 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x6y17 1.000000 1.000000
+	robot-at-x7y17 robot-at-x7y16 0.500000 0.500000
+	robot-at-x7y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y16 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x9y16 0.500000 0.500000
+	robot-at-x9y17 robot-at-x9y17 0.500000 0.500000
+	robot-at-x10y17 robot-at-x10y16 0.500000 0.500000
+	robot-at-x10y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y16 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y16 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y16 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x14y17 1.000000 1.000000
+	robot-at-x15y17 robot-at-x15y16 0.500000 0.500000
+	robot-at-x15y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x16y17 1.000000 1.000000
+	robot-at-x17y17 robot-at-x17y16 0.500000 0.500000
+	robot-at-x17y17 robot-at-x17y17 0.500000 0.500000
+	robot-at-x18y17 robot-at-x18y16 0.500000 0.500000
+	robot-at-x18y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y16 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y16 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y17 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y17 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y18 0.500000 0.500000
+	robot-at-x2y18 robot-at-x2y18 1.000000 1.000000
+	robot-at-x3y18 robot-at-x3y17 0.500000 0.500000
+	robot-at-x3y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y17 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y17 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x6y17 0.500000 0.500000
+	robot-at-x6y18 robot-at-x6y18 0.500000 0.500000
+	robot-at-x7y18 robot-at-x7y17 0.500000 0.500000
+	robot-at-x7y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y17 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y18 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y17 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y18 0.500000 0.500000
+	robot-at-x11y18 robot-at-x11y17 0.500000 0.500000
+	robot-at-x11y18 robot-at-x11y18 0.500000 0.500000
+	robot-at-x12y18 robot-at-x12y17 0.500000 0.500000
+	robot-at-x12y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y17 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y18 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y17 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y18 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y17 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y18 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y17 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y18 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y17 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y17 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y18 0.500000 0.500000
+	robot-at-x1y19 robot-at-x1y18 0.500000 0.500000
+	robot-at-x1y19 robot-at-x1y19 0.500000 0.500000
+	robot-at-x3y19 robot-at-x3y18 0.500000 0.500000
+	robot-at-x3y19 robot-at-x3y19 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y18 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y18 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y19 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y18 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y19 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y18 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x9y19 1.000000 1.000000
+	robot-at-x10y19 robot-at-x10y18 0.500000 0.500000
+	robot-at-x10y19 robot-at-x10y19 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y18 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y19 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y18 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x14y19 1.000000 1.000000
+	robot-at-x15y19 robot-at-x15y18 0.500000 0.500000
+	robot-at-x15y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y18 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x17y19 1.000000 1.000000
+	robot-at-x18y19 robot-at-x18y18 0.500000 0.500000
+	robot-at-x18y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x19y18 0.500000 0.500000
+	robot-at-x19y19 robot-at-x19y19 0.500000 0.500000
+	robot-at-x20y19 robot-at-x20y18 0.500000 0.500000
+	robot-at-x20y19 robot-at-x20y19 0.500000 0.500000
+	robot-at-x1y20 robot-at-x1y19 0.500000 0.500000
+	robot-at-x1y20 robot-at-x1y20 0.500000 0.500000
+	robot-at-x2y20 robot-at-x2y20 1.000000 1.000000
+	robot-at-x3y20 robot-at-x3y19 0.500000 0.500000
+	robot-at-x3y20 robot-at-x3y20 0.500000 0.500000
+	robot-at-x4y20 robot-at-x4y19 0.500000 0.500000
+	robot-at-x4y20 robot-at-x4y20 0.500000 0.500000
+	robot-at-x5y20 robot-at-x5y19 0.500000 0.500000
+	robot-at-x5y20 robot-at-x5y20 0.500000 0.500000
+	robot-at-x6y20 robot-at-x6y20 1.000000 1.000000
+	robot-at-x7y20 robot-at-x7y19 0.500000 0.500000
+	robot-at-x7y20 robot-at-x7y20 0.500000 0.500000
+	robot-at-x8y20 robot-at-x8y19 0.500000 0.500000
+	robot-at-x8y20 robot-at-x8y20 0.500000 0.500000
+	robot-at-x9y20 robot-at-x9y19 0.500000 0.500000
+	robot-at-x9y20 robot-at-x9y20 0.500000 0.500000
+	robot-at-x10y20 robot-at-x10y19 0.500000 0.500000
+	robot-at-x10y20 robot-at-x10y20 0.500000 0.500000
+	robot-at-x11y20 robot-at-x11y20 1.000000 1.000000
+	robot-at-x12y20 robot-at-x12y19 0.500000 0.500000
+	robot-at-x12y20 robot-at-x12y20 0.500000 0.500000
+	robot-at-x13y20 robot-at-x13y19 0.500000 0.500000
+	robot-at-x13y20 robot-at-x13y20 0.500000 0.500000
+	robot-at-x14y20 robot-at-x14y19 0.500000 0.500000
+	robot-at-x14y20 robot-at-x14y20 0.500000 0.500000
+	robot-at-x15y20 robot-at-x15y19 0.500000 0.500000
+	robot-at-x15y20 robot-at-x15y20 0.500000 0.500000
+	robot-at-x16y20 robot-at-x16y19 0.500000 0.500000
+	robot-at-x16y20 robot-at-x16y20 0.500000 0.500000
+	robot-at-x17y20 robot-at-x17y19 0.500000 0.500000
+	robot-at-x17y20 robot-at-x17y20 0.500000 0.500000
+	robot-at-x18y20 robot-at-x18y19 0.500000 0.500000
+	robot-at-x18y20 robot-at-x18y20 0.500000 0.500000
+	robot-at-x20y20 robot-at-x20y20 1.000000 1.000000
+endaction
+
+action move-north
+	robot-at-x1y1 robot-at-x1y2 0.500000 0.500000
+	robot-at-x1y1 robot-at-x1y1 0.500000 0.500000
+	robot-at-x2y1 robot-at-x2y2 0.500000 0.500000
+	robot-at-x2y1 robot-at-x2y1 0.500000 0.500000
+	robot-at-x4y1 robot-at-x4y2 0.500000 0.500000
+	robot-at-x4y1 robot-at-x4y1 0.500000 0.500000
+	robot-at-x5y1 robot-at-x5y2 0.500000 0.500000
+	robot-at-x5y1 robot-at-x5y1 0.500000 0.500000
+	robot-at-x7y1 robot-at-x7y2 0.500000 0.500000
+	robot-at-x7y1 robot-at-x7y1 0.500000 0.500000
+	robot-at-x8y1 robot-at-x8y2 0.500000 0.500000
+	robot-at-x8y1 robot-at-x8y1 0.500000 0.500000
+	robot-at-x10y1 robot-at-x10y2 0.500000 0.500000
+	robot-at-x10y1 robot-at-x10y1 0.500000 0.500000
+	robot-at-x11y1 robot-at-x11y1 1.000000 1.000000
+	robot-at-x12y1 robot-at-x12y2 0.500000 0.500000
+	robot-at-x12y1 robot-at-x12y1 0.500000 0.500000
+	robot-at-x13y1 robot-at-x13y1 1.000000 1.000000
+	robot-at-x14y1 robot-at-x14y2 0.500000 0.500000
+	robot-at-x14y1 robot-at-x14y1 0.500000 0.500000
+	robot-at-x15y1 robot-at-x15y2 0.500000 0.500000
+	robot-at-x15y1 robot-at-x15y1 0.500000 0.500000
+	robot-at-x16y1 robot-at-x16y2 0.500000 0.500000
+	robot-at-x16y1 robot-at-x16y1 0.500000 0.500000
+	robot-at-x17y1 robot-at-x17y1 1.000000 1.000000
+	robot-at-x18y1 robot-at-x18y2 0.500000 0.500000
+	robot-at-x18y1 robot-at-x18y1 0.500000 0.500000
+	robot-at-x19y1 robot-at-x19y2 0.500000 0.500000
+	robot-at-x19y1 robot-at-x19y1 0.500000 0.500000
+	robot-at-x20y1 robot-at-x20y2 0.500000 0.500000
+	robot-at-x20y1 robot-at-x20y1 0.500000 0.500000
+	robot-at-x1y2 robot-at-x1y3 0.500000 0.500000
+	robot-at-x1y2 robot-at-x1y2 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y3 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x3y3 0.500000 0.500000
+	robot-at-x3y2 robot-at-x3y2 0.500000 0.500000
+	robot-at-x4y2 robot-at-x4y2 1.000000 1.000000
+	robot-at-x5y2 robot-at-x5y3 0.500000 0.500000
+	robot-at-x5y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x6y3 0.500000 0.500000
+	robot-at-x6y2 robot-at-x6y2 0.500000 0.500000
+	robot-at-x7y2 robot-at-x7y3 0.500000 0.500000
+	robot-at-x7y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y3 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x9y3 0.500000 0.500000
+	robot-at-x9y2 robot-at-x9y2 0.500000 0.500000
+	robot-at-x10y2 robot-at-x10y3 0.500000 0.500000
+	robot-at-x10y2 robot-at-x10y2 0.500000 0.500000
+	robot-at-x12y2 robot-at-x12y3 0.500000 0.500000
+	robot-at-x12y2 robot-at-x12y2 0.500000 0.500000
+	robot-at-x14y2 robot-at-x14y3 0.500000 0.500000
+	robot-at-x14y2 robot-at-x14y2 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y3 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y3 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y2 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y3 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y2 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y3 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y3 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y2 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y4 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y3 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y4 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y4 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y3 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y4 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y3 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y4 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y4 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x8y3 1.000000 1.000000
+	robot-at-x9y3 robot-at-x9y4 0.500000 0.500000
+	robot-at-x9y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y4 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x11y4 0.500000 0.500000
+	robot-at-x11y3 robot-at-x11y3 0.500000 0.500000
+	robot-at-x12y3 robot-at-x12y3 1.000000 1.000000
+	robot-at-x13y3 robot-at-x13y4 0.500000 0.500000
+	robot-at-x13y3 robot-at-x13y3 0.500000 0.500000
+	robot-at-x14y3 robot-at-x14y4 0.500000 0.500000
+	robot-at-x14y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x15y3 1.000000 1.000000
+	robot-at-x16y3 robot-at-x16y4 0.500000 0.500000
+	robot-at-x16y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x17y4 0.500000 0.500000
+	robot-at-x17y3 robot-at-x17y3 0.500000 0.500000
+	robot-at-x18y3 robot-at-x18y4 0.500000 0.500000
+	robot-at-x18y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y4 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y4 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y3 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y5 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y4 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y5 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y5 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x4y5 0.500000 0.500000
+	robot-at-x4y4 robot-at-x4y4 0.500000 0.500000
+	robot-at-x5y4 robot-at-x5y5 0.500000 0.500000
+	robot-at-x5y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x6y4 1.000000 1.000000
+	robot-at-x7y4 robot-at-x7y5 0.500000 0.500000
+	robot-at-x7y4 robot-at-x7y4 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y5 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y4 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y5 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y5 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y4 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y5 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y4 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y5 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y4 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y5 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y4 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y5 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y5 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y5 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y5 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y4 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y6 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y5 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y6 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y6 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y6 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y6 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y5 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y6 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y5 0.500000 0.500000
+	robot-at-x8y5 robot-at-x8y6 0.500000 0.500000
+	robot-at-x8y5 robot-at-x8y5 0.500000 0.500000
+	robot-at-x9y5 robot-at-x9y5 1.000000 1.000000
+	robot-at-x10y5 robot-at-x10y6 0.500000 0.500000
+	robot-at-x10y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y6 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x12y6 0.500000 0.500000
+	robot-at-x12y5 robot-at-x12y5 0.500000 0.500000
+	robot-at-x13y5 robot-at-x13y6 0.500000 0.500000
+	robot-at-x13y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y6 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x15y6 0.500000 0.500000
+	robot-at-x15y5 robot-at-x15y5 0.500000 0.500000
+	robot-at-x16y5 robot-at-x16y6 0.500000 0.500000
+	robot-at-x16y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y6 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y6 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y6 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y6 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y5 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y7 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y6 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y7 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y7 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y7 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y7 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x6y7 0.500000 0.500000
+	robot-at-x6y6 robot-at-x6y6 0.500000 0.500000
+	robot-at-x7y6 robot-at-x7y7 0.500000 0.500000
+	robot-at-x7y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y7 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y6 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y7 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y6 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y7 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y7 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y7 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y7 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y7 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y7 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y7 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y7 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y7 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y7 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y6 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y8 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y7 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y8 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y8 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y8 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x5y7 1.000000 1.000000
+	robot-at-x6y7 robot-at-x6y8 0.500000 0.500000
+	robot-at-x6y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y8 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y8 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x9y8 0.500000 0.500000
+	robot-at-x9y7 robot-at-x9y7 0.500000 0.500000
+	robot-at-x10y7 robot-at-x10y8 0.500000 0.500000
+	robot-at-x10y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y8 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y8 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x13y7 1.000000 1.000000
+	robot-at-x14y7 robot-at-x14y8 0.500000 0.500000
+	robot-at-x14y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x15y7 1.000000 1.000000
+	robot-at-x16y7 robot-at-x16y8 0.500000 0.500000
+	robot-at-x16y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y8 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y8 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y8 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y8 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y7 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y9 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y8 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y9 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y9 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y9 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y8 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y9 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y8 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y9 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y9 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y9 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y9 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x11y8 1.000000 1.000000
+	robot-at-x12y8 robot-at-x12y9 0.500000 0.500000
+	robot-at-x12y8 robot-at-x12y8 0.500000 0.500000
+	robot-at-x14y8 robot-at-x14y9 0.500000 0.500000
+	robot-at-x14y8 robot-at-x14y8 0.500000 0.500000
+	robot-at-x16y8 robot-at-x16y9 0.500000 0.500000
+	robot-at-x16y8 robot-at-x16y8 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y9 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y9 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y9 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y9 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y8 0.500000 0.500000
+	robot-at-x1y9 robot-at-x1y9 1.000000 1.000000
+	robot-at-x2y9 robot-at-x2y10 0.500000 0.500000
+	robot-at-x2y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y10 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y10 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x5y10 0.500000 0.500000
+	robot-at-x5y9 robot-at-x5y9 0.500000 0.500000
+	robot-at-x6y9 robot-at-x6y10 0.500000 0.500000
+	robot-at-x6y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y10 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y10 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y10 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y10 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y9 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y10 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y9 0.500000 0.500000
+	robot-at-x13y9 robot-at-x13y10 0.500000 0.500000
+	robot-at-x13y9 robot-at-x13y9 0.500000 0.500000
+	robot-at-x14y9 robot-at-x14y10 0.500000 0.500000
+	robot-at-x14y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x15y10 0.500000 0.500000
+	robot-at-x15y9 robot-at-x15y9 0.500000 0.500000
+	robot-at-x16y9 robot-at-x16y9 1.000000 1.000000
+	robot-at-x17y9 robot-at-x17y10 0.500000 0.500000
+	robot-at-x17y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y10 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x19y9 1.000000 1.000000
+	robot-at-x20y9 robot-at-x20y10 0.500000 0.500000
+	robot-at-x20y9 robot-at-x20y9 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y11 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y10 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y11 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y11 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y11 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y11 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y11 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y11 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y11 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y11 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x11y11 0.500000 0.500000
+	robot-at-x11y10 robot-at-x11y10 0.500000 0.500000
+	robot-at-x12y10 robot-at-x12y11 0.500000 0.500000
+	robot-at-x12y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x13y10 1.000000 1.000000
+	robot-at-x14y10 robot-at-x14y11 0.500000 0.500000
+	robot-at-x14y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y11 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y10 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y11 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y10 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y11 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y10 0.500000 0.500000
+	robot-at-x20y10 robot-at-x20y11 0.500000 0.500000
+	robot-at-x20y10 robot-at-x20y10 0.500000 0.500000
+	robot-at-x1y11 robot-at-x1y12 0.500000 0.500000
+	robot-at-x1y11 robot-at-x1y11 0.500000 0.500000
+	robot-at-x2y11 robot-at-x2y12 0.500000 0.500000
+	robot-at-x2y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y12 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y12 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y12 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y12 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y12 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y12 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y12 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y12 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x11y11 1.000000 1.000000
+	robot-at-x12y11 robot-at-x12y12 0.500000 0.500000
+	robot-at-x12y11 robot-at-x12y11 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y12 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y11 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y12 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x16y11 1.000000 1.000000
+	robot-at-x17y11 robot-at-x17y12 0.500000 0.500000
+	robot-at-x17y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y12 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x19y11 1.000000 1.000000
+	robot-at-x20y11 robot-at-x20y12 0.500000 0.500000
+	robot-at-x20y11 robot-at-x20y11 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y13 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y12 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y13 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x3y12 1.000000 1.000000
+	robot-at-x4y12 robot-at-x4y13 0.500000 0.500000
+	robot-at-x4y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x5y12 1.000000 1.000000
+	robot-at-x6y12 robot-at-x6y13 0.500000 0.500000
+	robot-at-x6y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y13 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y13 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x9y12 1.000000 1.000000
+	robot-at-x10y12 robot-at-x10y13 0.500000 0.500000
+	robot-at-x10y12 robot-at-x10y12 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y13 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y12 0.500000 0.500000
+	robot-at-x13y12 robot-at-x13y13 0.500000 0.500000
+	robot-at-x13y12 robot-at-x13y12 0.500000 0.500000
+	robot-at-x14y12 robot-at-x14y13 0.500000 0.500000
+	robot-at-x14y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y13 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y12 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y13 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y12 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y13 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y12 0.500000 0.500000
+	robot-at-x20y12 robot-at-x20y13 0.500000 0.500000
+	robot-at-x20y12 robot-at-x20y12 0.500000 0.500000
+	robot-at-x1y13 robot-at-x1y14 0.500000 0.500000
+	robot-at-x1y13 robot-at-x1y13 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y14 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y13 0.500000 0.500000
+	robot-at-x4y13 robot-at-x4y14 0.500000 0.500000
+	robot-at-x4y13 robot-at-x4y13 0.500000 0.500000
+	robot-at-x6y13 robot-at-x6y14 0.500000 0.500000
+	robot-at-x6y13 robot-at-x6y13 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y14 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y14 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y13 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y14 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y13 0.500000 0.500000
+	robot-at-x11y13 robot-at-x11y14 0.500000 0.500000
+	robot-at-x11y13 robot-at-x11y13 0.500000 0.500000
+	robot-at-x12y13 robot-at-x12y14 0.500000 0.500000
+	robot-at-x12y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y14 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y14 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y14 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x16y14 0.500000 0.500000
+	robot-at-x16y13 robot-at-x16y13 0.500000 0.500000
+	robot-at-x17y13 robot-at-x17y14 0.500000 0.500000
+	robot-at-x17y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x18y13 1.000000 1.000000
+	robot-at-x19y13 robot-at-x19y14 0.500000 0.500000
+	robot-at-x19y13 robot-at-x19y13 0.500000 0.500000
+	robot-at-x20y13 robot-at-x20y14 0.500000 0.500000
+	robot-at-x20y13 robot-at-x20y13 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y15 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y14 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y15 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x3y15 0.500000 0.500000
+	robot-at-x3y14 robot-at-x3y14 0.500000 0.500000
+	robot-at-x4y14 robot-at-x4y14 1.000000 1.000000
+	robot-at-x5y14 robot-at-x5y15 0.500000 0.500000
+	robot-at-x5y14 robot-at-x5y14 0.500000 0.500000
+	robot-at-x6y14 robot-at-x6y15 0.500000 0.500000
+	robot-at-x6y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y15 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y15 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x9y15 0.500000 0.500000
+	robot-at-x9y14 robot-at-x9y14 0.500000 0.500000
+	robot-at-x10y14 robot-at-x10y14 1.000000 1.000000
+	robot-at-x11y14 robot-at-x11y15 0.500000 0.500000
+	robot-at-x11y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y15 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y15 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y15 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y15 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y15 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y15 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y14 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y15 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y14 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y15 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y14 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y16 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y15 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y16 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y16 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y15 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y16 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y15 0.500000 0.500000
+	robot-at-x6y15 robot-at-x6y15 1.000000 1.000000
+	robot-at-x7y15 robot-at-x7y16 0.500000 0.500000
+	robot-at-x7y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y16 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y16 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y15 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y16 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y15 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y16 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y16 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x14y15 1.000000 1.000000
+	robot-at-x15y15 robot-at-x15y16 0.500000 0.500000
+	robot-at-x15y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x16y15 1.000000 1.000000
+	robot-at-x17y15 robot-at-x17y16 0.500000 0.500000
+	robot-at-x17y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x18y16 0.500000 0.500000
+	robot-at-x18y15 robot-at-x18y15 0.500000 0.500000
+	robot-at-x19y15 robot-at-x19y16 0.500000 0.500000
+	robot-at-x19y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y16 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y15 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y17 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y16 0.500000 0.500000
+	robot-at-x2y16 robot-at-x2y16 1.000000 1.000000
+	robot-at-x3y16 robot-at-x3y17 0.500000 0.500000
+	robot-at-x3y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x4y17 0.500000 0.500000
+	robot-at-x4y16 robot-at-x4y16 0.500000 0.500000
+	robot-at-x5y16 robot-at-x5y17 0.500000 0.500000
+	robot-at-x5y16 robot-at-x5y16 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y17 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y16 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y17 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y17 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x10y17 0.500000 0.500000
+	robot-at-x10y16 robot-at-x10y16 0.500000 0.500000
+	robot-at-x11y16 robot-at-x11y17 0.500000 0.500000
+	robot-at-x11y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y17 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y17 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y16 0.500000 0.500000
+	robot-at-x15y16 robot-at-x15y17 0.500000 0.500000
+	robot-at-x15y16 robot-at-x15y16 0.500000 0.500000
+	robot-at-x17y16 robot-at-x17y17 0.500000 0.500000
+	robot-at-x17y16 robot-at-x17y16 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y17 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y17 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y17 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y16 0.500000 0.500000
+	robot-at-x1y17 robot-at-x1y18 0.500000 0.500000
+	robot-at-x1y17 robot-at-x1y17 0.500000 0.500000
+	robot-at-x3y17 robot-at-x3y18 0.500000 0.500000
+	robot-at-x3y17 robot-at-x3y17 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y18 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y18 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x6y18 0.500000 0.500000
+	robot-at-x6y17 robot-at-x6y17 0.500000 0.500000
+	robot-at-x7y17 robot-at-x7y18 0.500000 0.500000
+	robot-at-x7y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y18 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x9y17 1.000000 1.000000
+	robot-at-x10y17 robot-at-x10y18 0.500000 0.500000
+	robot-at-x10y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y18 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y18 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y18 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x14y17 1.000000 1.000000
+	robot-at-x15y17 robot-at-x15y18 0.500000 0.500000
+	robot-at-x15y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x16y18 0.500000 0.500000
+	robot-at-x16y17 robot-at-x16y17 0.500000 0.500000
+	robot-at-x17y17 robot-at-x17y17 1.000000 1.000000
+	robot-at-x18y17 robot-at-x18y18 0.500000 0.500000
+	robot-at-x18y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y18 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y18 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y17 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y19 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y18 0.500000 0.500000
+	robot-at-x2y18 robot-at-x2y18 1.000000 1.000000
+	robot-at-x3y18 robot-at-x3y19 0.500000 0.500000
+	robot-at-x3y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y19 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y19 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x6y18 1.000000 1.000000
+	robot-at-x7y18 robot-at-x7y19 0.500000 0.500000
+	robot-at-x7y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y19 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y18 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y19 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y18 0.500000 0.500000
+	robot-at-x11y18 robot-at-x11y18 1.000000 1.000000
+	robot-at-x12y18 robot-at-x12y19 0.500000 0.500000
+	robot-at-x12y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y19 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y18 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y19 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y18 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y19 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y18 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y19 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y18 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y19 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y19 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y18 0.500000 0.500000
+	robot-at-x1y19 robot-at-x1y20 0.500000 0.500000
+	robot-at-x1y19 robot-at-x1y19 0.500000 0.500000
+	robot-at-x3y19 robot-at-x3y20 0.500000 0.500000
+	robot-at-x3y19 robot-at-x3y19 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y20 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y20 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y19 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y20 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y19 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y20 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x9y20 0.500000 0.500000
+	robot-at-x9y19 robot-at-x9y19 0.500000 0.500000
+	robot-at-x10y19 robot-at-x10y20 0.500000 0.500000
+	robot-at-x10y19 robot-at-x10y19 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y20 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y19 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y20 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x14y20 0.500000 0.500000
+	robot-at-x14y19 robot-at-x14y19 0.500000 0.500000
+	robot-at-x15y19 robot-at-x15y20 0.500000 0.500000
+	robot-at-x15y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y20 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x17y20 0.500000 0.500000
+	robot-at-x17y19 robot-at-x17y19 0.500000 0.500000
+	robot-at-x18y19 robot-at-x18y20 0.500000 0.500000
+	robot-at-x18y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x19y19 1.000000 1.000000
+	robot-at-x20y19 robot-at-x20y20 0.500000 0.500000
+	robot-at-x20y19 robot-at-x20y19 0.500000 0.500000
+	robot-at-x1y20 robot-at-x1y20 1.000000 1.000000
+	robot-at-x2y20 robot-at-x2y20 1.000000 1.000000
+	robot-at-x3y20 robot-at-x3y20 1.000000 1.000000
+	robot-at-x4y20 robot-at-x4y20 1.000000 1.000000
+	robot-at-x5y20 robot-at-x5y20 1.000000 1.000000
+	robot-at-x6y20 robot-at-x6y20 1.000000 1.000000
+	robot-at-x7y20 robot-at-x7y20 1.000000 1.000000
+	robot-at-x8y20 robot-at-x8y20 1.000000 1.000000
+	robot-at-x9y20 robot-at-x9y20 1.000000 1.000000
+	robot-at-x10y20 robot-at-x10y20 1.000000 1.000000
+	robot-at-x11y20 robot-at-x11y20 1.000000 1.000000
+	robot-at-x12y20 robot-at-x12y20 1.000000 1.000000
+	robot-at-x13y20 robot-at-x13y20 1.000000 1.000000
+	robot-at-x14y20 robot-at-x14y20 1.000000 1.000000
+	robot-at-x15y20 robot-at-x15y20 1.000000 1.000000
+	robot-at-x16y20 robot-at-x16y20 1.000000 1.000000
+	robot-at-x17y20 robot-at-x17y20 1.000000 1.000000
+	robot-at-x18y20 robot-at-x18y20 1.000000 1.000000
+	robot-at-x20y20 robot-at-x20y20 1.000000 1.000000
+endaction
+
+action move-west
+	robot-at-x1y1 robot-at-x1y1 1.000000 1.000000
+	robot-at-x2y1 robot-at-x1y1 0.500000 0.500000
+	robot-at-x2y1 robot-at-x2y1 0.500000 0.500000
+	robot-at-x4y1 robot-at-x4y1 1.000000 1.000000
+	robot-at-x5y1 robot-at-x4y1 0.500000 0.500000
+	robot-at-x5y1 robot-at-x5y1 0.500000 0.500000
+	robot-at-x7y1 robot-at-x7y1 1.000000 1.000000
+	robot-at-x8y1 robot-at-x7y1 0.500000 0.500000
+	robot-at-x8y1 robot-at-x8y1 0.500000 0.500000
+	robot-at-x10y1 robot-at-x10y1 1.000000 1.000000
+	robot-at-x11y1 robot-at-x10y1 0.500000 0.500000
+	robot-at-x11y1 robot-at-x11y1 0.500000 0.500000
+	robot-at-x12y1 robot-at-x11y1 0.500000 0.500000
+	robot-at-x12y1 robot-at-x12y1 0.500000 0.500000
+	robot-at-x13y1 robot-at-x12y1 0.500000 0.500000
+	robot-at-x13y1 robot-at-x13y1 0.500000 0.500000
+	robot-at-x14y1 robot-at-x13y1 0.500000 0.500000
+	robot-at-x14y1 robot-at-x14y1 0.500000 0.500000
+	robot-at-x15y1 robot-at-x14y1 0.500000 0.500000
+	robot-at-x15y1 robot-at-x15y1 0.500000 0.500000
+	robot-at-x16y1 robot-at-x15y1 0.500000 0.500000
+	robot-at-x16y1 robot-at-x16y1 0.500000 0.500000
+	robot-at-x17y1 robot-at-x16y1 0.500000 0.500000
+	robot-at-x17y1 robot-at-x17y1 0.500000 0.500000
+	robot-at-x18y1 robot-at-x17y1 0.500000 0.500000
+	robot-at-x18y1 robot-at-x18y1 0.500000 0.500000
+	robot-at-x19y1 robot-at-x18y1 0.500000 0.500000
+	robot-at-x19y1 robot-at-x19y1 0.500000 0.500000
+	robot-at-x20y1 robot-at-x19y1 0.500000 0.500000
+	robot-at-x20y1 robot-at-x20y1 0.500000 0.500000
+	robot-at-x1y2 robot-at-x1y2 1.000000 1.000000
+	robot-at-x2y2 robot-at-x1y2 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x3y2 0.500000 0.500000
+	robot-at-x4y2 robot-at-x3y2 0.500000 0.500000
+	robot-at-x4y2 robot-at-x4y2 0.500000 0.500000
+	robot-at-x5y2 robot-at-x4y2 0.500000 0.500000
+	robot-at-x5y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x6y2 0.500000 0.500000
+	robot-at-x7y2 robot-at-x6y2 0.500000 0.500000
+	robot-at-x7y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x9y2 0.500000 0.500000
+	robot-at-x10y2 robot-at-x9y2 0.500000 0.500000
+	robot-at-x10y2 robot-at-x10y2 0.500000 0.500000
+	robot-at-x12y2 robot-at-x12y2 1.000000 1.000000
+	robot-at-x14y2 robot-at-x14y2 1.000000 1.000000
+	robot-at-x15y2 robot-at-x14y2 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x16y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y2 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y2 1.000000 1.000000
+	robot-at-x19y2 robot-at-x18y2 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x20y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y2 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y3 1.000000 1.000000
+	robot-at-x2y3 robot-at-x1y3 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x3y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y3 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y3 1.000000 1.000000
+	robot-at-x6y3 robot-at-x5y3 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x8y3 0.500000 0.500000
+	robot-at-x9y3 robot-at-x8y3 0.500000 0.500000
+	robot-at-x9y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x11y3 0.500000 0.500000
+	robot-at-x12y3 robot-at-x11y3 0.500000 0.500000
+	robot-at-x12y3 robot-at-x12y3 0.500000 0.500000
+	robot-at-x13y3 robot-at-x12y3 0.500000 0.500000
+	robot-at-x13y3 robot-at-x13y3 0.500000 0.500000
+	robot-at-x14y3 robot-at-x13y3 0.500000 0.500000
+	robot-at-x14y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x15y3 0.500000 0.500000
+	robot-at-x16y3 robot-at-x15y3 0.500000 0.500000
+	robot-at-x16y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x17y3 0.500000 0.500000
+	robot-at-x18y3 robot-at-x17y3 0.500000 0.500000
+	robot-at-x18y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x20y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y3 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y4 1.000000 1.000000
+	robot-at-x2y4 robot-at-x1y4 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x4y4 0.500000 0.500000
+	robot-at-x5y4 robot-at-x4y4 0.500000 0.500000
+	robot-at-x5y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x6y4 0.500000 0.500000
+	robot-at-x7y4 robot-at-x6y4 0.500000 0.500000
+	robot-at-x7y4 robot-at-x7y4 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y4 1.000000 1.000000
+	robot-at-x10y4 robot-at-x9y4 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x11y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y4 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y4 1.000000 1.000000
+	robot-at-x14y4 robot-at-x13y4 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y4 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y4 1.000000 1.000000
+	robot-at-x17y4 robot-at-x16y4 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x20y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y4 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y5 1.000000 1.000000
+	robot-at-x2y5 robot-at-x1y5 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x5y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y5 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y5 1.000000 1.000000
+	robot-at-x8y5 robot-at-x7y5 0.500000 0.500000
+	robot-at-x8y5 robot-at-x8y5 0.500000 0.500000
+	robot-at-x9y5 robot-at-x8y5 0.500000 0.500000
+	robot-at-x9y5 robot-at-x9y5 0.500000 0.500000
+	robot-at-x10y5 robot-at-x9y5 0.500000 0.500000
+	robot-at-x10y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x12y5 0.500000 0.500000
+	robot-at-x13y5 robot-at-x12y5 0.500000 0.500000
+	robot-at-x13y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x15y5 0.500000 0.500000
+	robot-at-x16y5 robot-at-x15y5 0.500000 0.500000
+	robot-at-x16y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x20y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y5 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y6 1.000000 1.000000
+	robot-at-x2y6 robot-at-x1y6 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x6y6 0.500000 0.500000
+	robot-at-x7y6 robot-at-x6y6 0.500000 0.500000
+	robot-at-x7y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x8y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y6 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y6 1.000000 1.000000
+	robot-at-x11y6 robot-at-x10y6 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x20y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y6 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y7 1.000000 1.000000
+	robot-at-x2y7 robot-at-x1y7 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x5y7 0.500000 0.500000
+	robot-at-x6y7 robot-at-x5y7 0.500000 0.500000
+	robot-at-x6y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x9y7 0.500000 0.500000
+	robot-at-x10y7 robot-at-x9y7 0.500000 0.500000
+	robot-at-x10y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x13y7 0.500000 0.500000
+	robot-at-x14y7 robot-at-x13y7 0.500000 0.500000
+	robot-at-x14y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x15y7 0.500000 0.500000
+	robot-at-x16y7 robot-at-x15y7 0.500000 0.500000
+	robot-at-x16y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x20y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y7 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y8 1.000000 1.000000
+	robot-at-x2y8 robot-at-x1y8 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x4y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y8 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y8 1.000000 1.000000
+	robot-at-x7y8 robot-at-x6y8 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x11y8 0.500000 0.500000
+	robot-at-x12y8 robot-at-x11y8 0.500000 0.500000
+	robot-at-x12y8 robot-at-x12y8 0.500000 0.500000
+	robot-at-x14y8 robot-at-x14y8 1.000000 1.000000
+	robot-at-x16y8 robot-at-x16y8 1.000000 1.000000
+	robot-at-x17y8 robot-at-x16y8 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x20y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y8 0.500000 0.500000
+	robot-at-x1y9 robot-at-x1y9 1.000000 1.000000
+	robot-at-x2y9 robot-at-x1y9 0.500000 0.500000
+	robot-at-x2y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x5y9 0.500000 0.500000
+	robot-at-x6y9 robot-at-x5y9 0.500000 0.500000
+	robot-at-x6y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x10y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y9 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y9 1.000000 1.000000
+	robot-at-x13y9 robot-at-x12y9 0.500000 0.500000
+	robot-at-x13y9 robot-at-x13y9 0.500000 0.500000
+	robot-at-x14y9 robot-at-x13y9 0.500000 0.500000
+	robot-at-x14y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x15y9 0.500000 0.500000
+	robot-at-x16y9 robot-at-x15y9 0.500000 0.500000
+	robot-at-x16y9 robot-at-x16y9 0.500000 0.500000
+	robot-at-x17y9 robot-at-x16y9 0.500000 0.500000
+	robot-at-x17y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x19y9 0.500000 0.500000
+	robot-at-x20y9 robot-at-x19y9 0.500000 0.500000
+	robot-at-x20y9 robot-at-x20y9 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y10 1.000000 1.000000
+	robot-at-x3y10 robot-at-x2y10 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x11y10 0.500000 0.500000
+	robot-at-x12y10 robot-at-x11y10 0.500000 0.500000
+	robot-at-x12y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x13y10 0.500000 0.500000
+	robot-at-x14y10 robot-at-x13y10 0.500000 0.500000
+	robot-at-x14y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x15y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y10 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y10 1.000000 1.000000
+	robot-at-x18y10 robot-at-x17y10 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y10 0.500000 0.500000
+	robot-at-x20y10 robot-at-x20y10 1.000000 1.000000
+	robot-at-x1y11 robot-at-x1y11 1.000000 1.000000
+	robot-at-x2y11 robot-at-x1y11 0.500000 0.500000
+	robot-at-x2y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x11y11 0.500000 0.500000
+	robot-at-x12y11 robot-at-x11y11 0.500000 0.500000
+	robot-at-x12y11 robot-at-x12y11 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y11 1.000000 1.000000
+	robot-at-x15y11 robot-at-x14y11 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x16y11 0.500000 0.500000
+	robot-at-x17y11 robot-at-x16y11 0.500000 0.500000
+	robot-at-x17y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x19y11 0.500000 0.500000
+	robot-at-x20y11 robot-at-x19y11 0.500000 0.500000
+	robot-at-x20y11 robot-at-x20y11 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y12 1.000000 1.000000
+	robot-at-x2y12 robot-at-x1y12 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x3y12 0.500000 0.500000
+	robot-at-x4y12 robot-at-x3y12 0.500000 0.500000
+	robot-at-x4y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x5y12 0.500000 0.500000
+	robot-at-x6y12 robot-at-x5y12 0.500000 0.500000
+	robot-at-x6y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x9y12 0.500000 0.500000
+	robot-at-x10y12 robot-at-x9y12 0.500000 0.500000
+	robot-at-x10y12 robot-at-x10y12 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y12 1.000000 1.000000
+	robot-at-x13y12 robot-at-x12y12 0.500000 0.500000
+	robot-at-x13y12 robot-at-x13y12 0.500000 0.500000
+	robot-at-x14y12 robot-at-x13y12 0.500000 0.500000
+	robot-at-x14y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x15y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y12 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y12 1.000000 1.000000
+	robot-at-x18y12 robot-at-x17y12 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y12 0.500000 0.500000
+	robot-at-x20y12 robot-at-x20y12 1.000000 1.000000
+	robot-at-x1y13 robot-at-x1y13 1.000000 1.000000
+	robot-at-x2y13 robot-at-x1y13 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y13 0.500000 0.500000
+	robot-at-x4y13 robot-at-x4y13 1.000000 1.000000
+	robot-at-x6y13 robot-at-x6y13 1.000000 1.000000
+	robot-at-x7y13 robot-at-x6y13 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x8y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y13 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y13 1.000000 1.000000
+	robot-at-x11y13 robot-at-x10y13 0.500000 0.500000
+	robot-at-x11y13 robot-at-x11y13 0.500000 0.500000
+	robot-at-x12y13 robot-at-x11y13 0.500000 0.500000
+	robot-at-x12y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x16y13 0.500000 0.500000
+	robot-at-x17y13 robot-at-x16y13 0.500000 0.500000
+	robot-at-x17y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x18y13 0.500000 0.500000
+	robot-at-x19y13 robot-at-x18y13 0.500000 0.500000
+	robot-at-x19y13 robot-at-x19y13 0.500000 0.500000
+	robot-at-x20y13 robot-at-x19y13 0.500000 0.500000
+	robot-at-x20y13 robot-at-x20y13 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y14 1.000000 1.000000
+	robot-at-x2y14 robot-at-x1y14 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x3y14 0.500000 0.500000
+	robot-at-x4y14 robot-at-x3y14 0.500000 0.500000
+	robot-at-x4y14 robot-at-x4y14 0.500000 0.500000
+	robot-at-x5y14 robot-at-x4y14 0.500000 0.500000
+	robot-at-x5y14 robot-at-x5y14 0.500000 0.500000
+	robot-at-x6y14 robot-at-x5y14 0.500000 0.500000
+	robot-at-x6y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x9y14 0.500000 0.500000
+	robot-at-x10y14 robot-at-x9y14 0.500000 0.500000
+	robot-at-x10y14 robot-at-x10y14 0.500000 0.500000
+	robot-at-x11y14 robot-at-x10y14 0.500000 0.500000
+	robot-at-x11y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x17y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y14 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y14 1.000000 1.000000
+	robot-at-x20y14 robot-at-x19y14 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y14 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y15 1.000000 1.000000
+	robot-at-x2y15 robot-at-x1y15 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x3y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y15 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y15 1.000000 1.000000
+	robot-at-x6y15 robot-at-x5y15 0.500000 0.500000
+	robot-at-x6y15 robot-at-x6y15 0.500000 0.500000
+	robot-at-x7y15 robot-at-x6y15 0.500000 0.500000
+	robot-at-x7y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x9y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y15 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y15 1.000000 1.000000
+	robot-at-x12y15 robot-at-x11y15 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x14y15 0.500000 0.500000
+	robot-at-x15y15 robot-at-x14y15 0.500000 0.500000
+	robot-at-x15y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x16y15 0.500000 0.500000
+	robot-at-x17y15 robot-at-x16y15 0.500000 0.500000
+	robot-at-x17y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x18y15 0.500000 0.500000
+	robot-at-x19y15 robot-at-x18y15 0.500000 0.500000
+	robot-at-x19y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x20y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y15 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y16 1.000000 1.000000
+	robot-at-x2y16 robot-at-x1y16 0.500000 0.500000
+	robot-at-x2y16 robot-at-x2y16 0.500000 0.500000
+	robot-at-x3y16 robot-at-x2y16 0.500000 0.500000
+	robot-at-x3y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x4y16 0.500000 0.500000
+	robot-at-x5y16 robot-at-x4y16 0.500000 0.500000
+	robot-at-x5y16 robot-at-x5y16 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y16 1.000000 1.000000
+	robot-at-x8y16 robot-at-x7y16 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x10y16 0.500000 0.500000
+	robot-at-x11y16 robot-at-x10y16 0.500000 0.500000
+	robot-at-x11y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x13y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y16 0.500000 0.500000
+	robot-at-x15y16 robot-at-x15y16 1.000000 1.000000
+	robot-at-x17y16 robot-at-x17y16 1.000000 1.000000
+	robot-at-x18y16 robot-at-x17y16 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x20y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y16 0.500000 0.500000
+	robot-at-x1y17 robot-at-x1y17 1.000000 1.000000
+	robot-at-x3y17 robot-at-x3y17 1.000000 1.000000
+	robot-at-x4y17 robot-at-x3y17 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x6y17 0.500000 0.500000
+	robot-at-x7y17 robot-at-x6y17 0.500000 0.500000
+	robot-at-x7y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x9y17 0.500000 0.500000
+	robot-at-x10y17 robot-at-x9y17 0.500000 0.500000
+	robot-at-x10y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x14y17 0.500000 0.500000
+	robot-at-x15y17 robot-at-x14y17 0.500000 0.500000
+	robot-at-x15y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x16y17 0.500000 0.500000
+	robot-at-x17y17 robot-at-x16y17 0.500000 0.500000
+	robot-at-x17y17 robot-at-x17y17 0.500000 0.500000
+	robot-at-x18y17 robot-at-x17y17 0.500000 0.500000
+	robot-at-x18y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x20y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y17 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y18 1.000000 1.000000
+	robot-at-x2y18 robot-at-x1y18 0.500000 0.500000
+	robot-at-x2y18 robot-at-x2y18 0.500000 0.500000
+	robot-at-x3y18 robot-at-x2y18 0.500000 0.500000
+	robot-at-x3y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x6y18 0.500000 0.500000
+	robot-at-x7y18 robot-at-x6y18 0.500000 0.500000
+	robot-at-x7y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x8y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y18 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y18 1.000000 1.000000
+	robot-at-x11y18 robot-at-x10y18 0.500000 0.500000
+	robot-at-x11y18 robot-at-x11y18 0.500000 0.500000
+	robot-at-x12y18 robot-at-x11y18 0.500000 0.500000
+	robot-at-x12y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x13y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y18 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y18 1.000000 1.000000
+	robot-at-x16y18 robot-at-x15y18 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y18 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y18 1.000000 1.000000
+	robot-at-x19y18 robot-at-x18y18 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x20y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y18 0.500000 0.500000
+	robot-at-x1y19 robot-at-x1y19 1.000000 1.000000
+	robot-at-x3y19 robot-at-x3y19 1.000000 1.000000
+	robot-at-x4y19 robot-at-x3y19 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x5y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y19 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y19 1.000000 1.000000
+	robot-at-x8y19 robot-at-x7y19 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x9y19 0.500000 0.500000
+	robot-at-x10y19 robot-at-x9y19 0.500000 0.500000
+	robot-at-x10y19 robot-at-x10y19 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y19 1.000000 1.000000
+	robot-at-x13y19 robot-at-x12y19 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x14y19 0.500000 0.500000
+	robot-at-x15y19 robot-at-x14y19 0.500000 0.500000
+	robot-at-x15y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x17y19 0.500000 0.500000
+	robot-at-x18y19 robot-at-x17y19 0.500000 0.500000
+	robot-at-x18y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x19y19 0.500000 0.500000
+	robot-at-x20y19 robot-at-x19y19 0.500000 0.500000
+	robot-at-x20y19 robot-at-x20y19 0.500000 0.500000
+	robot-at-x1y20 robot-at-x1y20 1.000000 1.000000
+	robot-at-x2y20 robot-at-x1y20 0.500000 0.500000
+	robot-at-x2y20 robot-at-x2y20 0.500000 0.500000
+	robot-at-x3y20 robot-at-x2y20 0.500000 0.500000
+	robot-at-x3y20 robot-at-x3y20 0.500000 0.500000
+	robot-at-x4y20 robot-at-x3y20 0.500000 0.500000
+	robot-at-x4y20 robot-at-x4y20 0.500000 0.500000
+	robot-at-x5y20 robot-at-x4y20 0.500000 0.500000
+	robot-at-x5y20 robot-at-x5y20 0.500000 0.500000
+	robot-at-x6y20 robot-at-x5y20 0.500000 0.500000
+	robot-at-x6y20 robot-at-x6y20 0.500000 0.500000
+	robot-at-x7y20 robot-at-x6y20 0.500000 0.500000
+	robot-at-x7y20 robot-at-x7y20 0.500000 0.500000
+	robot-at-x8y20 robot-at-x7y20 0.500000 0.500000
+	robot-at-x8y20 robot-at-x8y20 0.500000 0.500000
+	robot-at-x9y20 robot-at-x8y20 0.500000 0.500000
+	robot-at-x9y20 robot-at-x9y20 0.500000 0.500000
+	robot-at-x10y20 robot-at-x9y20 0.500000 0.500000
+	robot-at-x10y20 robot-at-x10y20 0.500000 0.500000
+	robot-at-x11y20 robot-at-x10y20 0.500000 0.500000
+	robot-at-x11y20 robot-at-x11y20 0.500000 0.500000
+	robot-at-x12y20 robot-at-x11y20 0.500000 0.500000
+	robot-at-x12y20 robot-at-x12y20 0.500000 0.500000
+	robot-at-x13y20 robot-at-x12y20 0.500000 0.500000
+	robot-at-x13y20 robot-at-x13y20 0.500000 0.500000
+	robot-at-x14y20 robot-at-x13y20 0.500000 0.500000
+	robot-at-x14y20 robot-at-x14y20 0.500000 0.500000
+	robot-at-x15y20 robot-at-x14y20 0.500000 0.500000
+	robot-at-x15y20 robot-at-x15y20 0.500000 0.500000
+	robot-at-x16y20 robot-at-x15y20 0.500000 0.500000
+	robot-at-x16y20 robot-at-x16y20 0.500000 0.500000
+	robot-at-x17y20 robot-at-x16y20 0.500000 0.500000
+	robot-at-x17y20 robot-at-x17y20 0.500000 0.500000
+	robot-at-x18y20 robot-at-x17y20 0.500000 0.500000
+	robot-at-x18y20 robot-at-x18y20 0.500000 0.500000
+	robot-at-x20y20 robot-at-x20y20 1.000000 1.000000
+endaction
+
+action move-east
+	robot-at-x1y1 robot-at-x2y1 0.500000 0.500000
+	robot-at-x1y1 robot-at-x1y1 0.500000 0.500000
+	robot-at-x2y1 robot-at-x2y1 1.000000 1.000000
+	robot-at-x4y1 robot-at-x5y1 0.500000 0.500000
+	robot-at-x4y1 robot-at-x4y1 0.500000 0.500000
+	robot-at-x5y1 robot-at-x5y1 1.000000 1.000000
+	robot-at-x7y1 robot-at-x8y1 0.500000 0.500000
+	robot-at-x7y1 robot-at-x7y1 0.500000 0.500000
+	robot-at-x8y1 robot-at-x8y1 1.000000 1.000000
+	robot-at-x10y1 robot-at-x11y1 0.500000 0.500000
+	robot-at-x10y1 robot-at-x10y1 0.500000 0.500000
+	robot-at-x11y1 robot-at-x12y1 0.500000 0.500000
+	robot-at-x11y1 robot-at-x11y1 0.500000 0.500000
+	robot-at-x12y1 robot-at-x13y1 0.500000 0.500000
+	robot-at-x12y1 robot-at-x12y1 0.500000 0.500000
+	robot-at-x13y1 robot-at-x14y1 0.500000 0.500000
+	robot-at-x13y1 robot-at-x13y1 0.500000 0.500000
+	robot-at-x14y1 robot-at-x15y1 0.500000 0.500000
+	robot-at-x14y1 robot-at-x14y1 0.500000 0.500000
+	robot-at-x15y1 robot-at-x16y1 0.500000 0.500000
+	robot-at-x15y1 robot-at-x15y1 0.500000 0.500000
+	robot-at-x16y1 robot-at-x17y1 0.500000 0.500000
+	robot-at-x16y1 robot-at-x16y1 0.500000 0.500000
+	robot-at-x17y1 robot-at-x18y1 0.500000 0.500000
+	robot-at-x17y1 robot-at-x17y1 0.500000 0.500000
+	robot-at-x18y1 robot-at-x19y1 0.500000 0.500000
+	robot-at-x18y1 robot-at-x18y1 0.500000 0.500000
+	robot-at-x19y1 robot-at-x20y1 0.500000 0.500000
+	robot-at-x19y1 robot-at-x19y1 0.500000 0.500000
+	robot-at-x20y1 robot-at-x20y1 1.000000 1.000000
+	robot-at-x1y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x1y2 robot-at-x1y2 0.500000 0.500000
+	robot-at-x2y2 robot-at-x3y2 0.500000 0.500000
+	robot-at-x2y2 robot-at-x2y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x4y2 0.500000 0.500000
+	robot-at-x3y2 robot-at-x3y2 0.500000 0.500000
+	robot-at-x4y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x4y2 robot-at-x4y2 0.500000 0.500000
+	robot-at-x5y2 robot-at-x6y2 0.500000 0.500000
+	robot-at-x5y2 robot-at-x5y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x6y2 robot-at-x6y2 0.500000 0.500000
+	robot-at-x7y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x7y2 robot-at-x7y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x9y2 0.500000 0.500000
+	robot-at-x8y2 robot-at-x8y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x10y2 0.500000 0.500000
+	robot-at-x9y2 robot-at-x9y2 0.500000 0.500000
+	robot-at-x10y2 robot-at-x10y2 1.000000 1.000000
+	robot-at-x12y2 robot-at-x12y2 1.000000 1.000000
+	robot-at-x14y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x14y2 robot-at-x14y2 0.500000 0.500000
+	robot-at-x15y2 robot-at-x16y2 0.500000 0.500000
+	robot-at-x15y2 robot-at-x15y2 0.500000 0.500000
+	robot-at-x16y2 robot-at-x16y2 1.000000 1.000000
+	robot-at-x18y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x18y2 robot-at-x18y2 0.500000 0.500000
+	robot-at-x19y2 robot-at-x20y2 0.500000 0.500000
+	robot-at-x19y2 robot-at-x19y2 0.500000 0.500000
+	robot-at-x20y2 robot-at-x20y2 1.000000 1.000000
+	robot-at-x1y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x1y3 robot-at-x1y3 0.500000 0.500000
+	robot-at-x2y3 robot-at-x3y3 0.500000 0.500000
+	robot-at-x2y3 robot-at-x2y3 0.500000 0.500000
+	robot-at-x3y3 robot-at-x3y3 1.000000 1.000000
+	robot-at-x5y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x5y3 robot-at-x5y3 0.500000 0.500000
+	robot-at-x6y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x6y3 robot-at-x6y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x8y3 0.500000 0.500000
+	robot-at-x7y3 robot-at-x7y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x8y3 robot-at-x8y3 0.500000 0.500000
+	robot-at-x9y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x9y3 robot-at-x9y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x11y3 0.500000 0.500000
+	robot-at-x10y3 robot-at-x10y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x12y3 0.500000 0.500000
+	robot-at-x11y3 robot-at-x11y3 0.500000 0.500000
+	robot-at-x12y3 robot-at-x13y3 0.500000 0.500000
+	robot-at-x12y3 robot-at-x12y3 0.500000 0.500000
+	robot-at-x13y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x13y3 robot-at-x13y3 0.500000 0.500000
+	robot-at-x14y3 robot-at-x15y3 0.500000 0.500000
+	robot-at-x14y3 robot-at-x14y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x15y3 robot-at-x15y3 0.500000 0.500000
+	robot-at-x16y3 robot-at-x17y3 0.500000 0.500000
+	robot-at-x16y3 robot-at-x16y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x17y3 robot-at-x17y3 0.500000 0.500000
+	robot-at-x18y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x18y3 robot-at-x18y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x20y3 0.500000 0.500000
+	robot-at-x19y3 robot-at-x19y3 0.500000 0.500000
+	robot-at-x20y3 robot-at-x20y3 1.000000 1.000000
+	robot-at-x1y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x1y4 robot-at-x1y4 0.500000 0.500000
+	robot-at-x2y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x2y4 robot-at-x2y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x4y4 0.500000 0.500000
+	robot-at-x3y4 robot-at-x3y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x4y4 robot-at-x4y4 0.500000 0.500000
+	robot-at-x5y4 robot-at-x6y4 0.500000 0.500000
+	robot-at-x5y4 robot-at-x5y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x7y4 0.500000 0.500000
+	robot-at-x6y4 robot-at-x6y4 0.500000 0.500000
+	robot-at-x7y4 robot-at-x7y4 1.000000 1.000000
+	robot-at-x9y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x9y4 robot-at-x9y4 0.500000 0.500000
+	robot-at-x10y4 robot-at-x11y4 0.500000 0.500000
+	robot-at-x10y4 robot-at-x10y4 0.500000 0.500000
+	robot-at-x11y4 robot-at-x11y4 1.000000 1.000000
+	robot-at-x13y4 robot-at-x14y4 0.500000 0.500000
+	robot-at-x13y4 robot-at-x13y4 0.500000 0.500000
+	robot-at-x14y4 robot-at-x14y4 1.000000 1.000000
+	robot-at-x16y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x16y4 robot-at-x16y4 0.500000 0.500000
+	robot-at-x17y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x17y4 robot-at-x17y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x18y4 robot-at-x18y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x20y4 0.500000 0.500000
+	robot-at-x19y4 robot-at-x19y4 0.500000 0.500000
+	robot-at-x20y4 robot-at-x20y4 1.000000 1.000000
+	robot-at-x1y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x1y5 robot-at-x1y5 0.500000 0.500000
+	robot-at-x2y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x2y5 robot-at-x2y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x3y5 robot-at-x3y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x5y5 0.500000 0.500000
+	robot-at-x4y5 robot-at-x4y5 0.500000 0.500000
+	robot-at-x5y5 robot-at-x5y5 1.000000 1.000000
+	robot-at-x7y5 robot-at-x8y5 0.500000 0.500000
+	robot-at-x7y5 robot-at-x7y5 0.500000 0.500000
+	robot-at-x8y5 robot-at-x9y5 0.500000 0.500000
+	robot-at-x8y5 robot-at-x8y5 0.500000 0.500000
+	robot-at-x9y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x9y5 robot-at-x9y5 0.500000 0.500000
+	robot-at-x10y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x10y5 robot-at-x10y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x12y5 0.500000 0.500000
+	robot-at-x11y5 robot-at-x11y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x12y5 robot-at-x12y5 0.500000 0.500000
+	robot-at-x13y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x13y5 robot-at-x13y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x15y5 0.500000 0.500000
+	robot-at-x14y5 robot-at-x14y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x15y5 robot-at-x15y5 0.500000 0.500000
+	robot-at-x16y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x16y5 robot-at-x16y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x17y5 robot-at-x17y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x18y5 robot-at-x18y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x20y5 0.500000 0.500000
+	robot-at-x19y5 robot-at-x19y5 0.500000 0.500000
+	robot-at-x20y5 robot-at-x20y5 1.000000 1.000000
+	robot-at-x1y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x1y6 robot-at-x1y6 0.500000 0.500000
+	robot-at-x2y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x2y6 robot-at-x2y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x3y6 robot-at-x3y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x4y6 robot-at-x4y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x6y6 0.500000 0.500000
+	robot-at-x5y6 robot-at-x5y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x6y6 robot-at-x6y6 0.500000 0.500000
+	robot-at-x7y6 robot-at-x8y6 0.500000 0.500000
+	robot-at-x7y6 robot-at-x7y6 0.500000 0.500000
+	robot-at-x8y6 robot-at-x8y6 1.000000 1.000000
+	robot-at-x10y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x10y6 robot-at-x10y6 0.500000 0.500000
+	robot-at-x11y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x11y6 robot-at-x11y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x12y6 robot-at-x12y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x13y6 robot-at-x13y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x14y6 robot-at-x14y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x15y6 robot-at-x15y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x16y6 robot-at-x16y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x17y6 robot-at-x17y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x18y6 robot-at-x18y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x20y6 0.500000 0.500000
+	robot-at-x19y6 robot-at-x19y6 0.500000 0.500000
+	robot-at-x20y6 robot-at-x20y6 1.000000 1.000000
+	robot-at-x1y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x1y7 robot-at-x1y7 0.500000 0.500000
+	robot-at-x2y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x2y7 robot-at-x2y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x3y7 robot-at-x3y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x5y7 0.500000 0.500000
+	robot-at-x4y7 robot-at-x4y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x5y7 robot-at-x5y7 0.500000 0.500000
+	robot-at-x6y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x6y7 robot-at-x6y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x7y7 robot-at-x7y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x9y7 0.500000 0.500000
+	robot-at-x8y7 robot-at-x8y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x9y7 robot-at-x9y7 0.500000 0.500000
+	robot-at-x10y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x10y7 robot-at-x10y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x11y7 robot-at-x11y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x13y7 0.500000 0.500000
+	robot-at-x12y7 robot-at-x12y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x13y7 robot-at-x13y7 0.500000 0.500000
+	robot-at-x14y7 robot-at-x15y7 0.500000 0.500000
+	robot-at-x14y7 robot-at-x14y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x15y7 robot-at-x15y7 0.500000 0.500000
+	robot-at-x16y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x16y7 robot-at-x16y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x17y7 robot-at-x17y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x18y7 robot-at-x18y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x20y7 0.500000 0.500000
+	robot-at-x19y7 robot-at-x19y7 0.500000 0.500000
+	robot-at-x20y7 robot-at-x20y7 1.000000 1.000000
+	robot-at-x1y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x1y8 robot-at-x1y8 0.500000 0.500000
+	robot-at-x2y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x2y8 robot-at-x2y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x4y8 0.500000 0.500000
+	robot-at-x3y8 robot-at-x3y8 0.500000 0.500000
+	robot-at-x4y8 robot-at-x4y8 1.000000 1.000000
+	robot-at-x6y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x6y8 robot-at-x6y8 0.500000 0.500000
+	robot-at-x7y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x7y8 robot-at-x7y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x8y8 robot-at-x8y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x9y8 robot-at-x9y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x11y8 0.500000 0.500000
+	robot-at-x10y8 robot-at-x10y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x12y8 0.500000 0.500000
+	robot-at-x11y8 robot-at-x11y8 0.500000 0.500000
+	robot-at-x12y8 robot-at-x12y8 1.000000 1.000000
+	robot-at-x14y8 robot-at-x14y8 1.000000 1.000000
+	robot-at-x16y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x16y8 robot-at-x16y8 0.500000 0.500000
+	robot-at-x17y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x17y8 robot-at-x17y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x18y8 robot-at-x18y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x20y8 0.500000 0.500000
+	robot-at-x19y8 robot-at-x19y8 0.500000 0.500000
+	robot-at-x20y8 robot-at-x20y8 1.000000 1.000000
+	robot-at-x1y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x1y9 robot-at-x1y9 0.500000 0.500000
+	robot-at-x2y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x2y9 robot-at-x2y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x3y9 robot-at-x3y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x5y9 0.500000 0.500000
+	robot-at-x4y9 robot-at-x4y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x5y9 robot-at-x5y9 0.500000 0.500000
+	robot-at-x6y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x6y9 robot-at-x6y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x7y9 robot-at-x7y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x8y9 robot-at-x8y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x10y9 0.500000 0.500000
+	robot-at-x9y9 robot-at-x9y9 0.500000 0.500000
+	robot-at-x10y9 robot-at-x10y9 1.000000 1.000000
+	robot-at-x12y9 robot-at-x13y9 0.500000 0.500000
+	robot-at-x12y9 robot-at-x12y9 0.500000 0.500000
+	robot-at-x13y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x13y9 robot-at-x13y9 0.500000 0.500000
+	robot-at-x14y9 robot-at-x15y9 0.500000 0.500000
+	robot-at-x14y9 robot-at-x14y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x16y9 0.500000 0.500000
+	robot-at-x15y9 robot-at-x15y9 0.500000 0.500000
+	robot-at-x16y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x16y9 robot-at-x16y9 0.500000 0.500000
+	robot-at-x17y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x17y9 robot-at-x17y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x19y9 0.500000 0.500000
+	robot-at-x18y9 robot-at-x18y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x20y9 0.500000 0.500000
+	robot-at-x19y9 robot-at-x19y9 0.500000 0.500000
+	robot-at-x20y9 robot-at-x20y9 1.000000 1.000000
+	robot-at-x2y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x2y10 robot-at-x2y10 0.500000 0.500000
+	robot-at-x3y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x3y10 robot-at-x3y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x4y10 robot-at-x4y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x5y10 robot-at-x5y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x6y10 robot-at-x6y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x7y10 robot-at-x7y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x8y10 robot-at-x8y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x9y10 robot-at-x9y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x11y10 0.500000 0.500000
+	robot-at-x10y10 robot-at-x10y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x11y10 robot-at-x11y10 0.500000 0.500000
+	robot-at-x12y10 robot-at-x13y10 0.500000 0.500000
+	robot-at-x12y10 robot-at-x12y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x13y10 robot-at-x13y10 0.500000 0.500000
+	robot-at-x14y10 robot-at-x15y10 0.500000 0.500000
+	robot-at-x14y10 robot-at-x14y10 0.500000 0.500000
+	robot-at-x15y10 robot-at-x15y10 1.000000 1.000000
+	robot-at-x17y10 robot-at-x18y10 0.500000 0.500000
+	robot-at-x17y10 robot-at-x17y10 0.500000 0.500000
+	robot-at-x18y10 robot-at-x18y10 1.000000 1.000000
+	robot-at-x20y10 robot-at-x20y10 1.000000 1.000000
+	robot-at-x1y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x1y11 robot-at-x1y11 0.500000 0.500000
+	robot-at-x2y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x2y11 robot-at-x2y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x3y11 robot-at-x3y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x4y11 robot-at-x4y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x5y11 robot-at-x5y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x6y11 robot-at-x6y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x7y11 robot-at-x7y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x8y11 robot-at-x8y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x9y11 robot-at-x9y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x11y11 0.500000 0.500000
+	robot-at-x10y11 robot-at-x10y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x12y11 0.500000 0.500000
+	robot-at-x11y11 robot-at-x11y11 0.500000 0.500000
+	robot-at-x12y11 robot-at-x12y11 1.000000 1.000000
+	robot-at-x14y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x14y11 robot-at-x14y11 0.500000 0.500000
+	robot-at-x15y11 robot-at-x16y11 0.500000 0.500000
+	robot-at-x15y11 robot-at-x15y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x16y11 robot-at-x16y11 0.500000 0.500000
+	robot-at-x17y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x17y11 robot-at-x17y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x19y11 0.500000 0.500000
+	robot-at-x18y11 robot-at-x18y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x20y11 0.500000 0.500000
+	robot-at-x19y11 robot-at-x19y11 0.500000 0.500000
+	robot-at-x20y11 robot-at-x20y11 1.000000 1.000000
+	robot-at-x1y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x1y12 robot-at-x1y12 0.500000 0.500000
+	robot-at-x2y12 robot-at-x3y12 0.500000 0.500000
+	robot-at-x2y12 robot-at-x2y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x3y12 robot-at-x3y12 0.500000 0.500000
+	robot-at-x4y12 robot-at-x5y12 0.500000 0.500000
+	robot-at-x4y12 robot-at-x4y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x5y12 robot-at-x5y12 0.500000 0.500000
+	robot-at-x6y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x6y12 robot-at-x6y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x7y12 robot-at-x7y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x9y12 0.500000 0.500000
+	robot-at-x8y12 robot-at-x8y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x10y12 0.500000 0.500000
+	robot-at-x9y12 robot-at-x9y12 0.500000 0.500000
+	robot-at-x10y12 robot-at-x10y12 1.000000 1.000000
+	robot-at-x12y12 robot-at-x13y12 0.500000 0.500000
+	robot-at-x12y12 robot-at-x12y12 0.500000 0.500000
+	robot-at-x13y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x13y12 robot-at-x13y12 0.500000 0.500000
+	robot-at-x14y12 robot-at-x15y12 0.500000 0.500000
+	robot-at-x14y12 robot-at-x14y12 0.500000 0.500000
+	robot-at-x15y12 robot-at-x15y12 1.000000 1.000000
+	robot-at-x17y12 robot-at-x18y12 0.500000 0.500000
+	robot-at-x17y12 robot-at-x17y12 0.500000 0.500000
+	robot-at-x18y12 robot-at-x18y12 1.000000 1.000000
+	robot-at-x20y12 robot-at-x20y12 1.000000 1.000000
+	robot-at-x1y13 robot-at-x2y13 0.500000 0.500000
+	robot-at-x1y13 robot-at-x1y13 0.500000 0.500000
+	robot-at-x2y13 robot-at-x2y13 1.000000 1.000000
+	robot-at-x4y13 robot-at-x4y13 1.000000 1.000000
+	robot-at-x6y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x6y13 robot-at-x6y13 0.500000 0.500000
+	robot-at-x7y13 robot-at-x8y13 0.500000 0.500000
+	robot-at-x7y13 robot-at-x7y13 0.500000 0.500000
+	robot-at-x8y13 robot-at-x8y13 1.000000 1.000000
+	robot-at-x10y13 robot-at-x11y13 0.500000 0.500000
+	robot-at-x10y13 robot-at-x10y13 0.500000 0.500000
+	robot-at-x11y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x11y13 robot-at-x11y13 0.500000 0.500000
+	robot-at-x12y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x12y13 robot-at-x12y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x13y13 robot-at-x13y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x14y13 robot-at-x14y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x16y13 0.500000 0.500000
+	robot-at-x15y13 robot-at-x15y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x16y13 robot-at-x16y13 0.500000 0.500000
+	robot-at-x17y13 robot-at-x18y13 0.500000 0.500000
+	robot-at-x17y13 robot-at-x17y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x19y13 0.500000 0.500000
+	robot-at-x18y13 robot-at-x18y13 0.500000 0.500000
+	robot-at-x19y13 robot-at-x20y13 0.500000 0.500000
+	robot-at-x19y13 robot-at-x19y13 0.500000 0.500000
+	robot-at-x20y13 robot-at-x20y13 1.000000 1.000000
+	robot-at-x1y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x1y14 robot-at-x1y14 0.500000 0.500000
+	robot-at-x2y14 robot-at-x3y14 0.500000 0.500000
+	robot-at-x2y14 robot-at-x2y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x4y14 0.500000 0.500000
+	robot-at-x3y14 robot-at-x3y14 0.500000 0.500000
+	robot-at-x4y14 robot-at-x5y14 0.500000 0.500000
+	robot-at-x4y14 robot-at-x4y14 0.500000 0.500000
+	robot-at-x5y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x5y14 robot-at-x5y14 0.500000 0.500000
+	robot-at-x6y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x6y14 robot-at-x6y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x7y14 robot-at-x7y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x9y14 0.500000 0.500000
+	robot-at-x8y14 robot-at-x8y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x10y14 0.500000 0.500000
+	robot-at-x9y14 robot-at-x9y14 0.500000 0.500000
+	robot-at-x10y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x10y14 robot-at-x10y14 0.500000 0.500000
+	robot-at-x11y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x11y14 robot-at-x11y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x12y14 robot-at-x12y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x13y14 robot-at-x13y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x14y14 robot-at-x14y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x15y14 robot-at-x15y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x17y14 0.500000 0.500000
+	robot-at-x16y14 robot-at-x16y14 0.500000 0.500000
+	robot-at-x17y14 robot-at-x17y14 1.000000 1.000000
+	robot-at-x19y14 robot-at-x20y14 0.500000 0.500000
+	robot-at-x19y14 robot-at-x19y14 0.500000 0.500000
+	robot-at-x20y14 robot-at-x20y14 1.000000 1.000000
+	robot-at-x1y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x1y15 robot-at-x1y15 0.500000 0.500000
+	robot-at-x2y15 robot-at-x3y15 0.500000 0.500000
+	robot-at-x2y15 robot-at-x2y15 0.500000 0.500000
+	robot-at-x3y15 robot-at-x3y15 1.000000 1.000000
+	robot-at-x5y15 robot-at-x6y15 0.500000 0.500000
+	robot-at-x5y15 robot-at-x5y15 0.500000 0.500000
+	robot-at-x6y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x6y15 robot-at-x6y15 0.500000 0.500000
+	robot-at-x7y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x7y15 robot-at-x7y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x9y15 0.500000 0.500000
+	robot-at-x8y15 robot-at-x8y15 0.500000 0.500000
+	robot-at-x9y15 robot-at-x9y15 1.000000 1.000000
+	robot-at-x11y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x11y15 robot-at-x11y15 0.500000 0.500000
+	robot-at-x12y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x12y15 robot-at-x12y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x14y15 0.500000 0.500000
+	robot-at-x13y15 robot-at-x13y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x14y15 robot-at-x14y15 0.500000 0.500000
+	robot-at-x15y15 robot-at-x16y15 0.500000 0.500000
+	robot-at-x15y15 robot-at-x15y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x16y15 robot-at-x16y15 0.500000 0.500000
+	robot-at-x17y15 robot-at-x18y15 0.500000 0.500000
+	robot-at-x17y15 robot-at-x17y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x18y15 robot-at-x18y15 0.500000 0.500000
+	robot-at-x19y15 robot-at-x20y15 0.500000 0.500000
+	robot-at-x19y15 robot-at-x19y15 0.500000 0.500000
+	robot-at-x20y15 robot-at-x20y15 1.000000 1.000000
+	robot-at-x1y16 robot-at-x2y16 0.500000 0.500000
+	robot-at-x1y16 robot-at-x1y16 0.500000 0.500000
+	robot-at-x2y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x2y16 robot-at-x2y16 0.500000 0.500000
+	robot-at-x3y16 robot-at-x4y16 0.500000 0.500000
+	robot-at-x3y16 robot-at-x3y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x5y16 0.500000 0.500000
+	robot-at-x4y16 robot-at-x4y16 0.500000 0.500000
+	robot-at-x5y16 robot-at-x5y16 1.000000 1.000000
+	robot-at-x7y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x7y16 robot-at-x7y16 0.500000 0.500000
+	robot-at-x8y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x8y16 robot-at-x8y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x10y16 0.500000 0.500000
+	robot-at-x9y16 robot-at-x9y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x10y16 robot-at-x10y16 0.500000 0.500000
+	robot-at-x11y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x11y16 robot-at-x11y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x13y16 0.500000 0.500000
+	robot-at-x12y16 robot-at-x12y16 0.500000 0.500000
+	robot-at-x13y16 robot-at-x13y16 1.000000 1.000000
+	robot-at-x15y16 robot-at-x15y16 1.000000 1.000000
+	robot-at-x17y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x17y16 robot-at-x17y16 0.500000 0.500000
+	robot-at-x18y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x18y16 robot-at-x18y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x20y16 0.500000 0.500000
+	robot-at-x19y16 robot-at-x19y16 0.500000 0.500000
+	robot-at-x20y16 robot-at-x20y16 1.000000 1.000000
+	robot-at-x1y17 robot-at-x1y17 1.000000 1.000000
+	robot-at-x3y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x3y17 robot-at-x3y17 0.500000 0.500000
+	robot-at-x4y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x4y17 robot-at-x4y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x6y17 0.500000 0.500000
+	robot-at-x5y17 robot-at-x5y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x6y17 robot-at-x6y17 0.500000 0.500000
+	robot-at-x7y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x7y17 robot-at-x7y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x9y17 0.500000 0.500000
+	robot-at-x8y17 robot-at-x8y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x9y17 robot-at-x9y17 0.500000 0.500000
+	robot-at-x10y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x10y17 robot-at-x10y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x11y17 robot-at-x11y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x12y17 robot-at-x12y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x14y17 0.500000 0.500000
+	robot-at-x13y17 robot-at-x13y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x14y17 robot-at-x14y17 0.500000 0.500000
+	robot-at-x15y17 robot-at-x16y17 0.500000 0.500000
+	robot-at-x15y17 robot-at-x15y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x17y17 0.500000 0.500000
+	robot-at-x16y17 robot-at-x16y17 0.500000 0.500000
+	robot-at-x17y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x17y17 robot-at-x17y17 0.500000 0.500000
+	robot-at-x18y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x18y17 robot-at-x18y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x20y17 0.500000 0.500000
+	robot-at-x19y17 robot-at-x19y17 0.500000 0.500000
+	robot-at-x20y17 robot-at-x20y17 1.000000 1.000000
+	robot-at-x1y18 robot-at-x2y18 0.500000 0.500000
+	robot-at-x1y18 robot-at-x1y18 0.500000 0.500000
+	robot-at-x2y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x2y18 robot-at-x2y18 0.500000 0.500000
+	robot-at-x3y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x3y18 robot-at-x3y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x4y18 robot-at-x4y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x6y18 0.500000 0.500000
+	robot-at-x5y18 robot-at-x5y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x6y18 robot-at-x6y18 0.500000 0.500000
+	robot-at-x7y18 robot-at-x8y18 0.500000 0.500000
+	robot-at-x7y18 robot-at-x7y18 0.500000 0.500000
+	robot-at-x8y18 robot-at-x8y18 1.000000 1.000000
+	robot-at-x10y18 robot-at-x11y18 0.500000 0.500000
+	robot-at-x10y18 robot-at-x10y18 0.500000 0.500000
+	robot-at-x11y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x11y18 robot-at-x11y18 0.500000 0.500000
+	robot-at-x12y18 robot-at-x13y18 0.500000 0.500000
+	robot-at-x12y18 robot-at-x12y18 0.500000 0.500000
+	robot-at-x13y18 robot-at-x13y18 1.000000 1.000000
+	robot-at-x15y18 robot-at-x16y18 0.500000 0.500000
+	robot-at-x15y18 robot-at-x15y18 0.500000 0.500000
+	robot-at-x16y18 robot-at-x16y18 1.000000 1.000000
+	robot-at-x18y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x18y18 robot-at-x18y18 0.500000 0.500000
+	robot-at-x19y18 robot-at-x20y18 0.500000 0.500000
+	robot-at-x19y18 robot-at-x19y18 0.500000 0.500000
+	robot-at-x20y18 robot-at-x20y18 1.000000 1.000000
+	robot-at-x1y19 robot-at-x1y19 1.000000 1.000000
+	robot-at-x3y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x3y19 robot-at-x3y19 0.500000 0.500000
+	robot-at-x4y19 robot-at-x5y19 0.500000 0.500000
+	robot-at-x4y19 robot-at-x4y19 0.500000 0.500000
+	robot-at-x5y19 robot-at-x5y19 1.000000 1.000000
+	robot-at-x7y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x7y19 robot-at-x7y19 0.500000 0.500000
+	robot-at-x8y19 robot-at-x9y19 0.500000 0.500000
+	robot-at-x8y19 robot-at-x8y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x10y19 0.500000 0.500000
+	robot-at-x9y19 robot-at-x9y19 0.500000 0.500000
+	robot-at-x10y19 robot-at-x10y19 1.000000 1.000000
+	robot-at-x12y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x12y19 robot-at-x12y19 0.500000 0.500000
+	robot-at-x13y19 robot-at-x14y19 0.500000 0.500000
+	robot-at-x13y19 robot-at-x13y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x14y19 robot-at-x14y19 0.500000 0.500000
+	robot-at-x15y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x15y19 robot-at-x15y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x17y19 0.500000 0.500000
+	robot-at-x16y19 robot-at-x16y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x17y19 robot-at-x17y19 0.500000 0.500000
+	robot-at-x18y19 robot-at-x19y19 0.500000 0.500000
+	robot-at-x18y19 robot-at-x18y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x20y19 0.500000 0.500000
+	robot-at-x19y19 robot-at-x19y19 0.500000 0.500000
+	robot-at-x20y19 robot-at-x20y19 1.000000 1.000000
+	robot-at-x1y20 robot-at-x2y20 0.500000 0.500000
+	robot-at-x1y20 robot-at-x1y20 0.500000 0.500000
+	robot-at-x2y20 robot-at-x3y20 0.500000 0.500000
+	robot-at-x2y20 robot-at-x2y20 0.500000 0.500000
+	robot-at-x3y20 robot-at-x4y20 0.500000 0.500000
+	robot-at-x3y20 robot-at-x3y20 0.500000 0.500000
+	robot-at-x4y20 robot-at-x5y20 0.500000 0.500000
+	robot-at-x4y20 robot-at-x4y20 0.500000 0.500000
+	robot-at-x5y20 robot-at-x6y20 0.500000 0.500000
+	robot-at-x5y20 robot-at-x5y20 0.500000 0.500000
+	robot-at-x6y20 robot-at-x7y20 0.500000 0.500000
+	robot-at-x6y20 robot-at-x6y20 0.500000 0.500000
+	robot-at-x7y20 robot-at-x8y20 0.500000 0.500000
+	robot-at-x7y20 robot-at-x7y20 0.500000 0.500000
+	robot-at-x8y20 robot-at-x9y20 0.500000 0.500000
+	robot-at-x8y20 robot-at-x8y20 0.500000 0.500000
+	robot-at-x9y20 robot-at-x10y20 0.500000 0.500000
+	robot-at-x9y20 robot-at-x9y20 0.500000 0.500000
+	robot-at-x10y20 robot-at-x11y20 0.500000 0.500000
+	robot-at-x10y20 robot-at-x10y20 0.500000 0.500000
+	robot-at-x11y20 robot-at-x12y20 0.500000 0.500000
+	robot-at-x11y20 robot-at-x11y20 0.500000 0.500000
+	robot-at-x12y20 robot-at-x13y20 0.500000 0.500000
+	robot-at-x12y20 robot-at-x12y20 0.500000 0.500000
+	robot-at-x13y20 robot-at-x14y20 0.500000 0.500000
+	robot-at-x13y20 robot-at-x13y20 0.500000 0.500000
+	robot-at-x14y20 robot-at-x15y20 0.500000 0.500000
+	robot-at-x14y20 robot-at-x14y20 0.500000 0.500000
+	robot-at-x15y20 robot-at-x16y20 0.500000 0.500000
+	robot-at-x15y20 robot-at-x15y20 0.500000 0.500000
+	robot-at-x16y20 robot-at-x17y20 0.500000 0.500000
+	robot-at-x16y20 robot-at-x16y20 0.500000 0.500000
+	robot-at-x17y20 robot-at-x18y20 0.500000 0.500000
+	robot-at-x17y20 robot-at-x17y20 0.500000 0.500000
+	robot-at-x18y20 robot-at-x18y20 1.000000 1.000000
+	robot-at-x20y20 robot-at-x20y20 1.000000 1.000000
+endaction
+
+cost
+	robot-at-x1y1 move-south 1.000000
+	robot-at-x1y1 move-north 1.000000
+	robot-at-x1y1 move-west 1.000000
+	robot-at-x1y1 move-east 1.000000
+	robot-at-x2y1 move-south 1.000000
+	robot-at-x2y1 move-north 1.000000
+	robot-at-x2y1 move-west 1.000000
+	robot-at-x2y1 move-east 1.000000
+	robot-at-x4y1 move-south 1.000000
+	robot-at-x4y1 move-north 1.000000
+	robot-at-x4y1 move-west 1.000000
+	robot-at-x4y1 move-east 1.000000
+	robot-at-x5y1 move-south 1.000000
+	robot-at-x5y1 move-north 1.000000
+	robot-at-x5y1 move-west 1.000000
+	robot-at-x5y1 move-east 1.000000
+	robot-at-x7y1 move-south 1.000000
+	robot-at-x7y1 move-north 1.000000
+	robot-at-x7y1 move-west 1.000000
+	robot-at-x7y1 move-east 1.000000
+	robot-at-x8y1 move-south 1.000000
+	robot-at-x8y1 move-north 1.000000
+	robot-at-x8y1 move-west 1.000000
+	robot-at-x8y1 move-east 1.000000
+	robot-at-x10y1 move-south 1.000000
+	robot-at-x10y1 move-north 1.000000
+	robot-at-x10y1 move-west 1.000000
+	robot-at-x10y1 move-east 1.000000
+	robot-at-x11y1 move-south 1.000000
+	robot-at-x11y1 move-north 1.000000
+	robot-at-x11y1 move-west 1.000000
+	robot-at-x11y1 move-east 1.000000
+	robot-at-x12y1 move-south 1.000000
+	robot-at-x12y1 move-north 1.000000
+	robot-at-x12y1 move-west 1.000000
+	robot-at-x12y1 move-east 1.000000
+	robot-at-x13y1 move-south 1.000000
+	robot-at-x13y1 move-north 1.000000
+	robot-at-x13y1 move-west 1.000000
+	robot-at-x13y1 move-east 1.000000
+	robot-at-x14y1 move-south 1.000000
+	robot-at-x14y1 move-north 1.000000
+	robot-at-x14y1 move-west 1.000000
+	robot-at-x14y1 move-east 1.000000
+	robot-at-x15y1 move-south 1.000000
+	robot-at-x15y1 move-north 1.000000
+	robot-at-x15y1 move-west 1.000000
+	robot-at-x15y1 move-east 1.000000
+	robot-at-x16y1 move-south 1.000000
+	robot-at-x16y1 move-north 1.000000
+	robot-at-x16y1 move-west 1.000000
+	robot-at-x16y1 move-east 1.000000
+	robot-at-x17y1 move-south 1.000000
+	robot-at-x17y1 move-north 1.000000
+	robot-at-x17y1 move-west 1.000000
+	robot-at-x17y1 move-east 1.000000
+	robot-at-x18y1 move-south 1.000000
+	robot-at-x18y1 move-north 1.000000
+	robot-at-x18y1 move-west 1.000000
+	robot-at-x18y1 move-east 1.000000
+	robot-at-x19y1 move-south 1.000000
+	robot-at-x19y1 move-north 1.000000
+	robot-at-x19y1 move-west 1.000000
+	robot-at-x19y1 move-east 1.000000
+	robot-at-x20y1 move-south 1.000000
+	robot-at-x20y1 move-north 1.000000
+	robot-at-x20y1 move-west 1.000000
+	robot-at-x20y1 move-east 1.000000
+	robot-at-x1y2 move-south 1.000000
+	robot-at-x1y2 move-north 1.000000
+	robot-at-x1y2 move-west 1.000000
+	robot-at-x1y2 move-east 1.000000
+	robot-at-x2y2 move-south 1.000000
+	robot-at-x2y2 move-north 1.000000
+	robot-at-x2y2 move-west 1.000000
+	robot-at-x2y2 move-east 1.000000
+	robot-at-x3y2 move-south 1.000000
+	robot-at-x3y2 move-north 1.000000
+	robot-at-x3y2 move-west 1.000000
+	robot-at-x3y2 move-east 1.000000
+	robot-at-x4y2 move-south 1.000000
+	robot-at-x4y2 move-north 1.000000
+	robot-at-x4y2 move-west 1.000000
+	robot-at-x4y2 move-east 1.000000
+	robot-at-x5y2 move-south 1.000000
+	robot-at-x5y2 move-north 1.000000
+	robot-at-x5y2 move-west 1.000000
+	robot-at-x5y2 move-east 1.000000
+	robot-at-x6y2 move-south 1.000000
+	robot-at-x6y2 move-north 1.000000
+	robot-at-x6y2 move-west 1.000000
+	robot-at-x6y2 move-east 1.000000
+	robot-at-x7y2 move-south 1.000000
+	robot-at-x7y2 move-north 1.000000
+	robot-at-x7y2 move-west 1.000000
+	robot-at-x7y2 move-east 1.000000
+	robot-at-x8y2 move-south 1.000000
+	robot-at-x8y2 move-north 1.000000
+	robot-at-x8y2 move-west 1.000000
+	robot-at-x8y2 move-east 1.000000
+	robot-at-x9y2 move-south 1.000000
+	robot-at-x9y2 move-north 1.000000
+	robot-at-x9y2 move-west 1.000000
+	robot-at-x9y2 move-east 1.000000
+	robot-at-x10y2 move-south 1.000000
+	robot-at-x10y2 move-north 1.000000
+	robot-at-x10y2 move-west 1.000000
+	robot-at-x10y2 move-east 1.000000
+	robot-at-x12y2 move-south 1.000000
+	robot-at-x12y2 move-north 1.000000
+	robot-at-x12y2 move-west 1.000000
+	robot-at-x12y2 move-east 1.000000
+	robot-at-x14y2 move-south 1.000000
+	robot-at-x14y2 move-north 1.000000
+	robot-at-x14y2 move-west 1.000000
+	robot-at-x14y2 move-east 1.000000
+	robot-at-x15y2 move-south 1.000000
+	robot-at-x15y2 move-north 1.000000
+	robot-at-x15y2 move-west 1.000000
+	robot-at-x15y2 move-east 1.000000
+	robot-at-x16y2 move-south 1.000000
+	robot-at-x16y2 move-north 1.000000
+	robot-at-x16y2 move-west 1.000000
+	robot-at-x16y2 move-east 1.000000
+	robot-at-x18y2 move-south 1.000000
+	robot-at-x18y2 move-north 1.000000
+	robot-at-x18y2 move-west 1.000000
+	robot-at-x18y2 move-east 1.000000
+	robot-at-x19y2 move-south 1.000000
+	robot-at-x19y2 move-north 1.000000
+	robot-at-x19y2 move-west 1.000000
+	robot-at-x19y2 move-east 1.000000
+	robot-at-x20y2 move-south 1.000000
+	robot-at-x20y2 move-north 1.000000
+	robot-at-x20y2 move-west 1.000000
+	robot-at-x20y2 move-east 1.000000
+	robot-at-x1y3 move-south 1.000000
+	robot-at-x1y3 move-north 1.000000
+	robot-at-x1y3 move-west 1.000000
+	robot-at-x1y3 move-east 1.000000
+	robot-at-x2y3 move-south 1.000000
+	robot-at-x2y3 move-north 1.000000
+	robot-at-x2y3 move-west 1.000000
+	robot-at-x2y3 move-east 1.000000
+	robot-at-x3y3 move-south 1.000000
+	robot-at-x3y3 move-north 1.000000
+	robot-at-x3y3 move-west 1.000000
+	robot-at-x3y3 move-east 1.000000
+	robot-at-x5y3 move-south 1.000000
+	robot-at-x5y3 move-north 1.000000
+	robot-at-x5y3 move-west 1.000000
+	robot-at-x5y3 move-east 1.000000
+	robot-at-x6y3 move-south 1.000000
+	robot-at-x6y3 move-north 1.000000
+	robot-at-x6y3 move-west 1.000000
+	robot-at-x6y3 move-east 1.000000
+	robot-at-x7y3 move-south 1.000000
+	robot-at-x7y3 move-north 1.000000
+	robot-at-x7y3 move-west 1.000000
+	robot-at-x7y3 move-east 1.000000
+	robot-at-x8y3 move-south 1.000000
+	robot-at-x8y3 move-north 1.000000
+	robot-at-x8y3 move-west 1.000000
+	robot-at-x8y3 move-east 1.000000
+	robot-at-x9y3 move-south 1.000000
+	robot-at-x9y3 move-north 1.000000
+	robot-at-x9y3 move-west 1.000000
+	robot-at-x9y3 move-east 1.000000
+	robot-at-x10y3 move-south 1.000000
+	robot-at-x10y3 move-north 1.000000
+	robot-at-x10y3 move-west 1.000000
+	robot-at-x10y3 move-east 1.000000
+	robot-at-x11y3 move-south 1.000000
+	robot-at-x11y3 move-north 1.000000
+	robot-at-x11y3 move-west 1.000000
+	robot-at-x11y3 move-east 1.000000
+	robot-at-x12y3 move-south 1.000000
+	robot-at-x12y3 move-north 1.000000
+	robot-at-x12y3 move-west 1.000000
+	robot-at-x12y3 move-east 1.000000
+	robot-at-x13y3 move-south 1.000000
+	robot-at-x13y3 move-north 1.000000
+	robot-at-x13y3 move-west 1.000000
+	robot-at-x13y3 move-east 1.000000
+	robot-at-x14y3 move-south 1.000000
+	robot-at-x14y3 move-north 1.000000
+	robot-at-x14y3 move-west 1.000000
+	robot-at-x14y3 move-east 1.000000
+	robot-at-x15y3 move-south 1.000000
+	robot-at-x15y3 move-north 1.000000
+	robot-at-x15y3 move-west 1.000000
+	robot-at-x15y3 move-east 1.000000
+	robot-at-x16y3 move-south 1.000000
+	robot-at-x16y3 move-north 1.000000
+	robot-at-x16y3 move-west 1.000000
+	robot-at-x16y3 move-east 1.000000
+	robot-at-x17y3 move-south 1.000000
+	robot-at-x17y3 move-north 1.000000
+	robot-at-x17y3 move-west 1.000000
+	robot-at-x17y3 move-east 1.000000
+	robot-at-x18y3 move-south 1.000000
+	robot-at-x18y3 move-north 1.000000
+	robot-at-x18y3 move-west 1.000000
+	robot-at-x18y3 move-east 1.000000
+	robot-at-x19y3 move-south 1.000000
+	robot-at-x19y3 move-north 1.000000
+	robot-at-x19y3 move-west 1.000000
+	robot-at-x19y3 move-east 1.000000
+	robot-at-x20y3 move-south 1.000000
+	robot-at-x20y3 move-north 1.000000
+	robot-at-x20y3 move-west 1.000000
+	robot-at-x20y3 move-east 1.000000
+	robot-at-x1y4 move-south 1.000000
+	robot-at-x1y4 move-north 1.000000
+	robot-at-x1y4 move-west 1.000000
+	robot-at-x1y4 move-east 1.000000
+	robot-at-x2y4 move-south 1.000000
+	robot-at-x2y4 move-north 1.000000
+	robot-at-x2y4 move-west 1.000000
+	robot-at-x2y4 move-east 1.000000
+	robot-at-x3y4 move-south 1.000000
+	robot-at-x3y4 move-north 1.000000
+	robot-at-x3y4 move-west 1.000000
+	robot-at-x3y4 move-east 1.000000
+	robot-at-x4y4 move-south 1.000000
+	robot-at-x4y4 move-north 1.000000
+	robot-at-x4y4 move-west 1.000000
+	robot-at-x4y4 move-east 1.000000
+	robot-at-x5y4 move-south 1.000000
+	robot-at-x5y4 move-north 1.000000
+	robot-at-x5y4 move-west 1.000000
+	robot-at-x5y4 move-east 1.000000
+	robot-at-x6y4 move-south 1.000000
+	robot-at-x6y4 move-north 1.000000
+	robot-at-x6y4 move-west 1.000000
+	robot-at-x6y4 move-east 1.000000
+	robot-at-x7y4 move-south 1.000000
+	robot-at-x7y4 move-north 1.000000
+	robot-at-x7y4 move-west 1.000000
+	robot-at-x7y4 move-east 1.000000
+	robot-at-x9y4 move-south 1.000000
+	robot-at-x9y4 move-north 1.000000
+	robot-at-x9y4 move-west 1.000000
+	robot-at-x9y4 move-east 1.000000
+	robot-at-x10y4 move-south 1.000000
+	robot-at-x10y4 move-north 1.000000
+	robot-at-x10y4 move-west 1.000000
+	robot-at-x10y4 move-east 1.000000
+	robot-at-x11y4 move-south 1.000000
+	robot-at-x11y4 move-north 1.000000
+	robot-at-x11y4 move-west 1.000000
+	robot-at-x11y4 move-east 1.000000
+	robot-at-x13y4 move-south 1.000000
+	robot-at-x13y4 move-north 1.000000
+	robot-at-x13y4 move-west 1.000000
+	robot-at-x13y4 move-east 1.000000
+	robot-at-x14y4 move-south 1.000000
+	robot-at-x14y4 move-north 1.000000
+	robot-at-x14y4 move-west 1.000000
+	robot-at-x14y4 move-east 1.000000
+	robot-at-x16y4 move-south 1.000000
+	robot-at-x16y4 move-north 1.000000
+	robot-at-x16y4 move-west 1.000000
+	robot-at-x16y4 move-east 1.000000
+	robot-at-x17y4 move-south 1.000000
+	robot-at-x17y4 move-north 1.000000
+	robot-at-x17y4 move-west 1.000000
+	robot-at-x17y4 move-east 1.000000
+	robot-at-x18y4 move-south 1.000000
+	robot-at-x18y4 move-north 1.000000
+	robot-at-x18y4 move-west 1.000000
+	robot-at-x18y4 move-east 1.000000
+	robot-at-x19y4 move-south 1.000000
+	robot-at-x19y4 move-north 1.000000
+	robot-at-x19y4 move-west 1.000000
+	robot-at-x19y4 move-east 1.000000
+	robot-at-x20y4 move-south 1.000000
+	robot-at-x20y4 move-north 1.000000
+	robot-at-x20y4 move-west 1.000000
+	robot-at-x20y4 move-east 1.000000
+	robot-at-x1y5 move-south 1.000000
+	robot-at-x1y5 move-north 1.000000
+	robot-at-x1y5 move-west 1.000000
+	robot-at-x1y5 move-east 1.000000
+	robot-at-x2y5 move-south 1.000000
+	robot-at-x2y5 move-north 1.000000
+	robot-at-x2y5 move-west 1.000000
+	robot-at-x2y5 move-east 1.000000
+	robot-at-x3y5 move-south 1.000000
+	robot-at-x3y5 move-north 1.000000
+	robot-at-x3y5 move-west 1.000000
+	robot-at-x3y5 move-east 1.000000
+	robot-at-x4y5 move-south 1.000000
+	robot-at-x4y5 move-north 1.000000
+	robot-at-x4y5 move-west 1.000000
+	robot-at-x4y5 move-east 1.000000
+	robot-at-x5y5 move-south 1.000000
+	robot-at-x5y5 move-north 1.000000
+	robot-at-x5y5 move-west 1.000000
+	robot-at-x5y5 move-east 1.000000
+	robot-at-x7y5 move-south 1.000000
+	robot-at-x7y5 move-north 1.000000
+	robot-at-x7y5 move-west 1.000000
+	robot-at-x7y5 move-east 1.000000
+	robot-at-x8y5 move-south 1.000000
+	robot-at-x8y5 move-north 1.000000
+	robot-at-x8y5 move-west 1.000000
+	robot-at-x8y5 move-east 1.000000
+	robot-at-x9y5 move-south 1.000000
+	robot-at-x9y5 move-north 1.000000
+	robot-at-x9y5 move-west 1.000000
+	robot-at-x9y5 move-east 1.000000
+	robot-at-x10y5 move-south 1.000000
+	robot-at-x10y5 move-north 1.000000
+	robot-at-x10y5 move-west 1.000000
+	robot-at-x10y5 move-east 1.000000
+	robot-at-x11y5 move-south 1.000000
+	robot-at-x11y5 move-north 1.000000
+	robot-at-x11y5 move-west 1.000000
+	robot-at-x11y5 move-east 1.000000
+	robot-at-x12y5 move-south 1.000000
+	robot-at-x12y5 move-north 1.000000
+	robot-at-x12y5 move-west 1.000000
+	robot-at-x12y5 move-east 1.000000
+	robot-at-x13y5 move-south 1.000000
+	robot-at-x13y5 move-north 1.000000
+	robot-at-x13y5 move-west 1.000000
+	robot-at-x13y5 move-east 1.000000
+	robot-at-x14y5 move-south 1.000000
+	robot-at-x14y5 move-north 1.000000
+	robot-at-x14y5 move-west 1.000000
+	robot-at-x14y5 move-east 1.000000
+	robot-at-x15y5 move-south 1.000000
+	robot-at-x15y5 move-north 1.000000
+	robot-at-x15y5 move-west 1.000000
+	robot-at-x15y5 move-east 1.000000
+	robot-at-x16y5 move-south 1.000000
+	robot-at-x16y5 move-north 1.000000
+	robot-at-x16y5 move-west 1.000000
+	robot-at-x16y5 move-east 1.000000
+	robot-at-x17y5 move-south 1.000000
+	robot-at-x17y5 move-north 1.000000
+	robot-at-x17y5 move-west 1.000000
+	robot-at-x17y5 move-east 1.000000
+	robot-at-x18y5 move-south 1.000000
+	robot-at-x18y5 move-north 1.000000
+	robot-at-x18y5 move-west 1.000000
+	robot-at-x18y5 move-east 1.000000
+	robot-at-x19y5 move-south 1.000000
+	robot-at-x19y5 move-north 1.000000
+	robot-at-x19y5 move-west 1.000000
+	robot-at-x19y5 move-east 1.000000
+	robot-at-x20y5 move-south 1.000000
+	robot-at-x20y5 move-north 1.000000
+	robot-at-x20y5 move-west 1.000000
+	robot-at-x20y5 move-east 1.000000
+	robot-at-x1y6 move-south 1.000000
+	robot-at-x1y6 move-north 1.000000
+	robot-at-x1y6 move-west 1.000000
+	robot-at-x1y6 move-east 1.000000
+	robot-at-x2y6 move-south 1.000000
+	robot-at-x2y6 move-north 1.000000
+	robot-at-x2y6 move-west 1.000000
+	robot-at-x2y6 move-east 1.000000
+	robot-at-x3y6 move-south 1.000000
+	robot-at-x3y6 move-north 1.000000
+	robot-at-x3y6 move-west 1.000000
+	robot-at-x3y6 move-east 1.000000
+	robot-at-x4y6 move-south 1.000000
+	robot-at-x4y6 move-north 1.000000
+	robot-at-x4y6 move-west 1.000000
+	robot-at-x4y6 move-east 1.000000
+	robot-at-x5y6 move-south 1.000000
+	robot-at-x5y6 move-north 1.000000
+	robot-at-x5y6 move-west 1.000000
+	robot-at-x5y6 move-east 1.000000
+	robot-at-x6y6 move-south 1.000000
+	robot-at-x6y6 move-north 1.000000
+	robot-at-x6y6 move-west 1.000000
+	robot-at-x6y6 move-east 1.000000
+	robot-at-x7y6 move-south 1.000000
+	robot-at-x7y6 move-north 1.000000
+	robot-at-x7y6 move-west 1.000000
+	robot-at-x7y6 move-east 1.000000
+	robot-at-x8y6 move-south 1.000000
+	robot-at-x8y6 move-north 1.000000
+	robot-at-x8y6 move-west 1.000000
+	robot-at-x8y6 move-east 1.000000
+	robot-at-x10y6 move-south 1.000000
+	robot-at-x10y6 move-north 1.000000
+	robot-at-x10y6 move-west 1.000000
+	robot-at-x10y6 move-east 1.000000
+	robot-at-x11y6 move-south 1.000000
+	robot-at-x11y6 move-north 1.000000
+	robot-at-x11y6 move-west 1.000000
+	robot-at-x11y6 move-east 1.000000
+	robot-at-x12y6 move-south 1.000000
+	robot-at-x12y6 move-north 1.000000
+	robot-at-x12y6 move-west 1.000000
+	robot-at-x12y6 move-east 1.000000
+	robot-at-x13y6 move-south 1.000000
+	robot-at-x13y6 move-north 1.000000
+	robot-at-x13y6 move-west 1.000000
+	robot-at-x13y6 move-east 1.000000
+	robot-at-x14y6 move-south 1.000000
+	robot-at-x14y6 move-north 1.000000
+	robot-at-x14y6 move-west 1.000000
+	robot-at-x14y6 move-east 1.000000
+	robot-at-x15y6 move-south 1.000000
+	robot-at-x15y6 move-north 1.000000
+	robot-at-x15y6 move-west 1.000000
+	robot-at-x15y6 move-east 1.000000
+	robot-at-x16y6 move-south 1.000000
+	robot-at-x16y6 move-north 1.000000
+	robot-at-x16y6 move-west 1.000000
+	robot-at-x16y6 move-east 1.000000
+	robot-at-x17y6 move-south 1.000000
+	robot-at-x17y6 move-north 1.000000
+	robot-at-x17y6 move-west 1.000000
+	robot-at-x17y6 move-east 1.000000
+	robot-at-x18y6 move-south 1.000000
+	robot-at-x18y6 move-north 1.000000
+	robot-at-x18y6 move-west 1.000000
+	robot-at-x18y6 move-east 1.000000
+	robot-at-x19y6 move-south 1.000000
+	robot-at-x19y6 move-north 1.000000
+	robot-at-x19y6 move-west 1.000000
+	robot-at-x19y6 move-east 1.000000
+	robot-at-x20y6 move-south 1.000000
+	robot-at-x20y6 move-north 1.000000
+	robot-at-x20y6 move-west 1.000000
+	robot-at-x20y6 move-east 1.000000
+	robot-at-x1y7 move-south 1.000000
+	robot-at-x1y7 move-north 1.000000
+	robot-at-x1y7 move-west 1.000000
+	robot-at-x1y7 move-east 1.000000
+	robot-at-x2y7 move-south 1.000000
+	robot-at-x2y7 move-north 1.000000
+	robot-at-x2y7 move-west 1.000000
+	robot-at-x2y7 move-east 1.000000
+	robot-at-x3y7 move-south 1.000000
+	robot-at-x3y7 move-north 1.000000
+	robot-at-x3y7 move-west 1.000000
+	robot-at-x3y7 move-east 1.000000
+	robot-at-x4y7 move-south 1.000000
+	robot-at-x4y7 move-north 1.000000
+	robot-at-x4y7 move-west 1.000000
+	robot-at-x4y7 move-east 1.000000
+	robot-at-x5y7 move-south 1.000000
+	robot-at-x5y7 move-north 1.000000
+	robot-at-x5y7 move-west 1.000000
+	robot-at-x5y7 move-east 1.000000
+	robot-at-x6y7 move-south 1.000000
+	robot-at-x6y7 move-north 1.000000
+	robot-at-x6y7 move-west 1.000000
+	robot-at-x6y7 move-east 1.000000
+	robot-at-x7y7 move-south 1.000000
+	robot-at-x7y7 move-north 1.000000
+	robot-at-x7y7 move-west 1.000000
+	robot-at-x7y7 move-east 1.000000
+	robot-at-x8y7 move-south 1.000000
+	robot-at-x8y7 move-north 1.000000
+	robot-at-x8y7 move-west 1.000000
+	robot-at-x8y7 move-east 1.000000
+	robot-at-x9y7 move-south 1.000000
+	robot-at-x9y7 move-north 1.000000
+	robot-at-x9y7 move-west 1.000000
+	robot-at-x9y7 move-east 1.000000
+	robot-at-x10y7 move-south 1.000000
+	robot-at-x10y7 move-north 1.000000
+	robot-at-x10y7 move-west 1.000000
+	robot-at-x10y7 move-east 1.000000
+	robot-at-x11y7 move-south 1.000000
+	robot-at-x11y7 move-north 1.000000
+	robot-at-x11y7 move-west 1.000000
+	robot-at-x11y7 move-east 1.000000
+	robot-at-x12y7 move-south 1.000000
+	robot-at-x12y7 move-north 1.000000
+	robot-at-x12y7 move-west 1.000000
+	robot-at-x12y7 move-east 1.000000
+	robot-at-x13y7 move-south 1.000000
+	robot-at-x13y7 move-north 1.000000
+	robot-at-x13y7 move-west 1.000000
+	robot-at-x13y7 move-east 1.000000
+	robot-at-x14y7 move-south 1.000000
+	robot-at-x14y7 move-north 1.000000
+	robot-at-x14y7 move-west 1.000000
+	robot-at-x14y7 move-east 1.000000
+	robot-at-x15y7 move-south 1.000000
+	robot-at-x15y7 move-north 1.000000
+	robot-at-x15y7 move-west 1.000000
+	robot-at-x15y7 move-east 1.000000
+	robot-at-x16y7 move-south 1.000000
+	robot-at-x16y7 move-north 1.000000
+	robot-at-x16y7 move-west 1.000000
+	robot-at-x16y7 move-east 1.000000
+	robot-at-x17y7 move-south 1.000000
+	robot-at-x17y7 move-north 1.000000
+	robot-at-x17y7 move-west 1.000000
+	robot-at-x17y7 move-east 1.000000
+	robot-at-x18y7 move-south 1.000000
+	robot-at-x18y7 move-north 1.000000
+	robot-at-x18y7 move-west 1.000000
+	robot-at-x18y7 move-east 1.000000
+	robot-at-x19y7 move-south 1.000000
+	robot-at-x19y7 move-north 1.000000
+	robot-at-x19y7 move-west 1.000000
+	robot-at-x19y7 move-east 1.000000
+	robot-at-x20y7 move-south 1.000000
+	robot-at-x20y7 move-north 1.000000
+	robot-at-x20y7 move-west 1.000000
+	robot-at-x20y7 move-east 1.000000
+	robot-at-x1y8 move-south 1.000000
+	robot-at-x1y8 move-north 1.000000
+	robot-at-x1y8 move-west 1.000000
+	robot-at-x1y8 move-east 1.000000
+	robot-at-x2y8 move-south 1.000000
+	robot-at-x2y8 move-north 1.000000
+	robot-at-x2y8 move-west 1.000000
+	robot-at-x2y8 move-east 1.000000
+	robot-at-x3y8 move-south 1.000000
+	robot-at-x3y8 move-north 1.000000
+	robot-at-x3y8 move-west 1.000000
+	robot-at-x3y8 move-east 1.000000
+	robot-at-x4y8 move-south 1.000000
+	robot-at-x4y8 move-north 1.000000
+	robot-at-x4y8 move-west 1.000000
+	robot-at-x4y8 move-east 1.000000
+	robot-at-x6y8 move-south 1.000000
+	robot-at-x6y8 move-north 1.000000
+	robot-at-x6y8 move-west 1.000000
+	robot-at-x6y8 move-east 1.000000
+	robot-at-x7y8 move-south 1.000000
+	robot-at-x7y8 move-north 1.000000
+	robot-at-x7y8 move-west 1.000000
+	robot-at-x7y8 move-east 1.000000
+	robot-at-x8y8 move-south 1.000000
+	robot-at-x8y8 move-north 1.000000
+	robot-at-x8y8 move-west 1.000000
+	robot-at-x8y8 move-east 1.000000
+	robot-at-x9y8 move-south 1.000000
+	robot-at-x9y8 move-north 1.000000
+	robot-at-x9y8 move-west 1.000000
+	robot-at-x9y8 move-east 1.000000
+	robot-at-x10y8 move-south 1.000000
+	robot-at-x10y8 move-north 1.000000
+	robot-at-x10y8 move-west 1.000000
+	robot-at-x10y8 move-east 1.000000
+	robot-at-x11y8 move-south 1.000000
+	robot-at-x11y8 move-north 1.000000
+	robot-at-x11y8 move-west 1.000000
+	robot-at-x11y8 move-east 1.000000
+	robot-at-x12y8 move-south 1.000000
+	robot-at-x12y8 move-north 1.000000
+	robot-at-x12y8 move-west 1.000000
+	robot-at-x12y8 move-east 1.000000
+	robot-at-x14y8 move-south 1.000000
+	robot-at-x14y8 move-north 1.000000
+	robot-at-x14y8 move-west 1.000000
+	robot-at-x14y8 move-east 1.000000
+	robot-at-x16y8 move-south 1.000000
+	robot-at-x16y8 move-north 1.000000
+	robot-at-x16y8 move-west 1.000000
+	robot-at-x16y8 move-east 1.000000
+	robot-at-x17y8 move-south 1.000000
+	robot-at-x17y8 move-north 1.000000
+	robot-at-x17y8 move-west 1.000000
+	robot-at-x17y8 move-east 1.000000
+	robot-at-x18y8 move-south 1.000000
+	robot-at-x18y8 move-north 1.000000
+	robot-at-x18y8 move-west 1.000000
+	robot-at-x18y8 move-east 1.000000
+	robot-at-x19y8 move-south 1.000000
+	robot-at-x19y8 move-north 1.000000
+	robot-at-x19y8 move-west 1.000000
+	robot-at-x19y8 move-east 1.000000
+	robot-at-x20y8 move-south 1.000000
+	robot-at-x20y8 move-north 1.000000
+	robot-at-x20y8 move-west 1.000000
+	robot-at-x20y8 move-east 1.000000
+	robot-at-x1y9 move-south 1.000000
+	robot-at-x1y9 move-north 1.000000
+	robot-at-x1y9 move-west 1.000000
+	robot-at-x1y9 move-east 1.000000
+	robot-at-x2y9 move-south 1.000000
+	robot-at-x2y9 move-north 1.000000
+	robot-at-x2y9 move-west 1.000000
+	robot-at-x2y9 move-east 1.000000
+	robot-at-x3y9 move-south 1.000000
+	robot-at-x3y9 move-north 1.000000
+	robot-at-x3y9 move-west 1.000000
+	robot-at-x3y9 move-east 1.000000
+	robot-at-x4y9 move-south 1.000000
+	robot-at-x4y9 move-north 1.000000
+	robot-at-x4y9 move-west 1.000000
+	robot-at-x4y9 move-east 1.000000
+	robot-at-x5y9 move-south 1.000000
+	robot-at-x5y9 move-north 1.000000
+	robot-at-x5y9 move-west 1.000000
+	robot-at-x5y9 move-east 1.000000
+	robot-at-x6y9 move-south 1.000000
+	robot-at-x6y9 move-north 1.000000
+	robot-at-x6y9 move-west 1.000000
+	robot-at-x6y9 move-east 1.000000
+	robot-at-x7y9 move-south 1.000000
+	robot-at-x7y9 move-north 1.000000
+	robot-at-x7y9 move-west 1.000000
+	robot-at-x7y9 move-east 1.000000
+	robot-at-x8y9 move-south 1.000000
+	robot-at-x8y9 move-north 1.000000
+	robot-at-x8y9 move-west 1.000000
+	robot-at-x8y9 move-east 1.000000
+	robot-at-x9y9 move-south 1.000000
+	robot-at-x9y9 move-north 1.000000
+	robot-at-x9y9 move-west 1.000000
+	robot-at-x9y9 move-east 1.000000
+	robot-at-x10y9 move-south 1.000000
+	robot-at-x10y9 move-north 1.000000
+	robot-at-x10y9 move-west 1.000000
+	robot-at-x10y9 move-east 1.000000
+	robot-at-x12y9 move-south 1.000000
+	robot-at-x12y9 move-north 1.000000
+	robot-at-x12y9 move-west 1.000000
+	robot-at-x12y9 move-east 1.000000
+	robot-at-x13y9 move-south 1.000000
+	robot-at-x13y9 move-north 1.000000
+	robot-at-x13y9 move-west 1.000000
+	robot-at-x13y9 move-east 1.000000
+	robot-at-x14y9 move-south 1.000000
+	robot-at-x14y9 move-north 1.000000
+	robot-at-x14y9 move-west 1.000000
+	robot-at-x14y9 move-east 1.000000
+	robot-at-x15y9 move-south 1.000000
+	robot-at-x15y9 move-north 1.000000
+	robot-at-x15y9 move-west 1.000000
+	robot-at-x15y9 move-east 1.000000
+	robot-at-x16y9 move-south 1.000000
+	robot-at-x16y9 move-north 1.000000
+	robot-at-x16y9 move-west 1.000000
+	robot-at-x16y9 move-east 1.000000
+	robot-at-x17y9 move-south 1.000000
+	robot-at-x17y9 move-north 1.000000
+	robot-at-x17y9 move-west 1.000000
+	robot-at-x17y9 move-east 1.000000
+	robot-at-x18y9 move-south 1.000000
+	robot-at-x18y9 move-north 1.000000
+	robot-at-x18y9 move-west 1.000000
+	robot-at-x18y9 move-east 1.000000
+	robot-at-x19y9 move-south 1.000000
+	robot-at-x19y9 move-north 1.000000
+	robot-at-x19y9 move-west 1.000000
+	robot-at-x19y9 move-east 1.000000
+	robot-at-x20y9 move-south 1.000000
+	robot-at-x20y9 move-north 1.000000
+	robot-at-x20y9 move-west 1.000000
+	robot-at-x20y9 move-east 1.000000
+	robot-at-x2y10 move-south 1.000000
+	robot-at-x2y10 move-north 1.000000
+	robot-at-x2y10 move-west 1.000000
+	robot-at-x2y10 move-east 1.000000
+	robot-at-x3y10 move-south 1.000000
+	robot-at-x3y10 move-north 1.000000
+	robot-at-x3y10 move-west 1.000000
+	robot-at-x3y10 move-east 1.000000
+	robot-at-x4y10 move-south 1.000000
+	robot-at-x4y10 move-north 1.000000
+	robot-at-x4y10 move-west 1.000000
+	robot-at-x4y10 move-east 1.000000
+	robot-at-x5y10 move-south 1.000000
+	robot-at-x5y10 move-north 1.000000
+	robot-at-x5y10 move-west 1.000000
+	robot-at-x5y10 move-east 1.000000
+	robot-at-x6y10 move-south 1.000000
+	robot-at-x6y10 move-north 1.000000
+	robot-at-x6y10 move-west 1.000000
+	robot-at-x6y10 move-east 1.000000
+	robot-at-x7y10 move-south 1.000000
+	robot-at-x7y10 move-north 1.000000
+	robot-at-x7y10 move-west 1.000000
+	robot-at-x7y10 move-east 1.000000
+	robot-at-x8y10 move-south 1.000000
+	robot-at-x8y10 move-north 1.000000
+	robot-at-x8y10 move-west 1.000000
+	robot-at-x8y10 move-east 1.000000
+	robot-at-x9y10 move-south 1.000000
+	robot-at-x9y10 move-north 1.000000
+	robot-at-x9y10 move-west 1.000000
+	robot-at-x9y10 move-east 1.000000
+	robot-at-x10y10 move-south 1.000000
+	robot-at-x10y10 move-north 1.000000
+	robot-at-x10y10 move-west 1.000000
+	robot-at-x10y10 move-east 1.000000
+	robot-at-x11y10 move-south 1.000000
+	robot-at-x11y10 move-north 1.000000
+	robot-at-x11y10 move-west 1.000000
+	robot-at-x11y10 move-east 1.000000
+	robot-at-x12y10 move-south 1.000000
+	robot-at-x12y10 move-north 1.000000
+	robot-at-x12y10 move-west 1.000000
+	robot-at-x12y10 move-east 1.000000
+	robot-at-x13y10 move-south 1.000000
+	robot-at-x13y10 move-north 1.000000
+	robot-at-x13y10 move-west 1.000000
+	robot-at-x13y10 move-east 1.000000
+	robot-at-x14y10 move-south 1.000000
+	robot-at-x14y10 move-north 1.000000
+	robot-at-x14y10 move-west 1.000000
+	robot-at-x14y10 move-east 1.000000
+	robot-at-x15y10 move-south 1.000000
+	robot-at-x15y10 move-north 1.000000
+	robot-at-x15y10 move-west 1.000000
+	robot-at-x15y10 move-east 1.000000
+	robot-at-x17y10 move-south 1.000000
+	robot-at-x17y10 move-north 1.000000
+	robot-at-x17y10 move-west 1.000000
+	robot-at-x17y10 move-east 1.000000
+	robot-at-x18y10 move-south 1.000000
+	robot-at-x18y10 move-north 1.000000
+	robot-at-x18y10 move-west 1.000000
+	robot-at-x18y10 move-east 1.000000
+	robot-at-x20y10 move-south 1.000000
+	robot-at-x20y10 move-north 1.000000
+	robot-at-x20y10 move-west 1.000000
+	robot-at-x20y10 move-east 1.000000
+	robot-at-x1y11 move-south 1.000000
+	robot-at-x1y11 move-north 1.000000
+	robot-at-x1y11 move-west 1.000000
+	robot-at-x1y11 move-east 1.000000
+	robot-at-x2y11 move-south 1.000000
+	robot-at-x2y11 move-north 1.000000
+	robot-at-x2y11 move-west 1.000000
+	robot-at-x2y11 move-east 1.000000
+	robot-at-x3y11 move-south 1.000000
+	robot-at-x3y11 move-north 1.000000
+	robot-at-x3y11 move-west 1.000000
+	robot-at-x3y11 move-east 1.000000
+	robot-at-x4y11 move-south 1.000000
+	robot-at-x4y11 move-north 1.000000
+	robot-at-x4y11 move-west 1.000000
+	robot-at-x4y11 move-east 1.000000
+	robot-at-x5y11 move-south 1.000000
+	robot-at-x5y11 move-north 1.000000
+	robot-at-x5y11 move-west 1.000000
+	robot-at-x5y11 move-east 1.000000
+	robot-at-x6y11 move-south 1.000000
+	robot-at-x6y11 move-north 1.000000
+	robot-at-x6y11 move-west 1.000000
+	robot-at-x6y11 move-east 1.000000
+	robot-at-x7y11 move-south 1.000000
+	robot-at-x7y11 move-north 1.000000
+	robot-at-x7y11 move-west 1.000000
+	robot-at-x7y11 move-east 1.000000
+	robot-at-x8y11 move-south 1.000000
+	robot-at-x8y11 move-north 1.000000
+	robot-at-x8y11 move-west 1.000000
+	robot-at-x8y11 move-east 1.000000
+	robot-at-x9y11 move-south 1.000000
+	robot-at-x9y11 move-north 1.000000
+	robot-at-x9y11 move-west 1.000000
+	robot-at-x9y11 move-east 1.000000
+	robot-at-x10y11 move-south 1.000000
+	robot-at-x10y11 move-north 1.000000
+	robot-at-x10y11 move-west 1.000000
+	robot-at-x10y11 move-east 1.000000
+	robot-at-x11y11 move-south 1.000000
+	robot-at-x11y11 move-north 1.000000
+	robot-at-x11y11 move-west 1.000000
+	robot-at-x11y11 move-east 1.000000
+	robot-at-x12y11 move-south 1.000000
+	robot-at-x12y11 move-north 1.000000
+	robot-at-x12y11 move-west 1.000000
+	robot-at-x12y11 move-east 1.000000
+	robot-at-x14y11 move-south 1.000000
+	robot-at-x14y11 move-north 1.000000
+	robot-at-x14y11 move-west 1.000000
+	robot-at-x14y11 move-east 1.000000
+	robot-at-x15y11 move-south 1.000000
+	robot-at-x15y11 move-north 1.000000
+	robot-at-x15y11 move-west 1.000000
+	robot-at-x15y11 move-east 1.000000
+	robot-at-x16y11 move-south 1.000000
+	robot-at-x16y11 move-north 1.000000
+	robot-at-x16y11 move-west 1.000000
+	robot-at-x16y11 move-east 1.000000
+	robot-at-x17y11 move-south 1.000000
+	robot-at-x17y11 move-north 1.000000
+	robot-at-x17y11 move-west 1.000000
+	robot-at-x17y11 move-east 1.000000
+	robot-at-x18y11 move-south 1.000000
+	robot-at-x18y11 move-north 1.000000
+	robot-at-x18y11 move-west 1.000000
+	robot-at-x18y11 move-east 1.000000
+	robot-at-x19y11 move-south 1.000000
+	robot-at-x19y11 move-north 1.000000
+	robot-at-x19y11 move-west 1.000000
+	robot-at-x19y11 move-east 1.000000
+	robot-at-x20y11 move-south 1.000000
+	robot-at-x20y11 move-north 1.000000
+	robot-at-x20y11 move-west 1.000000
+	robot-at-x20y11 move-east 1.000000
+	robot-at-x1y12 move-south 1.000000
+	robot-at-x1y12 move-north 1.000000
+	robot-at-x1y12 move-west 1.000000
+	robot-at-x1y12 move-east 1.000000
+	robot-at-x2y12 move-south 1.000000
+	robot-at-x2y12 move-north 1.000000
+	robot-at-x2y12 move-west 1.000000
+	robot-at-x2y12 move-east 1.000000
+	robot-at-x3y12 move-south 1.000000
+	robot-at-x3y12 move-north 1.000000
+	robot-at-x3y12 move-west 1.000000
+	robot-at-x3y12 move-east 1.000000
+	robot-at-x4y12 move-south 1.000000
+	robot-at-x4y12 move-north 1.000000
+	robot-at-x4y12 move-west 1.000000
+	robot-at-x4y12 move-east 1.000000
+	robot-at-x5y12 move-south 1.000000
+	robot-at-x5y12 move-north 1.000000
+	robot-at-x5y12 move-west 1.000000
+	robot-at-x5y12 move-east 1.000000
+	robot-at-x6y12 move-south 1.000000
+	robot-at-x6y12 move-north 1.000000
+	robot-at-x6y12 move-west 1.000000
+	robot-at-x6y12 move-east 1.000000
+	robot-at-x7y12 move-south 1.000000
+	robot-at-x7y12 move-north 1.000000
+	robot-at-x7y12 move-west 1.000000
+	robot-at-x7y12 move-east 1.000000
+	robot-at-x8y12 move-south 1.000000
+	robot-at-x8y12 move-north 1.000000
+	robot-at-x8y12 move-west 1.000000
+	robot-at-x8y12 move-east 1.000000
+	robot-at-x9y12 move-south 1.000000
+	robot-at-x9y12 move-north 1.000000
+	robot-at-x9y12 move-west 1.000000
+	robot-at-x9y12 move-east 1.000000
+	robot-at-x10y12 move-south 1.000000
+	robot-at-x10y12 move-north 1.000000
+	robot-at-x10y12 move-west 1.000000
+	robot-at-x10y12 move-east 1.000000
+	robot-at-x12y12 move-south 1.000000
+	robot-at-x12y12 move-north 1.000000
+	robot-at-x12y12 move-west 1.000000
+	robot-at-x12y12 move-east 1.000000
+	robot-at-x13y12 move-south 1.000000
+	robot-at-x13y12 move-north 1.000000
+	robot-at-x13y12 move-west 1.000000
+	robot-at-x13y12 move-east 1.000000
+	robot-at-x14y12 move-south 1.000000
+	robot-at-x14y12 move-north 1.000000
+	robot-at-x14y12 move-west 1.000000
+	robot-at-x14y12 move-east 1.000000
+	robot-at-x15y12 move-south 1.000000
+	robot-at-x15y12 move-north 1.000000
+	robot-at-x15y12 move-west 1.000000
+	robot-at-x15y12 move-east 1.000000
+	robot-at-x17y12 move-south 1.000000
+	robot-at-x17y12 move-north 1.000000
+	robot-at-x17y12 move-west 1.000000
+	robot-at-x17y12 move-east 1.000000
+	robot-at-x18y12 move-south 1.000000
+	robot-at-x18y12 move-north 1.000000
+	robot-at-x18y12 move-west 1.000000
+	robot-at-x18y12 move-east 1.000000
+	robot-at-x20y12 move-south 1.000000
+	robot-at-x20y12 move-north 1.000000
+	robot-at-x20y12 move-west 1.000000
+	robot-at-x20y12 move-east 1.000000
+	robot-at-x1y13 move-south 1.000000
+	robot-at-x1y13 move-north 1.000000
+	robot-at-x1y13 move-west 1.000000
+	robot-at-x1y13 move-east 1.000000
+	robot-at-x2y13 move-south 1.000000
+	robot-at-x2y13 move-north 1.000000
+	robot-at-x2y13 move-west 1.000000
+	robot-at-x2y13 move-east 1.000000
+	robot-at-x4y13 move-south 1.000000
+	robot-at-x4y13 move-north 1.000000
+	robot-at-x4y13 move-west 1.000000
+	robot-at-x4y13 move-east 1.000000
+	robot-at-x6y13 move-south 1.000000
+	robot-at-x6y13 move-north 1.000000
+	robot-at-x6y13 move-west 1.000000
+	robot-at-x6y13 move-east 1.000000
+	robot-at-x7y13 move-south 1.000000
+	robot-at-x7y13 move-north 1.000000
+	robot-at-x7y13 move-west 1.000000
+	robot-at-x7y13 move-east 1.000000
+	robot-at-x8y13 move-south 1.000000
+	robot-at-x8y13 move-north 1.000000
+	robot-at-x8y13 move-west 1.000000
+	robot-at-x8y13 move-east 1.000000
+	robot-at-x10y13 move-south 1.000000
+	robot-at-x10y13 move-north 1.000000
+	robot-at-x10y13 move-west 1.000000
+	robot-at-x10y13 move-east 1.000000
+	robot-at-x11y13 move-south 1.000000
+	robot-at-x11y13 move-north 1.000000
+	robot-at-x11y13 move-west 1.000000
+	robot-at-x11y13 move-east 1.000000
+	robot-at-x12y13 move-south 1.000000
+	robot-at-x12y13 move-north 1.000000
+	robot-at-x12y13 move-west 1.000000
+	robot-at-x12y13 move-east 1.000000
+	robot-at-x13y13 move-south 1.000000
+	robot-at-x13y13 move-north 1.000000
+	robot-at-x13y13 move-west 1.000000
+	robot-at-x13y13 move-east 1.000000
+	robot-at-x14y13 move-south 1.000000
+	robot-at-x14y13 move-north 1.000000
+	robot-at-x14y13 move-west 1.000000
+	robot-at-x14y13 move-east 1.000000
+	robot-at-x15y13 move-south 1.000000
+	robot-at-x15y13 move-north 1.000000
+	robot-at-x15y13 move-west 1.000000
+	robot-at-x15y13 move-east 1.000000
+	robot-at-x16y13 move-south 1.000000
+	robot-at-x16y13 move-north 1.000000
+	robot-at-x16y13 move-west 1.000000
+	robot-at-x16y13 move-east 1.000000
+	robot-at-x17y13 move-south 1.000000
+	robot-at-x17y13 move-north 1.000000
+	robot-at-x17y13 move-west 1.000000
+	robot-at-x17y13 move-east 1.000000
+	robot-at-x18y13 move-south 1.000000
+	robot-at-x18y13 move-north 1.000000
+	robot-at-x18y13 move-west 1.000000
+	robot-at-x18y13 move-east 1.000000
+	robot-at-x19y13 move-south 1.000000
+	robot-at-x19y13 move-north 1.000000
+	robot-at-x19y13 move-west 1.000000
+	robot-at-x19y13 move-east 1.000000
+	robot-at-x20y13 move-south 1.000000
+	robot-at-x20y13 move-north 1.000000
+	robot-at-x20y13 move-west 1.000000
+	robot-at-x20y13 move-east 1.000000
+	robot-at-x1y14 move-south 1.000000
+	robot-at-x1y14 move-north 1.000000
+	robot-at-x1y14 move-west 1.000000
+	robot-at-x1y14 move-east 1.000000
+	robot-at-x2y14 move-south 1.000000
+	robot-at-x2y14 move-north 1.000000
+	robot-at-x2y14 move-west 1.000000
+	robot-at-x2y14 move-east 1.000000
+	robot-at-x3y14 move-south 1.000000
+	robot-at-x3y14 move-north 1.000000
+	robot-at-x3y14 move-west 1.000000
+	robot-at-x3y14 move-east 1.000000
+	robot-at-x4y14 move-south 1.000000
+	robot-at-x4y14 move-north 1.000000
+	robot-at-x4y14 move-west 1.000000
+	robot-at-x4y14 move-east 1.000000
+	robot-at-x5y14 move-south 1.000000
+	robot-at-x5y14 move-north 1.000000
+	robot-at-x5y14 move-west 1.000000
+	robot-at-x5y14 move-east 1.000000
+	robot-at-x6y14 move-south 1.000000
+	robot-at-x6y14 move-north 1.000000
+	robot-at-x6y14 move-west 1.000000
+	robot-at-x6y14 move-east 1.000000
+	robot-at-x7y14 move-south 1.000000
+	robot-at-x7y14 move-north 1.000000
+	robot-at-x7y14 move-west 1.000000
+	robot-at-x7y14 move-east 1.000000
+	robot-at-x8y14 move-south 1.000000
+	robot-at-x8y14 move-north 1.000000
+	robot-at-x8y14 move-west 1.000000
+	robot-at-x8y14 move-east 1.000000
+	robot-at-x9y14 move-south 1.000000
+	robot-at-x9y14 move-north 1.000000
+	robot-at-x9y14 move-west 1.000000
+	robot-at-x9y14 move-east 1.000000
+	robot-at-x10y14 move-south 1.000000
+	robot-at-x10y14 move-north 1.000000
+	robot-at-x10y14 move-west 1.000000
+	robot-at-x10y14 move-east 1.000000
+	robot-at-x11y14 move-south 1.000000
+	robot-at-x11y14 move-north 1.000000
+	robot-at-x11y14 move-west 1.000000
+	robot-at-x11y14 move-east 1.000000
+	robot-at-x12y14 move-south 1.000000
+	robot-at-x12y14 move-north 1.000000
+	robot-at-x12y14 move-west 1.000000
+	robot-at-x12y14 move-east 1.000000
+	robot-at-x13y14 move-south 1.000000
+	robot-at-x13y14 move-north 1.000000
+	robot-at-x13y14 move-west 1.000000
+	robot-at-x13y14 move-east 1.000000
+	robot-at-x14y14 move-south 1.000000
+	robot-at-x14y14 move-north 1.000000
+	robot-at-x14y14 move-west 1.000000
+	robot-at-x14y14 move-east 1.000000
+	robot-at-x15y14 move-south 1.000000
+	robot-at-x15y14 move-north 1.000000
+	robot-at-x15y14 move-west 1.000000
+	robot-at-x15y14 move-east 1.000000
+	robot-at-x16y14 move-south 1.000000
+	robot-at-x16y14 move-north 1.000000
+	robot-at-x16y14 move-west 1.000000
+	robot-at-x16y14 move-east 1.000000
+	robot-at-x17y14 move-south 1.000000
+	robot-at-x17y14 move-north 1.000000
+	robot-at-x17y14 move-west 1.000000
+	robot-at-x17y14 move-east 1.000000
+	robot-at-x19y14 move-south 1.000000
+	robot-at-x19y14 move-north 1.000000
+	robot-at-x19y14 move-west 1.000000
+	robot-at-x19y14 move-east 1.000000
+	robot-at-x20y14 move-south 1.000000
+	robot-at-x20y14 move-north 1.000000
+	robot-at-x20y14 move-west 1.000000
+	robot-at-x20y14 move-east 1.000000
+	robot-at-x1y15 move-south 1.000000
+	robot-at-x1y15 move-north 1.000000
+	robot-at-x1y15 move-west 1.000000
+	robot-at-x1y15 move-east 1.000000
+	robot-at-x2y15 move-south 1.000000
+	robot-at-x2y15 move-north 1.000000
+	robot-at-x2y15 move-west 1.000000
+	robot-at-x2y15 move-east 1.000000
+	robot-at-x3y15 move-south 1.000000
+	robot-at-x3y15 move-north 1.000000
+	robot-at-x3y15 move-west 1.000000
+	robot-at-x3y15 move-east 1.000000
+	robot-at-x5y15 move-south 1.000000
+	robot-at-x5y15 move-north 1.000000
+	robot-at-x5y15 move-west 1.000000
+	robot-at-x5y15 move-east 1.000000
+	robot-at-x6y15 move-south 1.000000
+	robot-at-x6y15 move-north 1.000000
+	robot-at-x6y15 move-west 1.000000
+	robot-at-x6y15 move-east 1.000000
+	robot-at-x7y15 move-south 1.000000
+	robot-at-x7y15 move-north 1.000000
+	robot-at-x7y15 move-west 1.000000
+	robot-at-x7y15 move-east 1.000000
+	robot-at-x8y15 move-south 1.000000
+	robot-at-x8y15 move-north 1.000000
+	robot-at-x8y15 move-west 1.000000
+	robot-at-x8y15 move-east 1.000000
+	robot-at-x9y15 move-south 1.000000
+	robot-at-x9y15 move-north 1.000000
+	robot-at-x9y15 move-west 1.000000
+	robot-at-x9y15 move-east 1.000000
+	robot-at-x11y15 move-south 1.000000
+	robot-at-x11y15 move-north 1.000000
+	robot-at-x11y15 move-west 1.000000
+	robot-at-x11y15 move-east 1.000000
+	robot-at-x12y15 move-south 1.000000
+	robot-at-x12y15 move-north 1.000000
+	robot-at-x12y15 move-west 1.000000
+	robot-at-x12y15 move-east 1.000000
+	robot-at-x13y15 move-south 1.000000
+	robot-at-x13y15 move-north 1.000000
+	robot-at-x13y15 move-west 1.000000
+	robot-at-x13y15 move-east 1.000000
+	robot-at-x14y15 move-south 1.000000
+	robot-at-x14y15 move-north 1.000000
+	robot-at-x14y15 move-west 1.000000
+	robot-at-x14y15 move-east 1.000000
+	robot-at-x15y15 move-south 1.000000
+	robot-at-x15y15 move-north 1.000000
+	robot-at-x15y15 move-west 1.000000
+	robot-at-x15y15 move-east 1.000000
+	robot-at-x16y15 move-south 1.000000
+	robot-at-x16y15 move-north 1.000000
+	robot-at-x16y15 move-west 1.000000
+	robot-at-x16y15 move-east 1.000000
+	robot-at-x17y15 move-south 1.000000
+	robot-at-x17y15 move-north 1.000000
+	robot-at-x17y15 move-west 1.000000
+	robot-at-x17y15 move-east 1.000000
+	robot-at-x18y15 move-south 1.000000
+	robot-at-x18y15 move-north 1.000000
+	robot-at-x18y15 move-west 1.000000
+	robot-at-x18y15 move-east 1.000000
+	robot-at-x19y15 move-south 1.000000
+	robot-at-x19y15 move-north 1.000000
+	robot-at-x19y15 move-west 1.000000
+	robot-at-x19y15 move-east 1.000000
+	robot-at-x20y15 move-south 1.000000
+	robot-at-x20y15 move-north 1.000000
+	robot-at-x20y15 move-west 1.000000
+	robot-at-x20y15 move-east 1.000000
+	robot-at-x1y16 move-south 1.000000
+	robot-at-x1y16 move-north 1.000000
+	robot-at-x1y16 move-west 1.000000
+	robot-at-x1y16 move-east 1.000000
+	robot-at-x2y16 move-south 1.000000
+	robot-at-x2y16 move-north 1.000000
+	robot-at-x2y16 move-west 1.000000
+	robot-at-x2y16 move-east 1.000000
+	robot-at-x3y16 move-south 1.000000
+	robot-at-x3y16 move-north 1.000000
+	robot-at-x3y16 move-west 1.000000
+	robot-at-x3y16 move-east 1.000000
+	robot-at-x4y16 move-south 1.000000
+	robot-at-x4y16 move-north 1.000000
+	robot-at-x4y16 move-west 1.000000
+	robot-at-x4y16 move-east 1.000000
+	robot-at-x5y16 move-south 1.000000
+	robot-at-x5y16 move-north 1.000000
+	robot-at-x5y16 move-west 1.000000
+	robot-at-x5y16 move-east 1.000000
+	robot-at-x7y16 move-south 1.000000
+	robot-at-x7y16 move-north 1.000000
+	robot-at-x7y16 move-west 1.000000
+	robot-at-x7y16 move-east 1.000000
+	robot-at-x8y16 move-south 1.000000
+	robot-at-x8y16 move-north 1.000000
+	robot-at-x8y16 move-west 1.000000
+	robot-at-x8y16 move-east 1.000000
+	robot-at-x9y16 move-south 1.000000
+	robot-at-x9y16 move-north 1.000000
+	robot-at-x9y16 move-west 1.000000
+	robot-at-x9y16 move-east 1.000000
+	robot-at-x10y16 move-south 1.000000
+	robot-at-x10y16 move-north 1.000000
+	robot-at-x10y16 move-west 1.000000
+	robot-at-x10y16 move-east 1.000000
+	robot-at-x11y16 move-south 1.000000
+	robot-at-x11y16 move-north 1.000000
+	robot-at-x11y16 move-west 1.000000
+	robot-at-x11y16 move-east 1.000000
+	robot-at-x12y16 move-south 1.000000
+	robot-at-x12y16 move-north 1.000000
+	robot-at-x12y16 move-west 1.000000
+	robot-at-x12y16 move-east 1.000000
+	robot-at-x13y16 move-south 1.000000
+	robot-at-x13y16 move-north 1.000000
+	robot-at-x13y16 move-west 1.000000
+	robot-at-x13y16 move-east 1.000000
+	robot-at-x15y16 move-south 1.000000
+	robot-at-x15y16 move-north 1.000000
+	robot-at-x15y16 move-west 1.000000
+	robot-at-x15y16 move-east 1.000000
+	robot-at-x17y16 move-south 1.000000
+	robot-at-x17y16 move-north 1.000000
+	robot-at-x17y16 move-west 1.000000
+	robot-at-x17y16 move-east 1.000000
+	robot-at-x18y16 move-south 1.000000
+	robot-at-x18y16 move-north 1.000000
+	robot-at-x18y16 move-west 1.000000
+	robot-at-x18y16 move-east 1.000000
+	robot-at-x19y16 move-south 1.000000
+	robot-at-x19y16 move-north 1.000000
+	robot-at-x19y16 move-west 1.000000
+	robot-at-x19y16 move-east 1.000000
+	robot-at-x20y16 move-south 1.000000
+	robot-at-x20y16 move-north 1.000000
+	robot-at-x20y16 move-west 1.000000
+	robot-at-x20y16 move-east 1.000000
+	robot-at-x1y17 move-south 1.000000
+	robot-at-x1y17 move-north 1.000000
+	robot-at-x1y17 move-west 1.000000
+	robot-at-x1y17 move-east 1.000000
+	robot-at-x3y17 move-south 1.000000
+	robot-at-x3y17 move-north 1.000000
+	robot-at-x3y17 move-west 1.000000
+	robot-at-x3y17 move-east 1.000000
+	robot-at-x4y17 move-south 1.000000
+	robot-at-x4y17 move-north 1.000000
+	robot-at-x4y17 move-west 1.000000
+	robot-at-x4y17 move-east 1.000000
+	robot-at-x5y17 move-south 1.000000
+	robot-at-x5y17 move-north 1.000000
+	robot-at-x5y17 move-west 1.000000
+	robot-at-x5y17 move-east 1.000000
+	robot-at-x6y17 move-south 1.000000
+	robot-at-x6y17 move-north 1.000000
+	robot-at-x6y17 move-west 1.000000
+	robot-at-x6y17 move-east 1.000000
+	robot-at-x7y17 move-south 1.000000
+	robot-at-x7y17 move-north 1.000000
+	robot-at-x7y17 move-west 1.000000
+	robot-at-x7y17 move-east 1.000000
+	robot-at-x8y17 move-south 1.000000
+	robot-at-x8y17 move-north 1.000000
+	robot-at-x8y17 move-west 1.000000
+	robot-at-x8y17 move-east 1.000000
+	robot-at-x9y17 move-south 1.000000
+	robot-at-x9y17 move-north 1.000000
+	robot-at-x9y17 move-west 1.000000
+	robot-at-x9y17 move-east 1.000000
+	robot-at-x10y17 move-south 1.000000
+	robot-at-x10y17 move-north 1.000000
+	robot-at-x10y17 move-west 1.000000
+	robot-at-x10y17 move-east 1.000000
+	robot-at-x11y17 move-south 1.000000
+	robot-at-x11y17 move-north 1.000000
+	robot-at-x11y17 move-west 1.000000
+	robot-at-x11y17 move-east 1.000000
+	robot-at-x12y17 move-south 1.000000
+	robot-at-x12y17 move-north 1.000000
+	robot-at-x12y17 move-west 1.000000
+	robot-at-x12y17 move-east 1.000000
+	robot-at-x13y17 move-south 1.000000
+	robot-at-x13y17 move-north 1.000000
+	robot-at-x13y17 move-west 1.000000
+	robot-at-x13y17 move-east 1.000000
+	robot-at-x14y17 move-south 1.000000
+	robot-at-x14y17 move-north 1.000000
+	robot-at-x14y17 move-west 1.000000
+	robot-at-x14y17 move-east 1.000000
+	robot-at-x15y17 move-south 1.000000
+	robot-at-x15y17 move-north 1.000000
+	robot-at-x15y17 move-west 1.000000
+	robot-at-x15y17 move-east 1.000000
+	robot-at-x16y17 move-south 1.000000
+	robot-at-x16y17 move-north 1.000000
+	robot-at-x16y17 move-west 1.000000
+	robot-at-x16y17 move-east 1.000000
+	robot-at-x17y17 move-south 1.000000
+	robot-at-x17y17 move-north 1.000000
+	robot-at-x17y17 move-west 1.000000
+	robot-at-x17y17 move-east 1.000000
+	robot-at-x18y17 move-south 1.000000
+	robot-at-x18y17 move-north 1.000000
+	robot-at-x18y17 move-west 1.000000
+	robot-at-x18y17 move-east 1.000000
+	robot-at-x19y17 move-south 1.000000
+	robot-at-x19y17 move-north 1.000000
+	robot-at-x19y17 move-west 1.000000
+	robot-at-x19y17 move-east 1.000000
+	robot-at-x20y17 move-south 1.000000
+	robot-at-x20y17 move-north 1.000000
+	robot-at-x20y17 move-west 1.000000
+	robot-at-x20y17 move-east 1.000000
+	robot-at-x1y18 move-south 1.000000
+	robot-at-x1y18 move-north 1.000000
+	robot-at-x1y18 move-west 1.000000
+	robot-at-x1y18 move-east 1.000000
+	robot-at-x2y18 move-south 1.000000
+	robot-at-x2y18 move-north 1.000000
+	robot-at-x2y18 move-west 1.000000
+	robot-at-x2y18 move-east 1.000000
+	robot-at-x3y18 move-south 1.000000
+	robot-at-x3y18 move-north 1.000000
+	robot-at-x3y18 move-west 1.000000
+	robot-at-x3y18 move-east 1.000000
+	robot-at-x4y18 move-south 1.000000
+	robot-at-x4y18 move-north 1.000000
+	robot-at-x4y18 move-west 1.000000
+	robot-at-x4y18 move-east 1.000000
+	robot-at-x5y18 move-south 1.000000
+	robot-at-x5y18 move-north 1.000000
+	robot-at-x5y18 move-west 1.000000
+	robot-at-x5y18 move-east 1.000000
+	robot-at-x6y18 move-south 1.000000
+	robot-at-x6y18 move-north 1.000000
+	robot-at-x6y18 move-west 1.000000
+	robot-at-x6y18 move-east 1.000000
+	robot-at-x7y18 move-south 1.000000
+	robot-at-x7y18 move-north 1.000000
+	robot-at-x7y18 move-west 1.000000
+	robot-at-x7y18 move-east 1.000000
+	robot-at-x8y18 move-south 1.000000
+	robot-at-x8y18 move-north 1.000000
+	robot-at-x8y18 move-west 1.000000
+	robot-at-x8y18 move-east 1.000000
+	robot-at-x10y18 move-south 1.000000
+	robot-at-x10y18 move-north 1.000000
+	robot-at-x10y18 move-west 1.000000
+	robot-at-x10y18 move-east 1.000000
+	robot-at-x11y18 move-south 1.000000
+	robot-at-x11y18 move-north 1.000000
+	robot-at-x11y18 move-west 1.000000
+	robot-at-x11y18 move-east 1.000000
+	robot-at-x12y18 move-south 1.000000
+	robot-at-x12y18 move-north 1.000000
+	robot-at-x12y18 move-west 1.000000
+	robot-at-x12y18 move-east 1.000000
+	robot-at-x13y18 move-south 1.000000
+	robot-at-x13y18 move-north 1.000000
+	robot-at-x13y18 move-west 1.000000
+	robot-at-x13y18 move-east 1.000000
+	robot-at-x15y18 move-south 1.000000
+	robot-at-x15y18 move-north 1.000000
+	robot-at-x15y18 move-west 1.000000
+	robot-at-x15y18 move-east 1.000000
+	robot-at-x16y18 move-south 1.000000
+	robot-at-x16y18 move-north 1.000000
+	robot-at-x16y18 move-west 1.000000
+	robot-at-x16y18 move-east 1.000000
+	robot-at-x18y18 move-south 1.000000
+	robot-at-x18y18 move-north 1.000000
+	robot-at-x18y18 move-west 1.000000
+	robot-at-x18y18 move-east 1.000000
+	robot-at-x19y18 move-south 1.000000
+	robot-at-x19y18 move-north 1.000000
+	robot-at-x19y18 move-west 1.000000
+	robot-at-x19y18 move-east 1.000000
+	robot-at-x20y18 move-south 1.000000
+	robot-at-x20y18 move-north 1.000000
+	robot-at-x20y18 move-west 1.000000
+	robot-at-x20y18 move-east 1.000000
+	robot-at-x1y19 move-south 1.000000
+	robot-at-x1y19 move-north 1.000000
+	robot-at-x1y19 move-west 1.000000
+	robot-at-x1y19 move-east 1.000000
+	robot-at-x3y19 move-south 1.000000
+	robot-at-x3y19 move-north 1.000000
+	robot-at-x3y19 move-west 1.000000
+	robot-at-x3y19 move-east 1.000000
+	robot-at-x4y19 move-south 1.000000
+	robot-at-x4y19 move-north 1.000000
+	robot-at-x4y19 move-west 1.000000
+	robot-at-x4y19 move-east 1.000000
+	robot-at-x5y19 move-south 1.000000
+	robot-at-x5y19 move-north 1.000000
+	robot-at-x5y19 move-west 1.000000
+	robot-at-x5y19 move-east 1.000000
+	robot-at-x7y19 move-south 1.000000
+	robot-at-x7y19 move-north 1.000000
+	robot-at-x7y19 move-west 1.000000
+	robot-at-x7y19 move-east 1.000000
+	robot-at-x8y19 move-south 1.000000
+	robot-at-x8y19 move-north 1.000000
+	robot-at-x8y19 move-west 1.000000
+	robot-at-x8y19 move-east 1.000000
+	robot-at-x9y19 move-south 1.000000
+	robot-at-x9y19 move-north 1.000000
+	robot-at-x9y19 move-west 1.000000
+	robot-at-x9y19 move-east 1.000000
+	robot-at-x10y19 move-south 1.000000
+	robot-at-x10y19 move-north 1.000000
+	robot-at-x10y19 move-west 1.000000
+	robot-at-x10y19 move-east 1.000000
+	robot-at-x12y19 move-south 1.000000
+	robot-at-x12y19 move-north 1.000000
+	robot-at-x12y19 move-west 1.000000
+	robot-at-x12y19 move-east 1.000000
+	robot-at-x13y19 move-south 1.000000
+	robot-at-x13y19 move-north 1.000000
+	robot-at-x13y19 move-west 1.000000
+	robot-at-x13y19 move-east 1.000000
+	robot-at-x14y19 move-south 1.000000
+	robot-at-x14y19 move-north 1.000000
+	robot-at-x14y19 move-west 1.000000
+	robot-at-x14y19 move-east 1.000000
+	robot-at-x15y19 move-south 1.000000
+	robot-at-x15y19 move-north 1.000000
+	robot-at-x15y19 move-west 1.000000
+	robot-at-x15y19 move-east 1.000000
+	robot-at-x16y19 move-south 1.000000
+	robot-at-x16y19 move-north 1.000000
+	robot-at-x16y19 move-west 1.000000
+	robot-at-x16y19 move-east 1.000000
+	robot-at-x17y19 move-south 1.000000
+	robot-at-x17y19 move-north 1.000000
+	robot-at-x17y19 move-west 1.000000
+	robot-at-x17y19 move-east 1.000000
+	robot-at-x18y19 move-south 1.000000
+	robot-at-x18y19 move-north 1.000000
+	robot-at-x18y19 move-west 1.000000
+	robot-at-x18y19 move-east 1.000000
+	robot-at-x19y19 move-south 1.000000
+	robot-at-x19y19 move-north 1.000000
+	robot-at-x19y19 move-west 1.000000
+	robot-at-x19y19 move-east 1.000000
+	robot-at-x20y19 move-south 1.000000
+	robot-at-x20y19 move-north 1.000000
+	robot-at-x20y19 move-west 1.000000
+	robot-at-x20y19 move-east 1.000000
+	robot-at-x1y20 move-south 1.000000
+	robot-at-x1y20 move-north 1.000000
+	robot-at-x1y20 move-west 1.000000
+	robot-at-x1y20 move-east 1.000000
+	robot-at-x2y20 move-south 1.000000
+	robot-at-x2y20 move-north 1.000000
+	robot-at-x2y20 move-west 1.000000
+	robot-at-x2y20 move-east 1.000000
+	robot-at-x3y20 move-south 1.000000
+	robot-at-x3y20 move-north 1.000000
+	robot-at-x3y20 move-west 1.000000
+	robot-at-x3y20 move-east 1.000000
+	robot-at-x4y20 move-south 1.000000
+	robot-at-x4y20 move-north 1.000000
+	robot-at-x4y20 move-west 1.000000
+	robot-at-x4y20 move-east 1.000000
+	robot-at-x5y20 move-south 1.000000
+	robot-at-x5y20 move-north 1.000000
+	robot-at-x5y20 move-west 1.000000
+	robot-at-x5y20 move-east 1.000000
+	robot-at-x6y20 move-south 1.000000
+	robot-at-x6y20 move-north 1.000000
+	robot-at-x6y20 move-west 1.000000
+	robot-at-x6y20 move-east 1.000000
+	robot-at-x7y20 move-south 1.000000
+	robot-at-x7y20 move-north 1.000000
+	robot-at-x7y20 move-west 1.000000
+	robot-at-x7y20 move-east 1.000000
+	robot-at-x8y20 move-south 1.000000
+	robot-at-x8y20 move-north 1.000000
+	robot-at-x8y20 move-west 1.000000
+	robot-at-x8y20 move-east 1.000000
+	robot-at-x9y20 move-south 1.000000
+	robot-at-x9y20 move-north 1.000000
+	robot-at-x9y20 move-west 1.000000
+	robot-at-x9y20 move-east 1.000000
+	robot-at-x10y20 move-south 1.000000
+	robot-at-x10y20 move-north 1.000000
+	robot-at-x10y20 move-west 1.000000
+	robot-at-x10y20 move-east 1.000000
+	robot-at-x11y20 move-south 1.000000
+	robot-at-x11y20 move-north 1.000000
+	robot-at-x11y20 move-west 1.000000
+	robot-at-x11y20 move-east 1.000000
+	robot-at-x12y20 move-south 1.000000
+	robot-at-x12y20 move-north 1.000000
+	robot-at-x12y20 move-west 1.000000
+	robot-at-x12y20 move-east 1.000000
+	robot-at-x13y20 move-south 1.000000
+	robot-at-x13y20 move-north 1.000000
+	robot-at-x13y20 move-west 1.000000
+	robot-at-x13y20 move-east 1.000000
+	robot-at-x14y20 move-south 1.000000
+	robot-at-x14y20 move-north 1.000000
+	robot-at-x14y20 move-west 1.000000
+	robot-at-x14y20 move-east 1.000000
+	robot-at-x15y20 move-south 1.000000
+	robot-at-x15y20 move-north 1.000000
+	robot-at-x15y20 move-west 1.000000
+	robot-at-x15y20 move-east 1.000000
+	robot-at-x16y20 move-south 1.000000
+	robot-at-x16y20 move-north 1.000000
+	robot-at-x16y20 move-west 1.000000
+	robot-at-x16y20 move-east 1.000000
+	robot-at-x17y20 move-south 1.000000
+	robot-at-x17y20 move-north 1.000000
+	robot-at-x17y20 move-west 1.000000
+	robot-at-x17y20 move-east 1.000000
+	robot-at-x18y20 move-south 1.000000
+	robot-at-x18y20 move-north 1.000000
+	robot-at-x18y20 move-west 1.000000
+	robot-at-x18y20 move-east 1.000000
+endcost
+
+initialstate
+	robot-at-x1y1
+endinitialstate
+
+goalstate
+	robot-at-x20y20
+endgoalstate
+
+Grid:
+4 4 4 0 4 4 4 0 0 4 4 4 0 0 0 0 0 4 1 3 
+4 1 4 0 4 1 4 4 4 4 1 4 4 4 4 4 4 4 4 4 
+4 4 4 0 4 4 4 4 1 4 4 4 4 1 4 4 1 4 0 0 
+4 1 4 0 4 4 4 4 4 4 0 0 4 4 4 4 4 4 0 0 
+4 4 4 4 4 1 4 0 4 4 4 0 4 1 4 1 4 0 0 0 
+0 0 4 1 4 4 4 0 4 1 4 0 4 4 4 4 4 4 4 0 
+0 4 4 4 4 4 0 4 4 4 4 0 0 0 0 0 4 1 4 0 
+0 4 1 4 1 4 0 4 1 4 4 4 0 0 4 4 4 4 4 4 
+0 4 4 4 4 4 0 4 4 4 1 4 4 4 4 1 4 4 1 4 
+4 4 0 0 0 0 0 0 0 4 4 4 1 4 4 4 4 4 4 4 
+1 4 0 0 0 0 0 0 0 4 4 4 4 4 4 1 4 4 1 4 
+4 4 0 4 4 4 0 0 0 4 1 4 4 4 4 4 4 4 4 4 
+0 0 0 4 1 4 0 0 0 4 4 4 1 4 1 4 0 0 0 0 
+0 0 0 4 4 4 0 4 4 4 0 4 4 4 4 4 0 0 0 0 
+0 0 0 0 4 4 4 4 1 4 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 4 1 4 4 4 4 4 4 4 4 4 4 0 0 0 0 
+0 0 4 4 4 4 4 1 4 0 4 1 4 4 1 4 0 0 0 0 
+0 0 4 1 4 0 4 4 4 4 4 4 4 4 4 4 4 4 0 0 
+0 4 4 4 4 4 4 4 4 4 1 4 1 4 0 4 1 4 0 0 
+2 4 1 4 4 1 4 4 1 4 4 4 4 4 0 4 4 4 0 0 
+
