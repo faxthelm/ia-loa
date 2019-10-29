@@ -9,6 +9,7 @@ public class Action {
 	private State fromState;
 	private State toState;
 	private double probability;
+	private double cost;
 
 	public Action(String name, State fromState, State toState, double probability) {
 		setName(name);
@@ -18,6 +19,18 @@ public class Action {
 	}
 	
 	
+
+	public double getCost() {
+		return cost;
+	}
+
+
+
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+
+
 
 	public String getName() {
 		return name;
@@ -71,7 +84,7 @@ public class Action {
 
 	@Override
 	public String toString() {
-		return fromState.toString()+" -("+name+")-> "+toState.toString() ;
+		return fromState.toString()+" =("+name+":"+String.format("%.2f", probability)+")=> "+toState.toString() ;
 	}
 
 }

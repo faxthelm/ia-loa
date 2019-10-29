@@ -2,46 +2,25 @@ package exceptions;
 
 import enums.ErrorMessages;
 
-public class FileFormatException extends RuntimeException {
+public class FileFormatException extends BaseException {
 
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -1076073809104531122L;
-	private String message;
-	private String payload;
+	private static final long serialVersionUID = -7298555352184736354L;
 
-	public FileFormatException(String errorType, String payload) {
-		message = errorType;
-		this.payload = payload;
-	}
-	
 	public FileFormatException(ErrorMessages errorType, String payload) {
-		this(errorType.getMessage(),payload);
+		super(errorType, payload);
 	}
 
 	public FileFormatException(ErrorMessages errorType) {
-		this(errorType.getMessage(),"");
+		super(errorType);
 	}
 
-	public String getMessage() {
-		return message;
+	public FileFormatException(String errorType, String payload) {
+		super(errorType, payload);
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
 
-	public String getPayload() {
-		return payload;
-	}
-
-	public void setPayload(String payload) {
-		this.payload = payload;
-	}
-
-	@Override
-	public String toString() {
-		return message + " " + payload;
-	}
+	
 }

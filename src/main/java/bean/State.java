@@ -18,6 +18,10 @@ public class State {
 		this.y = y;
 	}
 	
+	public boolean equals(State state) {
+		return (this.x == state.x && this.y == state.y);
+	}
+	
 	@Override
 	public String toString() {
 		return "at "+x+"-"+y;
