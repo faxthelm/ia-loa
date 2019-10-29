@@ -66,7 +66,7 @@ public class Parser {
 			List<State> states = new ArrayList<State>();
 			int i = 0;
 			do {
-				if(line.isEmpty()) {
+				if (line.isEmpty()) {
 					i++;
 					continue;
 				}
@@ -81,10 +81,10 @@ public class Parser {
 					i++;
 					continue;
 				}
-				
+
 				if (line.contains("end" + key)) {
 					key = "";
-					if(!actionName.isEmpty()) {
+					if (!actionName.isEmpty()) {
 						mapActions.put(actionName, actions);
 					}
 					actionName = "";
@@ -110,22 +110,22 @@ public class Parser {
 					break;
 				case "initialstate":
 					State initialState = readState(line);
-					map.put(key,initialState);
+					map.put(key, initialState);
 					break;
 				case "goalstate":
 					State goalState = readState(line);
-					map.put(key,goalState);
+					map.put(key, goalState);
 					break;
 				}
 				i++;
 			} while (!(line = lines.get(i)).equals("Grid:"));
 			map.put("states", states);
-			map.put("cost",costs);
-			map.put("action",mapActions);
+			map.put("cost", costs);
+			map.put("action", mapActions);
 		} else {
 			throw new FileNotFoundException();
 		}
-		
+
 		return map;
 	}
 
