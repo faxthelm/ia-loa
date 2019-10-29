@@ -1,18 +1,35 @@
 package bean;
 
 import enums.ErrorMessages;
+import exceptions.FileFormatException;
 import exceptions.InvalidProbabilityValueException;
 
 public class Action {
+	private String name;
 	private State fromState;
 	private State toState;
 	private double probability;
 
-	public Action(State fromState, State toState, double probability) {
+	public Action(String name, State fromState, State toState, double probability) {
+		setName(name);
 		setFromState(fromState);
 		setProbability(probability);
 		setToState(toState);
 	}
+	
+	
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
 
 	public State getFromState() {
 		return fromState;
@@ -22,6 +39,7 @@ public class Action {
 		if (fromState != null) {
 			this.fromState = fromState;
 		}else {
+			throw new FileFormatException(ErrorMessages.FILE_FORMAT_EXCEPTION);
 		}
 
 	}
@@ -31,7 +49,11 @@ public class Action {
 	}
 
 	public void setToState(State toState) {
-		this.toState = toState;
+		if (fromState != null) {
+			this.toState = toState;
+		}else {
+			throw new FileFormatException(ErrorMessages.FILE_FORMAT_EXCEPTION);
+		}
 	}
 
 	public double getProbability() {
@@ -49,7 +71,7 @@ public class Action {
 
 	@Override
 	public String toString() {
-		return "" ;
+		return fromState.toString()+" -("+name+")-> "+toState.toString() ;
 	}
 
 }

@@ -1,5 +1,8 @@
 package utils;
 
+import java.util.List;
+
+import bean.Action;
 import bean.State;
 import enums.ErrorMessages;
 import exceptions.FileFormatException;
@@ -16,6 +19,10 @@ public class Parser {
 			throw new FileFormatException(ErrorMessages.FILE_FORMAT_EXCEPTION, "\"" + state + "\"");
 		}
 		return s;
+	}
+	
+	public List<Action> readAction(String actionString){
+	return null;
 	}
 	
 	

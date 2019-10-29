@@ -20,6 +20,10 @@ public class FileFormatException extends RuntimeException {
 		this(errorType.getMessage(),payload);
 	}
 
+	public FileFormatException(ErrorMessages errorType) {
+		this(errorType.getMessage(),"");
+	}
+
 	public String getMessage() {
 		return message;
 	}
