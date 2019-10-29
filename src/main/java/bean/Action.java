@@ -84,7 +84,7 @@ public class Action {
 
 	@Override
 	public String toString() {
-		return fromState.toString()+" =("+name+")=> "+toState.toString() ;
+		return fromState.toString()+" =("+name+":"+String.format("%.2f", probability)+")=> "+toState.toString() ;
 	}
 
 }
