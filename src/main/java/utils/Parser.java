@@ -70,7 +70,6 @@ public class Parser {
 					i++;
 					continue;
 				}
-				System.out.println(key+ "-"+line);
 				if (key.isEmpty()) {
 					key = line;
 					if (line.contains("action")) {
