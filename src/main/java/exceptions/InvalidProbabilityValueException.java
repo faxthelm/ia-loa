@@ -20,6 +20,10 @@ public class InvalidProbabilityValueException extends RuntimeException {
 	public InvalidProbabilityValueException(ErrorMessages errorType, String payload) {
 		this(errorType.getMessage(),payload);
 	}
+	
+	public InvalidProbabilityValueException(ErrorMessages errorType) {
+		this(errorType.getMessage(),"");
+	}
 
 	public String getMessage() {
 		return message;
