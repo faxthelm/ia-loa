@@ -4,27 +4,27 @@ import java.util.HashMap;
 
 public class Policy {
 
-    private HashMap<State, Action> finalPolicy;
+    private HashMap<State, Action> policyStatements;
 
-    public Policy(HashMap<State, Action> finalPolicy) {
-        this.finalPolicy = finalPolicy;
+    public Policy(HashMap<State, Action> policyStatements) {
+        this.policyStatements = policyStatements;
     }
 
-    public HashMap<State, Action> getFinalPolicy() {
-        return finalPolicy;
+    public HashMap<State, Action> getPolicyStatements() {
+        return policyStatements;
     }
 
-    public void setFinalPolicy(HashMap<State, Action> finalPolicy) {
-        this.finalPolicy = finalPolicy;
+    public void setPolicyStatements(HashMap<State, Action> policyStatements) {
+        this.policyStatements = policyStatements;
     }
 
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("POLICY\n");
-        finalPolicy.keySet().forEach(state -> stringBuilder
+        policyStatements.keySet().forEach(state -> stringBuilder
                 .append(state.toString())
                 .append(" | ")
-                .append(finalPolicy.get(state).toString())
+                .append(policyStatements.get(state).toString())
                 .append("\n"));
         return stringBuilder.toString();
     }
