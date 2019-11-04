@@ -12,23 +12,22 @@ import bean.Action;
 import bean.Cost;
 import bean.Policy;
 import bean.State;
+import utils.ProblemManager;
 
 public class ValueIteration {
 
     private HashMap<Integer, HashMap<State, Double>> iterations;
-    private Map<String, Object> problem;
     private List<State> states;
     private Policy policy;
 
-    public ValueIteration(Map<String, Object> problem) {
-        this.problem = problem;
-        this.states = (List<State>) problem.get("states");
+    public ValueIteration() {
+        this.states = ProblemManager.getStates();
         this.iterations = new HashMap<>();
         this.policy = new Policy(new HashMap<>());
     }
 
     public void initialize() {
-        State goal = (State) problem.get("goalstate");
+        State goal = ProblemManager.getGoalState();
         HashMap<State, Double> arbitraryValues = new HashMap<>();
         for (State state : states) {
             Double val = (double) (Math.abs(goal.getX() - state.getX()) + Math.abs(goal.getY() - state.getY()));
@@ -44,38 +43,35 @@ public class ValueIteration {
         double sumValuePrevious = 0.0;
         int iteration = 2;
         HashMap<State, Double> values = new HashMap<>();
-        Map<String, List<Action>> mapActions = (Map<String, List<Action>>) problem.get("action");
-        List<Action> actions = new ArrayList<>();
-        Set<String> keys = mapActions.keySet();
-        keys.forEach(key -> actions.addAll(mapActions.get(key)));
-        List<Cost> costs = (List<Cost>) problem.get("cost");
 
         while (residual > 0.001) {
             System.out.print("INTERATION" + iteration + "\n");
             for (State state : states) {
-                double value = calculateFunctionValue(state, actions, costs, (iteration - 1));
+                double value = calculateFunctionValue(state, (iteration - 1));
                 values.put(state, value);
                 sumValue += value;
             }
             iterations.put(iteration, values);
             residual = sumValue - sumValuePrevious;
             sumValuePrevious = sumValue;
+            iteration++;
         }
 
     }
 
-    public double calculateFunctionValue(State state, List<Action> actions, List<Cost> costs, int previousIteration) {
+    public double calculateFunctionValue(State state, int previousIteration) {
         double minValue = Double.MAX_VALUE;
         HashMap<State, Double> previousValues = iterations.get(previousIteration);
         HashMap<Action, Double> values = new HashMap<>();
-        List<Action> applicableActions = actions.stream()
-                .filter(action -> action.getFromState() == state)
-                .collect(Collectors.toList());
+        List<Action> applicableActions = ProblemManager.getApplicableActions(state);
         for (Action action : applicableActions) {
             double value;
-            List<Cost> cost = costs.stream().filter(costAction -> costAction.getActionName().equals(action.getName())
-                    && costAction.getCurrentState().equals(action.getFromState())).collect(Collectors.toList());
-            value = action.getProbability() * (cost.get(0).getCost() + previousValues.get(action.getToState()));
+            System.out.println(previousIteration);
+            System.out.println(action.getProbability());
+            System.out.println(action.getCost());
+            // TODO: Valor vindo nulo sendo que está no hash, entender porque e resolver
+            System.out.println(previousValues.get(action.getToState()));
+            value = action.getProbability() * (action.getCost() + previousValues.get(action.getToState()));
             values.merge(action, value, (a, b) -> (a + b));
         }
         for (Map.Entry<Action, Double> entry : values.entrySet()) {

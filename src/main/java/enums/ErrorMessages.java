@@ -3,7 +3,8 @@ package enums;
 public enum ErrorMessages {
 	
 	FILE_FORMAT_EXCEPTION("The format of the file is inconsistent at: "), 
-	INVALID_PROBABILITY_FOUND ("The probability has to be greater than zero. Found: ");
+	INVALID_PROBABILITY_FOUND ("The probability has to be greater than zero. Found: "),
+	CORRUPTED_DATA_ERROR("The data used to initialize was corrupted. Found: ");
 	
 	private String message;
 	
