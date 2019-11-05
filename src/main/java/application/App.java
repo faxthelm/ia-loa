@@ -14,12 +14,17 @@ public class App {
     public static void main(String[] args) throws InterruptedException {
         Parser parser = new Parser();
         try {
-            Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_6).toURI()).toPath();
+            Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_1).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
-            System.out.println(ProblemManager.getApplicableActions(ProblemManager.getInitialState()));
+            //System.out.println(ProblemManager.getApplicableActions(ProblemManager.getInitialState()));
             ValueIteration valueIteration = new ValueIteration();
-            valueIteration.calculate();
-            System.out.println(valueIteration.getPolicy().toString());
+            
+            String timeAndV = valueIteration.calculate();
+            StringBuilder result = new StringBuilder();
+            result.append(timeAndV).append("\n")
+                    .append(valueIteration.getPolicy().toString());
+            System.out.println(result.toString());
+            
 
         } catch (URISyntaxException | IOException e) {
             // TODO Auto-generated catch block
