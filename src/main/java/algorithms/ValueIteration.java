@@ -40,8 +40,8 @@ public class ValueIteration {
         HashMap<String, Double> values = new HashMap<>();
 
         while (residual > 0.001) {
-        	System.out.println(residual);
-            System.out.print("ITERATION" + iteration + "\n");
+        	//System.out.println(residual);
+            //System.out.print("ITERATION" + iteration + "\n");
             for (State state : states) {
                 double value = calculateFunctionValue(state, (iteration - 1));
                 values.put(state.toString(), value);
