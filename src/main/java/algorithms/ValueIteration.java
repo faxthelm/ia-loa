@@ -14,11 +14,13 @@ public class ValueIteration {
     private HashMap<Integer, HashMap<String, Double>> iterations;
     private List<State> states;
     private Policy policy;
+    private HashMap<String, List<Action>> possibleActions;
 
     public ValueIteration() {
         this.states = ProblemManager.getStates();
         this.iterations = new HashMap<>();
         this.policy = new Policy(new HashMap<>());
+        this.possibleActions = ProblemManager.generatePossibleActions();
     }
 
     public void initialize() {
@@ -32,6 +34,7 @@ public class ValueIteration {
     }
 
     public void calculate() {
+    	long begin = System.currentTimeMillis();
         initialize();
         double residual = Double.MAX_VALUE;
         double sumValue = 0.0;
@@ -53,6 +56,11 @@ public class ValueIteration {
             sumValue = 0;
             iteration++;
         }
+        long algorithmTime = System.currentTimeMillis() - begin;
+        StringBuilder result = new StringBuilder();
+        result.append("")
+                .append("\nALGORITHM TIME: ").append(algorithmTime).append(" ms").append("\n");
+        System.out.println(result.toString());
 
     }
 
@@ -60,7 +68,7 @@ public class ValueIteration {
         double minValue = Double.MAX_VALUE;
         HashMap<String, Double> previousValues = iterations.get(previousIteration);
         HashMap<String, Double> values = new HashMap<>();
-        List<Action> applicableActions = ProblemManager.getApplicableActions(state);
+        List<Action> applicableActions = possibleActions.get(state.toString());
         for (Action action : applicableActions) {
             double value = action.getProbability() * (action.getCost() + previousValues.get(action.getToState().toString()));
             values.merge(action.getName(), value, (a, b) -> (a + b));
@@ -68,7 +76,7 @@ public class ValueIteration {
         for (Map.Entry<String, Double> entry : values.entrySet()) {
             if (minValue > entry.getValue()) {
                 minValue = entry.getValue();
-                policy.getPolicyStatements().put(state, entry.getKey());
+                policy.getPolicyStatements().put(state.toString(), entry.getKey());
             }
         }
         //System.out.print("V(" + state.toString() + ") = " + minValue + "\n");

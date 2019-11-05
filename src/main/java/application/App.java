@@ -14,7 +14,7 @@ public class App {
     public static void main(String[] args) throws InterruptedException {
         Parser parser = new Parser();
         try {
-            Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_1).toURI()).toPath();
+            Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_6).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
             System.out.println(ProblemManager.getApplicableActions(ProblemManager.getInitialState()));
             ValueIteration valueIteration = new ValueIteration();

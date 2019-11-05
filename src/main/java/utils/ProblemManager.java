@@ -1,6 +1,7 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -54,6 +55,16 @@ public class ProblemManager {
 				}
 			}
 		}
+	}
+	
+	public static HashMap<String, List<Action>> generatePossibleActions(){
+		HashMap<String, List<Action>> result = new HashMap<>();
+		List<State> states = ProblemManager.getStates();
+		for(State s : states) {
+			List<Action> actions = getApplicableActions(s);
+			result.put(s.toString(), actions);
+		}
+		return result;
 	}
 	
 	public static State getInitialState() {
