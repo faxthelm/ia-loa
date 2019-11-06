@@ -1,10 +1,6 @@
 package bean;
 
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 
 public class Policy {
@@ -27,14 +23,11 @@ public class Policy {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("POLICY\n");
         policyStatements.keySet().forEach(state -> stringBuilder
-                .append(state.toString())
+                .append(state)
                 .append(" | ")
                 .append(policyStatements.get(state))
                 .append("\n"));
         return stringBuilder.toString();
     }
-    
-    public void createMap() {
-    	
-    }
+
 }

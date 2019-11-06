@@ -18,13 +18,14 @@ public class App {
             ProblemManager.init(parser.readFile(p));
             //System.out.println(ProblemManager.getApplicableActions(ProblemManager.getInitialState()));
             ValueIteration valueIteration = new ValueIteration();
-            
+
             String timeAndV = valueIteration.calculate();
             StringBuilder result = new StringBuilder();
             result.append(timeAndV).append("\n")
                     .append(valueIteration.getPolicy().toString());
             System.out.println(result.toString());
-            
+            System.out.println(valueIteration.createMap());
+
 
         } catch (URISyntaxException | IOException e) {
             // TODO Auto-generated catch block
