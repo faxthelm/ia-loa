@@ -1,30 +1,24 @@
 package application;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.file.Path;
-
 import algorithms.ValueIteration;
 import utils.Parser;
 import utils.ProblemManager;
 import utils.ProblemUtils;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.nio.file.Path;
+
 public class App {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Parser parser = new Parser();
         try {
             Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_1).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
-            //System.out.println(ProblemManager.getApplicableActions(ProblemManager.getInitialState()));
+
             ValueIteration valueIteration = new ValueIteration();
-            
-            String timeAndV = valueIteration.calculate();
-            StringBuilder result = new StringBuilder();
-            result.append(timeAndV).append("\n")
-                    .append(valueIteration.getPolicy().toString());
-            System.out.println(result.toString());
-            
+            System.out.println(valueIteration.calculate());
 
         } catch (URISyntaxException | IOException e) {
             // TODO Auto-generated catch block
