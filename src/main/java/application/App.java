@@ -1,5 +1,6 @@
 package application;
 
+import algorithms.LaoStar;
 import algorithms.ValueIteration;
 import utils.Parser;
 import utils.ProblemManager;
@@ -17,8 +18,11 @@ public class App {
             Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_1).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
 
-            ValueIteration valueIteration = new ValueIteration();
-            System.out.println(valueIteration.calculate());
+//            ValueIteration valueIteration = new ValueIteration();
+//            System.out.println(valueIteration.calculate());
+
+            LaoStar laoStar = new LaoStar();
+            System.out.println(laoStar.calculate());
 
         } catch (URISyntaxException | IOException e) {
             // TODO Auto-generated catch block

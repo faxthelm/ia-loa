@@ -30,7 +30,4 @@ public class Policy {
         return stringBuilder.toString();
     }
 
-    public void createMap() {
-
-    }
 }
