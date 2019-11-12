@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import bean.Action;
 import bean.Policy;
@@ -19,7 +20,7 @@ public class LaoStar {
     private List<State> states;
     private Policy policy;
     private Policy tempPolicy;
-    private HashMap<String, State> visitedStates;
+    private Set<String> expandedStates;
     //TODO definir estrutura dos grafos
     final PriorityQueue<State> fringe;
     //private graph2;
@@ -31,7 +32,7 @@ public class LaoStar {
         this.policy = new Policy(new HashMap<>());
         this.tempPolicy = new Policy(new HashMap<>());
         this.possibleActions = ProblemManager.generatePossibleActions();
-        this.visitedStates = new HashMap<>();
+        this.expandedStates = new HashSet<>();
         this.fringe = new PriorityQueue<>(11, new StateComparator());
         this.greedyGraph = new HashSet<>();
         this.valuesV = new HashMap<>();
@@ -44,19 +45,18 @@ public class LaoStar {
         initialState.setHeuristic(heuristicInitial);
         valuesV.put(initialState.toString(), heuristicInitial);
         fringe.add(initialState);
+        expandedStates.add(initialState.toString());
 
         while (!fringe.isEmpty()) {
             // EXPAND AND INITIALIZE HEURISTIC
             System.out.println("EXPAND AND INITIALIZE");
             State currentState = fringe.poll();
             System.out.println("Current state: " + currentState.toString());
-            visitedStates.put(currentState.toString(), currentState);
 
-            Set<String> expandedStates = new HashSet<>();
             List<Action> applicableActions = possibleActions.get(currentState.toString());
             applicableActions.forEach(action -> {
                 State newState = action.getToState();
-                if(!expandedStates.contains(newState.toString())) {
+                if (!expandedStates.contains(newState.toString())) {
                     Double heuristic = calculateHeuristic(newState);
                     newState.setHeuristic(heuristic);
                     newState.setParent(currentState);
@@ -79,15 +79,23 @@ public class LaoStar {
             // END
             System.out.println("CALCULATE VI");
             calculateVI();
-            if(currentState.toString().equals(ProblemManager.getGoalState().toString())) {
+            if (currentState.toString().equals(ProblemManager.getGoalState().toString())) {
                 break;
             }
         }
 
         //OUTPUT THE FINAL GREEDY GRAPH AS THE POLICY
-        greedyGraph.forEach(state -> {
-            policy.getPolicyStatements().put(state.toString(), tempPolicy.getPolicyStatements().get(state.toString()));
-        });
+        for (State state : greedyGraph) {
+            if (state.getParent() != null) {
+                List<Action> applicableActions = ProblemManager.getApplicableActions(state.getParent());
+                for (Action action : applicableActions) {
+                    if (action.getToState().toString().equals(state.toString())) {
+                        policy.getPolicyStatements().put(state.getParent().toString(), action.getName());
+                        break;
+                    }
+                }
+            }
+        }
         // END
         Long algorithmTime = System.currentTimeMillis() - begin;
 
@@ -148,29 +156,28 @@ public class LaoStar {
         for (Map.Entry<String, Double> entry : values.entrySet()) {
             if (minValue > entry.getValue()) {
                 minValue = entry.getValue();
-                tempPolicy.getPolicyStatements().put(state.toString(), entry.getKey());
             }
         }
         return minValue;
     }
 
-    public String createMap() {
+    private String createMap() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append( "GRID WITH OPTIMAL POLICY: \n");
+        stringBuilder.append("\nGRID WITH OPTIMAL POLICY: \n");
         int gridSize = 20;
-        for(int y = gridSize; y>0; y--) {
-            for(int x = 1 ; x<=gridSize; x++) {
+        for (int y = gridSize; y > 0; y--) {
+            for (int x = 1; x <= gridSize; x++) {
                 String state = "at " + x + "-" + y;
                 String action = policy.getPolicyStatements().get(state);
-                if(action == null) {
-                    stringBuilder.append(" N ");
+                if (action == null) {
+                    stringBuilder.append(" 0 ");
                 } else if (action.equals("move-east")) {
                     stringBuilder.append(" > ");
                 } else if (action.equals("move-west")) {
                     stringBuilder.append(" < ");
                 } else if (action.equals("move-south")) {
                     stringBuilder.append(" V ");
-                } else if (action.equals("move-north")){
+                } else if (action.equals("move-north")) {
                     stringBuilder.append(" ^ ");
                 }
             }

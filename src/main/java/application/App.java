@@ -15,7 +15,7 @@ public class App {
     public static void main(String[] args) {
         Parser parser = new Parser();
         try {
-            Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_1).toURI()).toPath();
+            Path p = new File(App.class.getResource(ProblemUtils.RANDOM_NAVIGATION_1).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
 
 //            ValueIteration valueIteration = new ValueIteration();
