@@ -16,6 +16,9 @@ import enums.ErrorMessages;
 import exceptions.FileFormatException;
 
 public class Parser {
+	
+	private HashMap<String, List<Action>> stateActions;
+	
 	public State readState(String state) {
 		State s = new State();
 		if (state != null && !state.trim().isEmpty() && state.trim().length() > 9) {
@@ -29,13 +32,16 @@ public class Parser {
 		return s;
 	}
 
-	public Action readAction(String actionName, String actionString) {
+	public void readAction(String actionName, String actionString) {
 		if (actionString != null && !actionString.trim().isEmpty()) {
 			String[] bits = actionString.trim().split(" ");
 			State fromState = readState(bits[0]);
 			State toState = readState(bits[1]);
 			double probability = Double.valueOf(bits[2]);
-			return new Action(actionName, fromState, toState, probability);
+			if(!stateActions.containsKey(fromState.toString())){
+				stateActions.put(fromState.toString(), new ArrayList<Action>());	
+			}
+			stateActions.get(fromState.toString()).add(new Action(actionName, fromState, toState, probability));
 		} else {
 			throw new FileFormatException(ErrorMessages.FILE_FORMAT_EXCEPTION, actionString);
 		}
@@ -60,8 +66,7 @@ public class Parser {
 			String key = "";
 			String line = "states";
 			String actionName = "";
-			Map<String, List<Action>> mapActions = new HashMap<String, List<Action>>();
-			List<Action> actions = null;
+			stateActions = new HashMap<>();
 			List<Cost> costs = new ArrayList<Cost>();
 			List<State> states = new ArrayList<State>();
 			int i = 0;
@@ -76,7 +81,6 @@ public class Parser {
 						String[] bits = line.split(" ");
 						key = bits[0];
 						actionName = bits[1];
-						actions = new ArrayList<Action>();
 					}
 					i++;
 					continue;
@@ -84,9 +88,6 @@ public class Parser {
 
 				if (line.contains("end" + key)) {
 					key = "";
-					if (!actionName.isEmpty()) {
-						mapActions.put(actionName, actions);
-					}
 					actionName = "";
 					i++;
 					continue;
@@ -101,8 +102,7 @@ public class Parser {
 					}
 					break;
 				case "action":
-					Action action = readAction(actionName, line);
-					actions.add(action);
+					readAction(actionName, line);
 					break;
 				case "cost":
 					Cost cost = readCost(line);
@@ -121,7 +121,7 @@ public class Parser {
 			} while (!(line = lines.get(i)).equals("Grid:"));
 			map.put("states", states);
 			map.put("cost", costs);
-			map.put("action", mapActions);
+			map.put("action", stateActions);
 		} else {
 			throw new FileNotFoundException();
 		}

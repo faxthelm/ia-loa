@@ -16,14 +16,11 @@ import utils.ProblemManager;
 
 public class LaoStar {
 
-    private HashMap<String, List<Action>> possibleActions;
     private List<State> states;
     private Policy policy;
     private Policy tempPolicy;
     private Set<String> expandedStates;
-    //TODO definir estrutura dos grafos
     final PriorityQueue<State> fringe;
-    //private graph2;
     private Set<State> greedyGraph;
     private HashMap<String, Double> valuesV;
 
@@ -31,7 +28,6 @@ public class LaoStar {
         this.states = ProblemManager.getStates();
         this.policy = new Policy(new HashMap<>());
         this.tempPolicy = new Policy(new HashMap<>());
-        this.possibleActions = ProblemManager.generatePossibleActions();
         this.expandedStates = new HashSet<>();
         this.fringe = new PriorityQueue<>(11, new StateComparator());
         this.greedyGraph = new HashSet<>();
@@ -53,7 +49,7 @@ public class LaoStar {
             State currentState = fringe.poll();
             System.out.println("Current state: " + currentState.toString());
 
-            List<Action> applicableActions = possibleActions.get(currentState.toString());
+            List<Action> applicableActions = ProblemManager.getApplicableActions(currentState);
             applicableActions.forEach(action -> {
                 State newState = action.getToState();
                 if (!expandedStates.contains(newState.toString())) {
@@ -103,7 +99,7 @@ public class LaoStar {
         result.append("\nALGORITHM TIME: ").append(algorithmTime).append(" ms\n\n")
                 .append("LAST VALUE ITERATION\n");
         greedyGraph.forEach(state -> {
-            result.append("V(")
+            result.append("V(robot-")
                     .append(state)
                     .append(") = ")
                     .append(valuesV.get(state.toString()))
@@ -147,8 +143,7 @@ public class LaoStar {
     private Double calculateFunctionValue(HashMap<String, Double> previousValues, State state) {
         double minValue = Double.MAX_VALUE;
         HashMap<String, Double> values = new HashMap<>();
-        List<Action> applicableActions = possibleActions.get(state.toString());
-        for (Action action : applicableActions) {
+        for (Action action : ProblemManager.getApplicableActions(state)) {
             double value = action.getProbability()
                     * (action.getCost() + previousValues.get(action.getToState().toString()));
             values.merge(action.getName(), value, (a, b) -> (a + b));

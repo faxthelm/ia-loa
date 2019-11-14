@@ -37,6 +37,6 @@ public class State {
 
     @Override
     public String toString() {
-        return "at " + x + "-" + y;
+        return "at-x" + x + "y" + y;
     }
 }
