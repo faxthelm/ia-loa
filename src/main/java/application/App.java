@@ -18,11 +18,11 @@ public class App {
             Path p = new File(App.class.getResource(ProblemUtils.DETERMINISTIC_NAVIGATION_10).toURI()).toPath();
             ProblemManager.init(parser.readFile(p));
             
-           ValueIteration valueIteration = new ValueIteration();
-           valueIteration.calculate();
+           //ValueIteration valueIteration = new ValueIteration();
+           //valueIteration.calculate();
 
-            //LaoStar laoStar = new LaoStar();
-            //System.out.println(laoStar.calculate());
+            LaoStar laoStar = new LaoStar();
+            System.out.println(laoStar.calculate());
 
         } catch (URISyntaxException | IOException e) {
             // TODO Auto-generated catch block

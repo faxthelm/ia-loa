@@ -162,7 +162,7 @@ public class LaoStar {
         int gridSize = 20;
         for (int y = gridSize; y > 0; y--) {
             for (int x = 1; x <= gridSize; x++) {
-                String state = "at " + x + "-" + y;
+                String state = "at-x" + x + "y" + y;
                 String action = policy.getPolicyStatements().get(state);
                 if (action == null) {
                     stringBuilder.append(" 0 ");
