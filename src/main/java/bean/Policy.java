@@ -22,15 +22,9 @@ public class Policy {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("POLICY\n");
-        policyStatements.keySet().forEach(state -> stringBuilder
-                .append(state.toString())
-                .append(" | ")
-                .append(policyStatements.get(state))
-                .append("\n"));
+        policyStatements.forEach((state, action) -> stringBuilder
+        		.append(String.format("robot-%s | %s\n", state, action)));
         return stringBuilder.toString();
     }
 
-    public void createMap() {
-
-    }
 }
