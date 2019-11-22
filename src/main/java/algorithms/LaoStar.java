@@ -54,21 +54,16 @@ public class LaoStar {
                     fringe.add(newState);
                 }
             });
-            // END
-            // COMPUTE GREEDY GRAPH
-            //greedyGraph = new HashSet<>();
             greedyGraph.add(currentState);
             State aux = currentState;
             while (aux.getParent() != null) {
                 greedyGraph.add(aux.getParent());
                 aux = aux.getParent();
             }
-            // END
+
             calculateVI();
         }
 
-        //OUTPUT THE FINAL GREEDY GRAPH AS THE POLICY
-        // END
         Long algorithmTime = System.currentTimeMillis() - begin;
 
         StringBuilder result = new StringBuilder();
