@@ -58,7 +58,7 @@ public class ValueIteration {
 		iterations.forEach((k, v) -> result.append(String.format("V(robot-%s) = %f\n", k, v)));
 		System.out.println(result);
 		System.out.println(policy.toString());
-		System.out.println(createMap());
+//		System.out.println(createMap());
 		return "";
 
 	}

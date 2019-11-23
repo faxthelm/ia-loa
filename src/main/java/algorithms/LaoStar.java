@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import bean.Action;
 import bean.Policy;
@@ -18,6 +17,7 @@ public class LaoStar {
 
     private Policy policy;
     private Set<String> expandedStates;
+    private Set<State> statesInPolicy;
     final PriorityQueue<State> fringe;
     private Set<State> greedyGraph;
     private HashMap<String, Double> valuesV;
@@ -25,6 +25,7 @@ public class LaoStar {
     public LaoStar() {
         this.policy = new Policy(new HashMap<>());
         this.expandedStates = new HashSet<>();
+        this.statesInPolicy = new HashSet<>();
         this.fringe = new PriorityQueue<>(11, new StateComparator());
         this.greedyGraph = new HashSet<>();
         this.valuesV = new HashMap<>();
@@ -61,10 +62,31 @@ public class LaoStar {
                 aux = aux.getParent();
             }
 
-            calculateVI();
-        }
-
+            calculateVI(currentState);
+        } 
         Long algorithmTime = System.currentTimeMillis() - begin;
+        
+        State statePath = ProblemManager.getInitialState();
+        while (!statePath.toString().equals(ProblemManager.getGoalState().toString())) {
+            List<Action> applicableActions = ProblemManager.getApplicableActions(statePath);
+            Action bestAction = null;
+            Double minCost = Double.MAX_VALUE;
+            for (Action action : applicableActions) {
+//              System.err.println(action+" - "+valuesV.get(action.getToState().toString()));
+                if (action.getFromState().toString().equals(statePath.toString()) && !action.getToState().toString().equals(statePath.toString())) {
+//                   System.err.println("(IN) "+action+" - "+valuesV.get(action.getToState().toString()));
+                    if(valuesV.get(action.getToState().toString()) != null && valuesV.get(action.getToState().toString()) < minCost) {
+                        minCost = valuesV.get(action.getToState().toString());
+                        bestAction = action;
+                    }
+                }
+            }
+            
+//          System.out.println("DONE state "+statePath+" action chosen "+bestAction);
+            policy.getPolicyStatements().put(statePath.toString(), bestAction.getName());
+            statePath = bestAction.getToState();
+//          System.out.println(statePath.toString());
+        }
 
         StringBuilder result = new StringBuilder();
         result.append("\nALGORITHM TIME: ").append(algorithmTime).append(" ms\n\n")
@@ -79,7 +101,7 @@ public class LaoStar {
         result.append("\n")
                 .append(policy.toString());
 
-        return result.toString() + createMap();
+        return result.toString();
     }
 
     private Double calculateHeuristic(State currentState) {
@@ -88,21 +110,21 @@ public class LaoStar {
         return (double) (Math.abs(goal.getX() - currentState.getX()) + Math.abs(goal.getY() - currentState.getY()));
     }
 
-    private void calculateVI() {
+    private void calculateVI(State currentState) {
         double residual = Double.MAX_VALUE;
         double sumValue = 0.0;
-        double sumValuePrevious = 0.0;
-        HashMap<String, Double> iterations = new HashMap<>(valuesV);
+        double sumValuePrevious = calculateHeuristic(currentState);
+        HashMap<String, Double> iteration = new HashMap<>(valuesV);
 
         while (residual > 0.001) {
             for (State state : greedyGraph) {
-                double value = calculateFunctionValue(iterations, state);
+                double value = calculateFunctionValue(iteration, state);
                 if(state.equals(ProblemManager.getGoalState())) value = 0;
                 valuesV.put(state.toString(), value);
                 sumValue += value;
             }
-            iterations = valuesV;
-            residual = sumValue - sumValuePrevious;
+            iteration = valuesV;
+            residual = Math.abs(sumValue - sumValuePrevious);
             sumValuePrevious = sumValue;
             sumValue = 0;
         }
@@ -111,17 +133,26 @@ public class LaoStar {
     private Double calculateFunctionValue(HashMap<String, Double> previousValues, State state) {
         double minValue = Double.MAX_VALUE;
         HashMap<String, Double> values = new HashMap<>();
+        HashMap<Action, Double> valuesA = new HashMap<>();
         for (Action action : ProblemManager.getApplicableActions(state)) {
             double value = action.getProbability()
                     * (action.getCost() + previousValues.get(action.getToState().toString()));
             values.merge(action.getName(), value, (a, b) -> (a + b));
+            valuesA.merge(action, value, (a, b) -> (a + b));
         }
         for (Map.Entry<String, Double> entry : values.entrySet()) {
             if (minValue > entry.getValue()) {
                 minValue = entry.getValue();
-                policy.getPolicyStatements().put(state.toString(), entry.getKey());
+                //policy.getPolicyStatements().put(state.toString(), entry.getKey());
             }
         }
+//        for (Map.Entry<Action, Double> entry : valuesA.entrySet()) {
+//            if (minValue > entry.getValue()) {
+//                minValue = entry.getValue();
+//                policyLao.getPolicyStatements().put(state, entry.getKey());
+//            }
+//        }
+        
         return minValue;
     }
 
@@ -149,4 +180,5 @@ public class LaoStar {
         }
         return stringBuilder.toString();
     }
+    
 }
