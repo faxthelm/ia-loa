@@ -9,7 +9,7 @@ public class Action {
 	private State fromState;
 	private State toState;
 	private double probability;
-	private double cost;
+	private double cost = 1;
 
 	public Action(String name, State fromState, State toState, double probability) {
 		setName(name);

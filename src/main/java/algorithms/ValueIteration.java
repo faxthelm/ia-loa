@@ -14,7 +14,6 @@ public class ValueIteration {
 	private HashMap<String, Double> iterations;
 	private List<State> states;
 	private Policy policy;
-	private int iteration;
 
 	public ValueIteration() {
 		this.states = ProblemManager.getStates();
@@ -38,44 +37,39 @@ public class ValueIteration {
 		double residual = Double.MAX_VALUE;
 		double sumValue = 0.0;
 		double sumValuePrevious = 0.0;
-		iteration = 1;
-		HashMap<String, Double> values = new HashMap<>();
 		while (residual > 0.001) {
+			HashMap<String, Double> values = new HashMap<>();
 			for (State state : states) {
-				double value = calculateFunctionValue(state, (iteration - 1));
+				double value = calculateFunctionValue(state);
+				if(state.equals(ProblemManager.getGoalState())) value = 0;
 				values.put(state.toString(), value);
 				sumValue += value;
 			}
-			iterations = values;
+			iterations = new HashMap<>(values);
 			residual = sumValue - sumValuePrevious;
 			sumValuePrevious = sumValue;
 			sumValue = 0;
-			iteration++;
 		}
 		Long algorithmTime = System.currentTimeMillis() - begin;
-		Long printTimeB = System.currentTimeMillis();
 		StringBuilder result = new StringBuilder();
 		result.append("\nALGORITHM TIME: ")
 			.append(algorithmTime).append(" ms\n\n")
 			.append("LAST VALUE ITERATION\n");
 		iterations.forEach((k, v) -> result.append(String.format("V(robot-%s) = %f\n", k, v)));
-		Long printTimeF = System.currentTimeMillis() - printTimeB;
-		result.append(printTimeF);
 		System.out.println(result);
 		System.out.println(policy.toString());
-		//System.out.println(createMap());
+//		System.out.println(createMap());
 		return "";
 
 	}
 
-	public double calculateFunctionValue(State state, int previousIteration) {
+	public double calculateFunctionValue(State state) {
 		double minValue = Double.MAX_VALUE;
-		HashMap<String, Double> previousValues = iterations;
 		HashMap<String, Double> values = new HashMap<>();
 		List<Action> applicableActions = ProblemManager.getApplicableActions(state);
 		for (Action action : applicableActions) {
 			double value = action.getProbability()
-					* (action.getCost() + previousValues.get(action.getToState().toString()));
+					* (action.getCost() + iterations.get(action.getToState().toString()));
 			values.merge(action.getName(), value, (a, b) -> (a + b));
 		}
 		for (Map.Entry<String, Double> entry : values.entrySet()) {
